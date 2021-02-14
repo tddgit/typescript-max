@@ -287,9 +287,13 @@ add(10, 20);
 console.log(addAgain.apply(null, [10, 20]));
 console.log(addAgain.call(null, 10, 20));
 console.log(addAgain.bind(null, 10, 20)());
+console.clear();
 
 let xVar = {
   a() {
     return this;
   },
 };
+console.log(xVar.a());
+let a1 = xVar.a;
+console.log(a1());
