@@ -337,3 +337,16 @@ function f(n: number) {
 }
 
 times(f, 5);
+
+type Reserve = {
+  (from: Date, to: Date, destination: string): Reservation;
+  (from: Date, destination: string): Reservation;
+};
+
+let reserve: Reserve = (
+  from: Date,
+  toOrDestination: string | Date,
+  destination?: string
+) => {
+  //...
+};
