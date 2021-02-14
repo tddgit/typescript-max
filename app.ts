@@ -338,15 +338,64 @@ function f(n: number) {
 
 times(f, 5);
 
-type Reserve = {
-  (from: Date, to: Date, destination: string): Reservation;
-  (from: Date, destination: string): Reservation;
+// type Reserve = {
+//   (from: Date, to: Date, destination: string): Reservation;
+//   (from: Date, destination: string): Reservation;
+// };
+//
+// let reserve: Reserve = (
+//   from: Date,
+//   toOrDestination: string | Date,
+//   destination?: string
+// ) => {
+//   //...
+// };
+
+type ExistingUser = {
+  id: number;
+  name: string;
 };
 
-let reserve: Reserve = (
-  from: Date,
-  toOrDestination: string | Date,
-  destination?: string
-) => {
-  //...
+type NewUser = {
+  name: string;
 };
+console.clear();
+setTimeout(() => console.log("A"), 1);
+setTimeout(() => console.log("B"), 2);
+console.log("C");
+
+import * as fs from "fs";
+
+function readFile(
+  path: string,
+  options: { encoding: string; flag?: string },
+  callback: (err: Error | null, data: string | null) => void
+) {}
+
+fs.readFile(
+  "/var/log/apache2/access_log",
+  { encoding: "utf8" },
+  (error, data) => {
+    if (error) {
+      console.error("error reading file");
+      return;
+    }
+    console.info("success reading", data);
+  }
+);
+
+fs.appendFile(
+  "/var/log/apache2/access_log",
+  "New access log entry",
+  (error) => {
+    if (error) {
+      console.error("error writing", error);
+    }
+  }
+);
+
+function appendAndReadPromise(path: string, data: string): Promise<string> {
+  return appendPromise(path, data).then(() =>
+    readPromise(path).catch((error) => console.error(error))
+  );
+}
