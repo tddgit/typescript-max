@@ -351,51 +351,110 @@ times(f, 5);
 //   //...
 // };
 
-type ExistingUser = {
-  id: number;
-  name: string;
-};
-
-type NewUser = {
-  name: string;
-};
 console.clear();
-setTimeout(() => console.log("A"), 1);
-setTimeout(() => console.log("B"), 2);
-console.log("C");
+//
+// type Filter = {
+//   <T>(array: T[], f: (item: T) => boolean): T[];
+//   // (array: number[], f: (item: number) => boolean): number[];
+//   // (array: string[], f: (item: string) => boolean): string[];
+//   // (array: object[], f: (item: object) => boolean): object[];
+// };
+//
+// // type Filter<T> = {
+// //   (array: T[], f: (item: T) => boolean): T[];
+// // };
+//
+// let filter: Filter<number> = (array, f) => {
+//   let result = [];
+//   for (let i = 0; i < array.length; i++) {
+//     if (f(array[i])) {
+//       result.push(array[i]);
+//     }
+//   }
+//   return result;
+// };
+//
+// filter([1, 2, 3, 4], (_) => _ < 3);
+//
+// // type Filter = {
+// //   (array: unknown, f: unknown) => unknown[]
+// // }
+//
+// let names = [
+//   { firstName: "beth" },
+//   { firstName: "caitlyn" },
+//   { firstName: "xin" },
+// ];
+//
+// let result = filter(names, (_) => _.firstName.startsWith("b"));
 
-import * as fs from "fs";
+// type Filter1 = {
+//   <T>(array: T[], f: (item: T) => boolean): T[];
+// };
+// let filter1: Filter = () => {}
+//
+// type Filter2<T> = {
+//   (array: T[], f: (item: T) => boolean): T[];
+// };
+// let filter2: Filter2<number> = () => {}
+//
+// type Filter3 = <T>(array: T[], f: (item: T) => boolean) => T[];
+// let filter3: Filter3 =()=>{}
+//
+// type Filter4<T> = (array: T[], f: (item: T) => boolean) => T[];
+// let filter4: Filter4<string> = () => {}
+//
+// function filter5<T>(array: T[], f: (item: T) => boolean): T[] {};
 
-function readFile(
-  path: string,
-  options: { encoding: string; flag?: string },
-  callback: (err: Error | null, data: string | null) => void
-) {}
-
-fs.readFile(
-  "/var/log/apache2/access_log",
-  { encoding: "utf8" },
-  (error, data) => {
-    if (error) {
-      console.error("error reading file");
-      return;
-    }
-    console.info("success reading", data);
-  }
-);
-
-fs.appendFile(
-  "/var/log/apache2/access_log",
-  "New access log entry",
-  (error) => {
-    if (error) {
-      console.error("error writing", error);
-    }
-  }
-);
-
-function appendAndReadPromise(path: string, data: string): Promise<string> {
-  return appendPromise(path, data).then(() =>
-    readPromise(path).catch((error) => console.error(error))
-  );
-}
+// //Asyncronious
+// type ExistingUser = {
+//   id: number;
+//   name: string;
+// };
+//
+// type NewUser = {
+//   name: string;
+// };
+// console.clear();
+// setTimeout(() => console.log("A"), 1);
+// setTimeout(() => console.log("B"), 2);
+// console.log("C");
+//
+// import * as fs from "fs";
+//
+// function readFile(
+//   path: string,
+//   options: { encoding: string; flag?: string },
+//   callback: (err: Error | null, data: string | null) => void
+// ) {}
+//
+// fs.readFile(
+//   "/var/log/apache2/access_log",
+//   { encoding: "utf8" },
+//   (error, data) => {
+//     if (error) {
+//       console.error("error reading file");
+//       return;
+//     }
+//     console.info("success reading", data);
+//   }
+// );
+//
+// fs.appendFile(
+//   "/var/log/apache2/access_log",
+//   "New access log entry",
+//   (error) => {
+//     if (error) {
+//       console.error("error writing", error);
+//     }
+//   }
+// );
+//
+// function appendAndReadPromise(path: string, data: string): Promise<string> {
+//   return appendPromise(path, data).then(() =>
+//     readPromise(path).catch((error) => console.error(error))
+//   );
+// }
+// function appendPromise(path, data) {}
+//
+// function readPromise(path) {}
