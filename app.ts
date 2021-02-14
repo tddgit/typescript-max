@@ -406,6 +406,16 @@ console.clear();
 //
 // function filter5<T>(array: T[], f: (item: T) => boolean): T[] {};
 
+function map<T, U>(array: T[], f: (item: T) => U): U[] {
+  let result = [];
+  for (let i = 0; i < array.length; i++) {
+    let item = array[i];
+    // result.push(f(item))
+    result[i] = f(item);
+  }
+  return result;
+}
+
 // //Asyncronious
 // type ExistingUser = {
 //   id: number;
