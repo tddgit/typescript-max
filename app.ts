@@ -315,7 +315,25 @@ if (a !== null) console.info("result: ", a);
 
 type Log = (message: string, userId?: string) => void;
 
+// type Log = {
+//   (message: string, userId?: string): void;
+// };
+
 let log2: Log = (message, userId = "Not signed in") => {
   let time = new Date().toLocaleTimeString();
   console.log(time, message, userId);
 };
+
+function times(f: (index: number) => void, n: number) {
+  for (let i = 0; i < n; i++) {
+    f(i);
+  }
+}
+
+times((i) => console.log(i), 5);
+
+function f(n: number) {
+  console.log(n);
+}
+
+times(f, 5);
