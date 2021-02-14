@@ -297,3 +297,25 @@ let xVar = {
 console.log(xVar.a());
 let a1 = xVar.a;
 console.log(a1());
+
+function sumAgain(a: number, b: number): number {
+  return a + b;
+}
+
+type sum = (a: number, b: number) => number;
+
+function area(radius: number): number | null {
+  if (radius < 0) return null;
+  return Math.PI * radius ** 2;
+}
+
+let r: number = 3;
+let a = area(r);
+if (a !== null) console.info("result: ", a);
+
+type Log = (message: string, userId?: string) => void;
+
+let log2: Log = (message, userId = "Not signed in") => {
+  let time = new Date().toLocaleTimeString();
+  console.log(time, message, userId);
+};
