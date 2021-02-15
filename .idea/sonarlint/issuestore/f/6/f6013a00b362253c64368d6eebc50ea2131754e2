@@ -1,5 +1,5 @@
 
-kWeb:IllegalTabCheck"EReplace all tab characters in this file by sequences of white-spaces.(Έφ½·8¨€μχ.
-^Web:InternationalizationCheck")Define this label in the resource bundle.(»λεσψÿÿÿÿ8¨€μχ.
 9Web:HeaderCheck"&Add or update the header of this file.
-^Web:PageWithoutFaviconCheck"1Add a 'favicon' declaration in this 'header' tag.(Υ¶―M8Χχ.
+iWeb:IllegalTabCheck"EReplace all tab characters in this file by sequences of white-spaces.(Έφ½·8¨€μχ.
+\Web:InternationalizationCheck")Define this label in the resource bundle.(»λεσψÿÿÿÿ8¨€μχ.
+\Web:PageWithoutFaviconCheck"1Add a 'favicon' declaration in this 'header' tag.(Υ¶―M8Χχ.

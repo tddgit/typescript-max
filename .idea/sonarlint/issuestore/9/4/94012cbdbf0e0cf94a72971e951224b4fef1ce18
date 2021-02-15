@@ -1,16 +1,227 @@
 
-6typescript:S109
-"No magic number: 12.(ûãé«8ºã¥¡÷.
-4typescript:S109"No magic number: 8.(¼Š¾F8£²ÕÃ÷.
+Vtypescript:S3353"0'xVar' is never reassigned. Use 'const' instead.(¾Ñ¶¨ÿÿÿÿÿ8å™—€ú.
+_typescript:S4030"?Either use this collection's contents or remove the collection.(©…ŠD8©Íµûù.
+Stypescript:S3353"-'a' is never reassigned. Use 'const' instead.(ƒ®×¾ûÿÿÿÿ8®Ö†üù.
+>typescript:S1441"Strings must use singlequote.(ßÅÁ—8®ÙÍûù.
+9typescript:S109"No magic number: 10.(¥Ê…ÿÿÿÿÿ8®Ö†üù.
+3typescript:S109"No magic number: 5.(ŒÎ—â8—Óßÿù.
+9typescript:S109"No magic number: 10.(·şÇ•ıÿÿÿÿ8È÷ÿù.
+>typescript:S1441"Strings must use singlequote.(¹¹ŸÎ8ŒÅÂÿù.
+;typescript:S109"No magic number: 1963.(ŠŠş§úÿÿÿÿ8Ä–Óûù.
+=typescript:S1441"Strings must use singlequote.(’¿ûm8®ÙÍûù.
+5typescript:S109"No magic number: 7.7.(…ºŞ¤8¼Äãûù.
+?typescript:S125"Remove this commented out code.(™”™º8ï”Îüù.
+Qtypescript:S1117"+'a' is already declared in the upper scope.(ò Ìğüÿÿÿÿ8—”´€ú.
+itypescript:S3699"HRemove this use of the output from "log"; "log" doesn't return anything.(äê§î8ìëİ€ú.
+Ltypescript:S1117"+'f' is already declared in the upper scope.(§ÿ±8£¼”ú.
+>typescript:S1441"Strings must use singlequote.(ÁÙ8åŸöúù.
+Qtypescript:S1117"+'a' is already declared in the upper scope.(ç½ÕĞşÿÿÿÿ8—”´€ú.
+3typescript:S109"No magic number: 2.(ÊÂŒ8øÙÿù.
+Etypescript:S121" Expected { after 'if' condition.(ášääÿÿÿÿÿ8Âé®€ú.
+8typescript:S109"No magic number: 2.(ƒ®×¾ûÿÿÿÿ8®Ö†üù.
+>typescript:S1441"Strings must use singlequote.(Çşöè8ÁŠ¨ÿù.
+Ltypescript:S1117"+'a' is already declared in the upper scope.(Øíö8—”´€ú.
+2typescript:S109"No magic number: 3.(ª¾Öm8©Íµûù.
+Otypescript:S3353".'bs' is never reassigned. Use 'const' instead.(ËÈˆ8”÷ûù.
+9typescript:S109"No magic number: 20.(‰ä€µûÿÿÿÿ8È÷ÿù.
+`typescript:S3524"?Remove parentheses around the parameter of this arrow function.(ú«ÏÀ8é©ú.
+Ctypescript:S1441"Strings must use singlequote.(ª‡™åşÿÿÿÿ8©Íµûù.
+Ntypescript:S3353"-'g' is never reassigned. Use 'const' instead.(£ö“8©Íµûù.
+?typescript:S125"Remove this commented out code.(ßµó8¥³œŠú.
+Qtypescript:S1117"+'a' is already declared in the upper scope.(ƒ®×¾ûÿÿÿÿ8—”´€ú.
+Xtypescript:S3353"2'driver' is never reassigned. Use 'const' instead.(ÕÌéúÿÿÿÿ8åŸöúù.
+8typescript:S109"No magic number: 3.(˜²Êƒıÿÿÿÿ8Ó†éûù.
+6typescript:S109"No magic number: 3.75.(ª”ø˜8õÕÚûù.
+Btypescript:S106"Unexpected console statement.(øß”ôùÿÿÿÿ8ŒÅÂÿù.
+8typescript:S109"No magic number: 2.(‘û†ÿÿÿÿÿ8«€¸€ú.
+Btypescript:S106"Unexpected console statement.(øß”ôùÿÿÿÿ8ˆ›Ù€ú.
+Ptypescript:S1854"/Remove this useless assignment to variable "b".(¢ş’8®Ö†üù.
+Stypescript:S3353"2'greet4' is never reassigned. Use 'const' instead.(Çşöè8—í¬ÿù.
+Ctypescript:S1441"Strings must use singlequote.(××š”ùÿÿÿÿ8©Íµûù.
+?typescript:S125"Remove this commented out code.(Ë±¸8ô¶¹ÿù.
+Ltypescript:S1117"+'b' is already declared in the upper scope.(øùŞÂ8âŒ£€ú.
+@typescript:S1537"Unexpected trailing comma.(à­‘§ÿÿÿÿÿ8åŸöúù.
+Ttypescript:S3353"3'myArray' is never reassigned. Use 'const' instead.(ììÍ—8®ÙÍûù.
+6typescript:S109"No magic number: 3.75.(ü’ê8¼Äãûù.
+Ctypescript:S1441"Strings must use singlequote.(Ùø÷šÿÿÿÿÿ8©Íµûù.
+Utypescript:S3353"/'age' is never reassigned. Use 'const' instead.(ÜşğÇıÿÿÿÿ8åŸöúù.
+Ltypescript:S1117"+'a' is already declared in the upper scope.(øùŞÂ8—”´€ú.
+Stypescript:S1117"-'age' is already declared in the upper scope.(Ğ…¡üúÿÿÿÿ8åŸöúù.
+Stypescript:S3353"-'b' is never reassigned. Use 'const' instead.(ª‡™åşÿÿÿÿ8©Íµûù.
+Ptypescript:S3353"/'red' is never reassigned. Use 'const' instead.(å„‹ä8ÁâÄüù.
+stypescript:S3257"MType number trivially inferred from a number literal, remove type annotation.(ş»ışÿÿÿÿÿ8„§»€ú.
+Ztypescript:S4634"4Replace this trivial promise with "Promise.resolve".(Ã¦Ìœøÿÿÿÿ8‡ÀšŠú.
+9typescript:S109"No magic number: 45.(Ã¦Ìœøÿÿÿÿ8‡ÀšŠú.
+Ltypescript:S1117"+'b' is already declared in the upper scope.(¢ş’8®Ö†üù.
+?typescript:S125"Remove this commented out code.(¤Äæñ8½É›üù.
+:typescript:S109"No magic number: 400.(ÔóÒâøÿÿÿÿ8éà©üù.
+>typescript:S1441"Strings must use singlequote.(€¿›Œ8ˆ›Ù€ú.
+Ctypescript:S1441"Strings must use singlequote.(ª‡™åşÿÿÿÿ8©Íµûù.
+Ntypescript:S3353"-'b' is never reassigned. Use 'const' instead.(¢ş’8®Ö†üù.
+8typescript:S109"No magic number: 3.(»ÃÊüÿÿÿÿ8®ÙÍûù.
+Ctypescript:S1441"Strings must use singlequote.(˜ÍÙÊÿÿÿÿÿ8ÁâÄüù.
+Ltypescript:S1117"+'f' is already declared in the upper scope.(†òüÏ8”÷‰ú.
+5typescript:S109"No magic number: 7.7.(ª”ø˜8¼Äãûù.
+Qtypescript:S1117"+'x' is already declared in the upper scope.(Èä…øÿÿÿÿ8®Ö†üù.
+=typescript:S1441"Strings must use singlequote.(‹€’.8ÁŠ¨ÿù.
+Otypescript:S4204")Unexpected any. Specify a different type.(Í—ğ»ıÿÿÿÿ8È÷ÿù.
+Stypescript:S3353"-'r' is never reassigned. Use 'const' instead.(ş»ışÿÿÿÿÿ8„§»€ú.
+6typescript:S109"No magic number: 8.25.(…ºŞ¤8¼Äãûù.
+=typescript:S1441"Strings must use singlequote.(ÜÎÔ|8éšûù.
+Mtypescript:S3353"-'b' is never reassigned. Use 'const' instead.(ÜÎÔ|8éšûù.
+Stypescript:S3353"-'c' is never reassigned. Use 'const' instead.(˜Ãüªøÿÿÿÿ8©Íµûù.
+=typescript:S1441"Strings must use singlequote.(‹€’.8ÁŠ¨ÿù.
+8typescript:S109"No magic number: 2.(Šä‘õşÿÿÿÿ8©Íµûù.
+Vtypescript:S3353"0'time' is never reassigned. Use 'const' instead.(Öæ­Öúÿÿÿÿ8ÎŞÊÿù.
+Stypescript:S3353"-'a' is never reassigned. Use 'const' instead.(ç½ÕĞşÿÿÿÿ8ÖĞûù.
+=typescript:S106"Unexpected console statement.(Ïçï…8È÷ÿù.
+`typescript:S3524"?Remove parentheses around the parameter of this arrow function.(£Ğ—¤8®ÙÍûù.
+=typescript:S106"Unexpected console statement.(ğâ¦ë8óŞ”üù.
+Ctypescript:S1441"Strings must use singlequote.(Üü»îşÿÿÿÿ8ÁâÄüù.
+2typescript:S109"No magic number: 5.(¶å¶8Úœ–ú.
+6typescript:S109"No magic number: 10.5.(ª”ø˜8¼Äãûù.
+Ctypescript:S1441"Strings must use singlequote.(Šä‘õşÿÿÿÿ8©Íµûù.
+Qtypescript:S1117"+'b' is already declared in the upper scope.(öŸ±åúÿÿÿÿ8È÷ÿù.
+3typescript:S109"No magic number: 5.(ú«ÏÀ8¤íú.
+Btypescript:S106"Unexpected console statement.(Œıüÿÿÿÿ8å™—€ú.
+Ytypescript:S3353"3'promise' is never reassigned. Use 'const' instead.(Ã¦Ìœøÿÿÿÿ8‡ÀšŠú.
+Qtypescript:S1117"+'c' is already declared in the upper scope.(˜Ãüªøÿÿÿÿ8Ä—şûù.
+>typescript:S125"Remove this commented out code.(è»»_8¥–â‰ú.
+Dtypescript:S125"Remove this commented out code.(©ÆÏüÿÿÿÿ8ßè×‚ú.
+ntypescript:S3257"MType string trivially inferred from a string literal, remove type annotation.(¹¹ŸÎ8¤Áÿù.
+=typescript:S106"Unexpected console statement.(¥ÍÈ8öÖ”ú.
+>typescript:S1441"Strings must use singlequote.(½üıÓ8ô¶¹ÿù.
+Wtypescript:S3353"6'trainFares' is never reassigned. Use 'const' instead.(ª”ø˜8õÕÚûù.
+2typescript:S109"No magic number: 2.(ª¾Öm8©Íµûù.
+Btypescript:S3498"Expected property shorthand.(à­‘§ÿÿÿÿÿ8åŸöúù.
+>typescript:S1441"Strings must use singlequote.(Æîç€8®ÙÍûù.
+>typescript:S1441"Strings must use singlequote.(×‹â¯8©Íµûù.
+8typescript:S109"No magic number: 6.(Àœúøùÿÿÿÿ8Ø Éüù.
+4typescript:S109"No magic number: 20.(Ïçï…8È÷ÿù.
+3typescript:S109"No magic number: 4.(šñ¯Æ8‡ÀšŠú.
+=typescript:S1441"Strings must use singlequote.(‹€’.8ÁŠ¨ÿù.
+?typescript:S125"Remove this commented out code.(õ¤âª8•äšú.
+Ctypescript:S1441"Strings must use singlequote.(ŠŠş§úÿÿÿÿ8Ä–Óûù.
+Btypescript:S106"Unexpected console statement.(ÄşËşÿÿÿÿ8óŞ”üù.
+Ntypescript:S3353"-'b' is never reassigned. Use 'const' instead.(ñ±˜‹8©Íµûù.
+=typescript:S106"Unexpected console statement.(÷³É8óŞ”üù.
+:typescript:S109"No magic number: 200.(şĞ›·şÿÿÿÿ8éà©üù.
+Vtypescript:S3353"0'time' is never reassigned. Use 'const' instead.(Öæ­Öúÿÿÿÿ8ŒÅÂÿù.
+itypescript:S3699"HRemove this use of the output from "log"; "log" doesn't return anything.(½üıÓ8ìëİ€ú.
+>typescript:S1441"Strings must use singlequote.(½üıÓ8ô¶¹ÿù.
+Vtypescript:S3353"0'time' is never reassigned. Use 'const' instead.(Öæ­Öúÿÿÿÿ8ˆ›Ù€ú.
+:typescript:S109"No magic number: 300.(şĞ›·şÿÿÿÿ8éà©üù.
+Qtypescript:S1117"+'e' is already declared in the upper scope.(Šä‘õşÿÿÿÿ8õÍ„üù.
+Mtypescript:S3353"-'a' is never reassigned. Use 'const' instead.(ş¼8—”´€ú.
+6typescript:S108"Empty block statement.(óÖ‡8ê„…üù.
+Btypescript:S106"Unexpected console statement.(‰ä€µûÿÿÿÿ8È÷ÿù.
+:typescript:S109"No magic number: 500.(ÔóÒâøÿÿÿÿ8éà©üù.
+Stypescript:S3353"2'greet5' is never reassigned. Use 'const' instead.(ìèÊ8„©ÿù.
+>typescript:S1441"Strings must use singlequote.(–åõå8©Íµûù.
+=typescript:S106"Unexpected console statement.(êà¬8ûÆÆûù.
+:typescript:S109"No magic number: 100.(üóÁ¶ıÿÿÿÿ8éà©üù.
+>typescript:S1441"Strings must use singlequote.(À›ß…8®Ö†üù.
+Ctypescript:S1441"Strings must use singlequote.(Úá‚ûÿÿÿÿ8éšûù.
+@typescript:S1537"Unexpected trailing comma.(×¢©Üşÿÿÿÿ8å™—€ú.
+;typescript:S1537"Unexpected trailing comma.(¶„«˜8©Íµûù.
+@typescript:S121" Expected { after 'if' condition.(“Êä¬8Íêµ€ú.
+Ctypescript:S1441"Strings must use singlequote.(âğÍıÿÿÿÿ8éšûù.
+9typescript:S109"No magic number: 20.(·şÇ•ıÿÿÿÿ8È÷ÿù.
+Ttypescript:S3353".'as' is never reassigned. Use 'const' instead.(˜²Êƒıÿÿÿÿ8Ò†éûù.
+3typescript:S109"No magic number: 4.(ÊÂŒ8øÙÿù.
+:typescript:S109"No magic number: 0.5.(ÎÎ™‘üÿÿÿÿ8éšûù.
+Qtypescript:S1117"+'c' is already declared in the upper scope.(Úá‚ûÿÿÿÿ8Ä—şûù.
+Ctypescript:S1441"Strings must use singlequote.(˜Ãüªøÿÿÿÿ8©Íµûù.
+8typescript:S109"No magic number: 2.(ƒ®×¾ûÿÿÿÿ8®Ö†üù.
+Btypescript:S106"Unexpected console statement.(Àœúøùÿÿÿÿ8ÕµÈüù.
+8typescript:S109"No magic number: 2.(ûìÂ„úÿÿÿÿ8ô¶¹ÿù.
+Btypescript:S106"Unexpected console statement.(Ø¾í´ÿÿÿÿÿ8™ßš€ú.
+>typescript:S1441"Strings must use singlequote.(“Êä¬8 üµ€ú.
+?typescript:S125"Remove this commented out code.(š¿ÖÍ8îöà‰ú.
+Ctypescript:S1441"Strings must use singlequote.(¥±Çšÿÿÿÿÿ8ô¶¹ÿù.
+;typescript:S1537"Unexpected trailing comma.(¶„«˜8©Íµûù.
+Mtypescript:S3353"-'a' is never reassigned. Use 'const' instead.(ª¾Öm8©Íµûù.
+Qtypescript:S1117"+'d' is already declared in the upper scope.(Ùø÷šÿÿÿÿÿ8Û‡¼ûù.
+Ltypescript:S1117"+'a' is already declared in the upper scope.(êê¶ä8—”´€ú.
+Xtypescript:S3353"2'result' is never reassigned. Use 'const' instead.(Ì•ïùüÿÿÿÿ8”÷‰ú.
+Mtypescript:S3353"-'f' is never reassigned. Use 'const' instead.(©…ŠD8©Íµûù.
+etypescript:S3524"?Remove curly braces and "return" from this arrow function body.(ÿ£úùúÿÿÿÿ8ÁŠ¨ÿù.
+?typescript:S125"Remove this commented out code.(“üëş8¬îšüù.
+>typescript:S109"No magic number: 0x10050.(Óøİ­øÿÿÿÿ8ÁâÄüù.
+=typescript:S106"Unexpected console statement.(¢ÌÓÆ8–ÖŸüù.
+Xtypescript:S3353"2'greet3' is never reassigned. Use 'const' instead.(ÿ£úùúÿÿÿÿ8÷È¬ÿù.
+4typescript:S109"No magic number: 10.(ÄÈ¯8È÷ÿù.
+Dtypescript:S125"Remove this commented out code.(¡“¯úÿÿÿÿ8éšûù.
+Stypescript:S3353"-'x' is never reassigned. Use 'const' instead.(ÎÎ™‘üÿÿÿÿ8éÑıÿù.
+Ctypescript:S1441"Strings must use singlequote.(ŠŠş§úÿÿÿÿ8Ä–Óûù.
+Stypescript:S3353"-'d' is never reassigned. Use 'const' instead.(Ùø÷šÿÿÿÿÿ8©Íµûù.
+>typescript:S1441"Strings must use singlequote.(¿¬¡Æ8éšûù.
+=typescript:S106"Unexpected console statement.(ÊÂŒ8øÙÿù.
+Mtypescript:S3353"-'d' is never reassigned. Use 'const' instead.(’¿ûm8®ÙÍûù.
+6typescript:S109"No magic number: 8.25.(ª”ø˜8µŠßûù.
+>typescript:S125"Remove this commented out code.(¤èÿ?8éšûù.
+=typescript:S106"Unexpected console statement.(½üıÓ8ô¶¹ÿù.
+@typescript:S121" Expected { after 'if' condition.(ö“ƒ8©Íµûù.
+=typescript:S106"Unexpected console statement.(ÿû¥ë8œİÍÿù.
+6typescript:S109"No magic number: 10.5.(Ğ³ØÓ8¼Äãûù.
+etypescript:S4030"?Either use this collection's contents or remove the collection.(ÏãÕÅûÿÿÿÿ8®ÙÍûù.
+=typescript:S106"Unexpected console statement.(ú«ÏÀ8¶–ú.
+vtypescript:S2201"UConsider using "forEach" instead of "map" as its return value is not being used here.(£Ğ—¤8¥ôüù.
+Btypescript:S106"Unexpected console statement.(·şÇ•ıÿÿÿÿ8È÷ÿù.
+Vtypescript:S1117"0'driver' is already declared in the upper scope.(ÕÌéúÿÿÿÿ8åŸöúù.
+3typescript:S109"No magic number: 4.(ŒÎ—â8—Óßÿù.
+Btypescript:S3498"Expected property shorthand.(à­‘§ÿÿÿÿÿ8åŸöúù.
 Atypescript:S1451"&Add or update the header of this file.8÷Ê„¡÷.
-atypescript:S3353"9'combineValues' is never reassigned. Use 'const' instead.(ÖÅş†ıÿÿÿÿ8£²ÕÃ÷.
-4typescript:S109"No magic number: 8.(¼Š¾F8£²ÕÃ÷.
->typescript:S106"Unexpected console statement.(¼Š¾F8£²ÕÃ÷.
-?typescript:S106"Unexpected console statement.(†®Ñ˜8ŠÔ›¡÷.
-Œtypescript:S3402"iOperands of '+' operation must either be both strings or both numbers. Consider using a template literal.(†®Ñ˜8ÄüÒÃ÷.
-@typescript:S1441"Strings must use singlequote.(†®Ñ˜8ŠÔ›¡÷.
-5typescript:S109
-"No magic number: 5.(ûãé«8ºã¥¡÷.
-?typescript:S106
-"Unexpected console statement.(ûãé«8úæ¢¡÷.
->typescript:S3626"Remove this redundant jump.(ûÁİ…8–°ª¡÷.
+Xtypescript:S3353"2'driver' is never reassigned. Use 'const' instead.(ÕÌéúÿÿÿÿ8åŸöúù.
+?typescript:S125"Remove this commented out code.(áãä…8”÷ûù.
+Ctypescript:S1441"Strings must use singlequote.(ÄíÙ¤üÿÿÿÿ8©Íµûù.
+=typescript:S1441"Strings must use singlequote.(©…ŠD8©Íµûù.
+Vtypescript:S3353"0'blue' is never reassigned. Use 'const' instead.(Üü»îşÿÿÿÿ8ÁâÄüù.
+Ktypescript:S1117"+'f' is already declared in the upper scope.(©…ŠD8£¼”ú.
+3typescript:S109"No magic number: 3.(¢ÌÓÆ8–œ üù.
+Xtypescript:S3353"2'numRed' is never reassigned. Use 'const' instead.(óÍÄ«ıÿÿÿÿ8ÁâÄüù.
+>typescript:S1441"Strings must use singlequote.(äê§î8ô¶¹ÿù.
+Qtypescript:S1117"+'a' is already declared in the upper scope.(öŸ±åúÿÿÿÿ8—”´€ú.
+Btypescript:S106"Unexpected console statement.(½€İ«üÿÿÿÿ8éà©üù.
+Utypescript:S3353"/'age' is never reassigned. Use 'const' instead.(Ğ…¡üúÿÿÿÿ8åŸöúù.
+Ttypescript:S3353".'a3' is never reassigned. Use 'const' instead.(Ë´ÿ†ÿÿÿÿÿ8ñÅ–üù.
+4typescript:S109"No magic number: 20.(ÄÈ¯8È÷ÿù.
+Stypescript:S3353"-'c' is never reassigned. Use 'const' instead.(Úá‚ûÿÿÿÿ8éšûù.
+Dtypescript:S2814"'Language' is already defined.(â¶’¤ûÿÿÿÿ8˜Âüù.
+[typescript:S3353":'moreTrainFares' is never reassigned. Use 'const' instead.(Æ²Ûş8¼Äãûù.
+=typescript:S106"Unexpected console statement.(äê§î8ô¶¹ÿù.
+Stypescript:S3353"-'b' is never reassigned. Use 'const' instead.(ŠŠş§úÿÿÿÿ8‘»Öûù.
+Ktypescript:S1117"+'b' is already declared in the upper scope.(ÜÎÔ|8ç¿Šûù.
+etypescript:S3524"?Remove parentheses around the parameter of this arrow function.(Ã¦Ìœøÿÿÿÿ8‡ÀšŠú.
+`typescript:S3524"?Remove parentheses around the parameter of this arrow function.(šñ¯Æ8‡ÀšŠú.
+>typescript:S1441"Strings must use singlequote.(÷³É8óŞ”üù.
+Ktypescript:S1117"+'a' is already declared in the upper scope.(ª¾Öm8—”´€ú.
+Qtypescript:S1117"+'b' is already declared in the upper scope.(çÕó şÿÿÿÿ8î‹ÿù.
+=typescript:S106"Unexpected console statement.(ŒÎ—â8—Óßÿù.
+Qtypescript:S1117"+'b' is already declared in the upper scope.(ª‡™åşÿÿÿÿ8©Íµûù.
+@typescript:S1537"Unexpected trailing comma.(à­‘§ÿÿÿÿÿ8åŸöúù.
+Qtypescript:S1117"+'b' is already declared in the upper scope.(ŠŠş§úÿÿÿÿ8Ä–Óûù.
+Otypescript:S4204")Unexpected any. Specify a different type.(Í—ğ»ıÿÿÿÿ8È÷ÿù.
+4typescript:S109"No magic number: 10.(Ïçï…8È÷ÿù.
+<typescript:S106"Unexpected console statement.(ëÇ>8ÁâÄüù.
+Qtypescript:S1117"+'a' is already declared in the upper scope.(çÕó şÿÿÿÿ8—”´€ú.
+:typescript:S109"No magic number: 255.(Â‡øúÿÿÿÿ8ÁâÄüù.
+3typescript:S109"No magic number: 3.(ŒÎ—â8—Óßÿù.
+9typescript:S109"No magic number: 10.(‰ä€µûÿÿÿÿ8È÷ÿù.
+>typescript:S1441"Strings must use singlequote.(ìèÊ8ô¶¹ÿù.
+>typescript:S1441"Strings must use singlequote.(È«ú8ÁâÄüù.
+;typescript:S1537"Unexpected trailing comma.(Ğ³ØÓ8¼Äãûù.
+Ntypescript:S3353"-'a' is never reassigned. Use 'const' instead.(Øíö8®ÙÍûù.
+Ltypescript:S1117"+'b' is already declared in the upper scope.(êê¶ä8©Íµûù.
+3typescript:S109"No magic number: 3.(ÿ¡8ÄÁ¢üù.
+3typescript:S109"No magic number: 4.(ËÈˆ8”÷ûù.
+3typescript:S109"No magic number: 3.(ÊÂŒ8øÙÿù.
+3typescript:S109"No magic number: 2.(ŒÎ—â8—Óßÿù.
+>typescript:S1441"Strings must use singlequote.(ÁÙ8åŸöúù.
+Qtypescript:S3353"0'log2' is never reassigned. Use 'const' instead.(€¿›Œ8ìëİ€ú.
+Stypescript:S3353"2'greet2' is never reassigned. Use 'const' instead.(¤²ºÿ8ÁŠ¨ÿù.
+Qtypescript:S1117"+'a' is already declared in the upper scope.(ò Ìğüÿÿÿÿ8—”´€ú.
+Ttypescript:S3353".'a1' is never reassigned. Use 'const' instead.(Èú™üÿÿÿÿ8™ßš€ú.
+Vtypescript:S3353"0'item' is never reassigned. Use 'const' instead.(Ù½ƒùûÿÿÿÿ8”÷‰ú.
+8typescript:S109"No magic number: 2.(˜²Êƒıÿÿÿÿ8Ó†éûù.
+Stypescript:S3353"-'h' is never reassigned. Use 'const' instead.(ÏãÕÅûÿÿÿÿ8®ÙÍûù.
