@@ -416,6 +416,17 @@ function map<T, U>(array: T[], f: (item: T) => U): U[] {
   return result;
 }
 
+let promise = new Promise<number>((resolve) => resolve(45));
+
+promise.then((result) => result * 4);
+
+type MyEvent<T> = {
+  target: T;
+  type: string;
+};
+
+type ButtonEvent = MyEvent<HTMLButtonElement>;
+
 // //Asyncronious
 // type ExistingUser = {
 //   id: number;
