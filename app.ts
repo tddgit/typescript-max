@@ -65,3 +65,28 @@ dependencies.push(["webpack", 3]);
 type Color = [number, number, number];
 
 let rednew: Color = [255, 0, 0];
+
+type User = {
+  username: string;
+  password: string;
+};
+
+let login: (username: string, password: string) => User;
+
+// login = (username, password) => {
+//   return new User();
+// };
+
+interface ClickListener {
+  (this: Window, e: MouseEvent): void;
+}
+
+const myListener: ClickListener = (e) => {
+  console.log("mouse clicked", e);
+};
+
+let criticalURL: URL;
+
+function createTwitterPost(body: string, username: string, imageUrl?: URL) {
+  criticalURL = imageUrl;
+}
