@@ -57,3 +57,11 @@ console.dir(shCart.items);
 
 let dependency: [string, number];
 dependency = ["react", 16];
+
+let dependencies: [string, number][] = [];
+dependencies.push(dependency);
+dependencies.push(["webpack", 3]);
+
+type Color = [number, number, number];
+
+let rednew: Color = [255, 0, 0];
