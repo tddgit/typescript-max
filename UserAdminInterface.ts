@@ -11,4 +11,4 @@ interface Admin extends ActivatedUser {
   adminSince: Date;
 }
 
-export { User as IUser, , ActivatedUser as ConfirmedUser, Admin as IAdmin };
+export { User as IUser, ActivatedUser as ConfirmedUser, Admin as IAdmin };
