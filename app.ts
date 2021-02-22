@@ -76,3 +76,36 @@
 // add("2", "3", 10);
 // add(1, 2);
 // add("3", "5");
+import { formatWithOptions } from "util";
+
+let x = "hello world";
+x = "hello mars";
+// x = 42; ERROR
+const y = "hello world";
+function foo(arg: "hello mars") {}
+
+foo("hello mars");
+let hellomars: "hello mars" = "hello mars";
+foo(hellomars);
+
+const yObj = {
+  foo: "hello",
+};
+
+let z: number | string;
+z = 41;
+z = "abc";
+
+let aa: number[] = [];
+aa.push(33);
+// aa.push("abc");
+
+let aaa = [6];
+let bb: [number, string, string, number] = [
+  123,
+  "Fake Street",
+  "Nowhere US",
+  10110,
+];
+// bb = [1, 2, 3];
+bb.push();
