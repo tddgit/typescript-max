@@ -35,5 +35,44 @@
 // }
 // interface MyState {
 //   isClicked: boolean;
+// // }
+// // // class MyComponent extends Component<MyProps, MyState> {}
+//
+// function midpoint<T extends Point2D>(p1: T, p2: T): T {}
+//
+// interface IFileReader<T extends File> {
+//   readFile(file: T): Blob;
 // }
-// // class MyComponent extends Component<MyProps, MyState> {}
+//
+// class Account {
+//   protected email: string;
+//   private password: string;
+//   public accountId: number;
+// }
+//
+// class SharedAccount extends Account {
+//   setEmail(newEmail: string) {
+//     this.email = newEmail;
+//   }
+// // }
+//
+// function add(x: number, y: number): number;
+// function add(x: string, y: string, radix: number): number;
+// function add(
+//   x: number | string,
+//   y: number | string,
+//   radix: number = 10
+// ): number | undefined {
+//   x;
+//   if (typeof x === "string" && typeof y === "string") {
+//     return parseInt(x, radix) + parseInt(y, radix);
+//   } else if (typeof x === "number" && typeof y === "number") {
+//     return x + y;
+//   } else {
+//     return undefined;
+//   }
+// }
+//
+// add("2", "3", 10);
+// add(1, 2);
+// add("3", "5");
