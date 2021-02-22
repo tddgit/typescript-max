@@ -300,6 +300,64 @@ phoneDict.home;
 phoneDict.office;
 phoneDict.mobile;
 
-export class Contact implements HasEmail {
-  constructor(public email: string, public name: string = "no email") {}
+export class Contact implements HasEmail, HasPhoneNumber {
+  protected age = 0;
+  private passwordVal: string | undefined;
+  constructor(
+    public email: string,
+    public name: string = "no email",
+    public phone: number
+  ) {
+    this.age = 35;
+    if (phone > 0) {
+    }
+  }
+  get password(): string {
+    if (!this.passwordVal) {
+      this.passwordVal = Math.round(Math.random() * 1e14).toString(32);
+    }
+    return this.passwordVal;
+  }
+  //   async init() {
+  //     this.password = Math.round(Math.random() * 1e14).toString(32);
+  //   }
 }
+
+abstract class AbstractContact implements HasEmail, HasPhoneNumber {
+  public abstract phone: number;
+  constructor(public name: string, public email: string) {}
+
+  abstract sendEmail(): void;
+}
+
+class ConcreteContact extends AbstractContact {
+  constructor(public phone: number, name: string, email: string) {
+    super(name, email);
+  }
+  sendEmail() {
+    console.log("sending email");
+  }
+}
+
+
+
+//
+// const osPrefix: string = "os_";
+//
+// let support = {
+//   [osPrefix + "Windows"]: isSupported("Windows"),
+//   [osPrefix + "iOS"]: isSupported("iOS"),
+//   [osPrefix + "Android"]: isSupported("Android"),
+// };
+// function isSupported(os: string) {
+//   return Math.random() >= 0.5;
+// }
+//
+// let _a;
+// let support1 =
+//   ((_a = {}),
+//   (_a[osPrefix + "Windows"] = isSupported("Windows")),
+//   (_a[osPrefix + "iOS"] = isSupported("iOS")),
+//   (_a[osPrefix + "Android"] = isSupported("Android")),
+//   _a);
+// console.log(support1);

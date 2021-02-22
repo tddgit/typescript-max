@@ -1,4 +1,17 @@
 "use strict";
+var __extends = (this && this.__extends) || (function () {
+    var extendStatics = function (d, b) {
+        extendStatics = Object.setPrototypeOf ||
+            ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+            function (d, b) { for (var p in b) if (Object.prototype.hasOwnProperty.call(b, p)) d[p] = b[p]; };
+        return extendStatics(d, b);
+    };
+    return function (d, b) {
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
 exports.__esModule = true;
 exports.Contact = void 0;
 var x = "hello world";
@@ -135,11 +148,65 @@ phoneDict.home;
 phoneDict.office;
 phoneDict.mobile;
 var Contact = /** @class */ (function () {
-    function Contact(email, name) {
+    function Contact(email, name, phone) {
         if (name === void 0) { name = "no email"; }
         this.email = email;
         this.name = name;
+        this.phone = phone;
+        this.age = 0;
+        this.age = 35;
+        if (phone > 0) {
+        }
     }
+    Object.defineProperty(Contact.prototype, "password", {
+        get: function () {
+            if (!this.passwordVal) {
+                this.passwordVal = Math.round(Math.random() * 1e14).toString(32);
+            }
+            return this.passwordVal;
+        },
+        enumerable: false,
+        configurable: true
+    });
     return Contact;
 }());
 exports.Contact = Contact;
+var AbstractContact = /** @class */ (function () {
+    function AbstractContact(name, email) {
+        this.name = name;
+        this.email = email;
+    }
+    return AbstractContact;
+}());
+var ConcreteContact = /** @class */ (function (_super) {
+    __extends(ConcreteContact, _super);
+    function ConcreteContact(phone, name, email) {
+        var _this = _super.call(this, name, email) || this;
+        _this.phone = phone;
+        return _this;
+    }
+    ConcreteContact.prototype.sendEmail = function () {
+        console.log("sending email");
+    };
+    return ConcreteContact;
+}(AbstractContact));
+//
+// const osPrefix: string = "os_";
+//
+// let support = {
+//   [osPrefix + "Windows"]: isSupported("Windows"),
+//   [osPrefix + "iOS"]: isSupported("iOS"),
+//   [osPrefix + "Android"]: isSupported("Android"),
+// };
+// function isSupported(os: string) {
+//   return Math.random() >= 0.5;
+// }
+//
+// let _a;
+// let support1 =
+//   ((_a = {}),
+//   (_a[osPrefix + "Windows"] = isSupported("Windows")),
+//   (_a[osPrefix + "iOS"] = isSupported("iOS")),
+//   (_a[osPrefix + "Android"] = isSupported("Android")),
+//   _a);
+// console.log(support1);
