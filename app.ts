@@ -109,3 +109,197 @@ let bb: [number, string, string, number] = [
 ];
 // bb = [1, 2, 3];
 bb.push();
+
+let cc: { houseNumber: number; streetName: string };
+cc = {
+  streetName: "Fake Street",
+  houseNumber: 123,
+};
+
+// cc = {
+//     houseNumber: 1
+// }
+
+let dd: { houseNumber: number; streetName?: string };
+dd = {
+  houseNumber: 123,
+  // x=5
+};
+
+export interface HasPhoneNumber {
+  name: string;
+  phone: number;
+}
+
+export interface HasEmail {
+  name: string;
+  email: string;
+}
+
+let contactInfo: HasEmail | HasPhoneNumber =
+  Math.random() > 0.5
+    ? {
+        name: "Mike",
+        phone: 22558456,
+      }
+    : {
+        name: "Mike",
+        email: "mike@example.com",
+      };
+
+contactInfo.name;
+
+let otherContactInfo: HasEmail & HasPhoneNumber = {
+  name: "Mike",
+  email: "mike@example.com",
+  phone: 55555555,
+};
+otherContactInfo.name;
+otherContactInfo.phone;
+otherContactInfo.email;
+
+function validateInputField(input: HTMLInputElement) {}
+
+function sendEmail(to: HasEmail): { recipient: string; body: string } {
+  return {
+    recipient: `${to.name}<${to.email}`,
+    body: "Youre prequalified for the loan!",
+  };
+}
+
+const sendTextMessage = (
+  to: HasPhoneNumber
+): { recipient: string; body: string } => {
+  return {
+    recipient: `${to.name}<${to.phone}`,
+    body: "Youre prequalified for the loan!",
+  };
+};
+
+function getNameParts(contact: { name: string }) {
+  const parts = contact.name.split(/\s/g);
+  if (parts.length === 1) {
+    return { name: parts[0] };
+  }
+
+  if (parts.length) {
+    throw new Error(`Can't caluculate name parts from name`);
+  }
+  return {
+    first: parts[0],
+    middle:
+      parts.length === 2
+        ? undefined
+        : parts.slice(1, parts.length - 2).join(""),
+    last: parts[parts.length - 1],
+  };
+}
+
+function contactPeople(method: "email", ...people: HasEmail[]): void;
+function contactPeople(method: "phone", ...people: HasPhoneNumber[]): void;
+function contactPeople(
+  method: "email" | "phone",
+  ...people: (HasEmail | HasPhoneNumber)[]
+): void {
+  if (method === "email") {
+    (people as HasEmail[]).forEach(sendEmail);
+  } else {
+    (people as HasPhoneNumber[]).forEach(sendTextMessage);
+  }
+}
+contactPeople("email", { name: "foo", email: "" });
+contactPeople("phone", { name: "foo", phone: 1225444 });
+// contactPeople("email", { name: "foo", phone: 1225444 });
+
+function sendMessage(
+  this: HasEmail & HasPhoneNumber,
+  prefferedMethod: "phone" | "email"
+) {
+  if (prefferedMethod === "email") {
+    console.log("sendEmail");
+    sendEmail(this);
+  } else {
+    console.log("sendTextMessage");
+    sendTextMessage(this);
+  }
+}
+
+const c = { name: "Mike", phone: 3388899, email: "mike@example.com" };
+
+function invokeSoon(cb: () => any, timeout: number) {
+  setTimeout(() => cb.call(null), timeout);
+}
+
+// invokeSoon(() => sendMessage("email"), 500);
+
+const bound = sendMessage.bind(c, "email");
+invokeSoon(() => bound(), 500);
+invokeSoon(() => sendMessage.apply(c, ["phone"]), 500);
+
+type StringOrNumber = string | number;
+const xx: StringOrNumber = "adffd";
+
+type HasName = { name: string };
+
+type NumVal = 1 | 2 | 3 | NumArr;
+
+type NumArr = NumVal[];
+
+export interface HasInternationalPhoneNumber extends HasPhoneNumber {
+  contryCode: string;
+}
+
+interface ContactMessanger1 {
+  (contact: HasEmail | HasPhoneNumber, message: string): void;
+}
+
+type ContactMessanger2 = (
+  contact: HasEmail | HasPhoneNumber,
+  message: string
+) => void;
+
+const emailer: ContactMessanger1 = (_contact, _message) => {
+  //
+};
+
+interface ContactConstructor {
+  new (...args: any[]): HasEmail | HasPhoneNumber;
+}
+
+interface PhoneNumberDict {
+  [numberName: string]:
+    | undefined
+    | {
+        areaCode: number;
+        num: number;
+      };
+}
+
+// const d: PhoneNumberDict = {};
+// if (typeof d.abc === "object") {
+//   d.abc;
+// }
+
+const phoneDict: PhoneNumberDict = {
+  office: { areaCode: 321, num: 5551212 },
+  home: { areaCode: 321, num: 555442 },
+};
+
+interface PhoneNumberDict {
+  home: {
+    areaCode: number;
+    num: number;
+  };
+  office: {
+    areaCode: number;
+    num: number;
+  };
+}
+
+phoneDict.home;
+phoneDict.office;
+phoneDict.mobile;
+
+export class Contact implements HasEmail {
+  constructor(public email: string, public name: string = "no email") {}
+}
