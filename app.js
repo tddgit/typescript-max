@@ -190,6 +190,19 @@ var ConcreteContact = /** @class */ (function (_super) {
     };
     return ConcreteContact;
 }(AbstractContact));
+var val = { value: "sfadf" };
+val.value;
+var fil = function (x) { return true; };
+[""].filter(fil);
+//FUNDAMENTALS
+var medals = ["gold", "silver", "bronze"];
+var first = medals[0], second = medals[1], third = medals[2];
+var person = {
+    name: "Audrey",
+    address: "123 Main Street",
+    phone: "555-1212"
+};
+var name = person.name, address = person.address, phone = person.phone;
 //
 // const osPrefix: string = "os_";
 //

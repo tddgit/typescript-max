@@ -339,7 +339,31 @@ class ConcreteContact extends AbstractContact {
   }
 }
 
+interface WrappedValue<X> {
+  value: X;
+}
 
+let val: WrappedValue<string> = { value: "sfadf" };
+val.value;
+
+const fil = (x: number | string) => true;
+[""].filter(fil);
+interface FilterFunction<T = any> {
+  (val: T): boolean;
+}
+
+//FUNDAMENTALS
+
+let medals: string[] = ["gold", "silver", "bronze"];
+let [first, second, third] = medals;
+
+let person = {
+  name: "Audrey",
+  address: "123 Main Street",
+  phone: "555-1212",
+};
+
+let { name, address, phone } = person;
 
 //
 // const osPrefix: string = "os_";
