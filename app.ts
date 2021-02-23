@@ -403,7 +403,7 @@ function resolveOrTimeout<T>(promise: Promise<T>, timeout: number): Promise<T> {
   });
 }
 
-resolveOrTimeout(fetch(""), 3000);
+// resolveOrTimeout(fetch(""), 3000);
 
 function arrayToDict<T extends { id: string }>(array: T[]): { [k: string]: T } {
   const out: { [k: string]: T } = {};
@@ -418,13 +418,44 @@ const myDict = arrayToDict([
   { id: "b", value: "second" },
 ]);
 
+function startTuple<T>(a: T) {
+  return function finishTuple<U>(b: U) {
+    return [a, b] as [T, U];
+  };
+}
 
+const myTuple = startTuple(["first"])(42);
+console.log(myTuple);
+
+type Shape = {
+  draw(): void;
+  isDrawn: boolean;
+};
+
+interface Circle extends Shape {
+  radius: number;
+}
+
+function drawShapes1<S extends Shape>(shapes: S[]) {
+  shapes.map((s) => {
+    s.draw();
+    s.isDrawn = true;
+    return s;
+  });
+}
+
+function drawShapes2(shapes: Shape[]) {
+  shapes.forEach((s) => s.draw());
+}
+
+const cir: Circle = { draw() {}, radius: 4, isDrawn: false };
+
+drawShapes1([cir]);
 
 // const osPrefix: string = "os_";
 //
 // let support = {
 //   [osPrefix + "Windows"]: isSupported("Windows"),
-//   [osPrefix + "iOS"]: isSupported("iOS"),
 //   [osPrefix + "Android"]: isSupported("Android"),
 // };
 // function isSupported(os: string) {
@@ -439,3 +470,11 @@ const myDict = arrayToDict([
 //   (_a[osPrefix + "Android"] = isSupported("Android")),
 //   _a);
 // console.log(support1);
+
+let myAny: any = 32;
+let myUnknown: unknown = "hello, unknown";
+
+async function logWhenResolved(p: Promise<any>) {
+  const val = await p;
+  console.log("Resolved to: ", val);
+}
