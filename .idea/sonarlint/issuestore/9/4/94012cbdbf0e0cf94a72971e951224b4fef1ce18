@@ -1,122 +1,45 @@
 
-Atypescript:S125e"Remove this commented out code.(õ‡—Ô8ùëÌü.
-Btypescript:S125é"Remove this commented out code.(ÀÃ‰ù8É«ÒÎü.
-Atypescript:S1441ë"Strings must use singlequote.(Ëì´8ùõÍÎü.
-Gtypescript:S125Ô"Remove this commented out code.(ÁõÛ‡ûÿÿÿÿ8¥´®Îü.
-Ftypescript:S125S"Remove this commented out code.(™¸™íùÿÿÿÿ8”õËü.
-;typescript:S109d"No magic number: 33.(ÔĞ±„øÿÿÿÿ8“ŒÌü.
-Etypescript:S106Ò"Unexpected console statement.(¡×¦Ìşÿÿÿÿ8µ¼ŠÑü.
-Otypescript:S1117İ"+'x' is already declared in the upper scope.(½ò¨¿8‰Ç¶Ñü.
-Atypescript:S1441Ò"Strings must use singlequote.(”›‚8Ÿ¥¿Íü.
-Etypescript:S1441a"Strings must use singlequote.(´š‰öşÿÿÿÿ8ˆØÌü.
-8typescript:S109ì"No magic number: 500.(…³ø¸8ùõÍÎü.
-Ftypescript:S1441ê"Strings must use singlequote.(ƒ×ÎÔøÿÿÿÿ8À»ĞÑü.
-@typescript:S1441X"Strings must use singlequote.(¹»Œú8”õËü.
-Vtypescript:S3353c".'aa' is never reassigned. Use 'const' instead.(‹‹—ºüÿÿÿÿ8ÿÎ‹Ìü.
-Rtypescript:S3353g"/'aaa' is never reassigned. Use 'const' instead.(’Š¤ƒ8ï¬Ìü.
-htypescript:S905¬"FExpected an assignment or function call and instead saw an expression.(¸–•08é“µÏü.
-Atypescript:S1441Ú"Strings must use singlequote.(¸ŞÑ8å™£Ñü.
-[typescript:S3353æ"2'second' is never reassigned. Use 'const' instead.(„ÿ›Èúÿÿÿÿ8¥ÅÍÑü.
-@typescript:S1441R"Strings must use singlequote.(—ú¹è8”õËü.
-ntypescript:S905"FExpected an assignment or function call and instead saw an expression.(Àü×ğÿÿÿÿÿ8Ë¬ÂÌü.
-?typescript:S1774¿"Ternary operator used.(á¤¸ñùÿÿÿÿ8ıŒ£Íü.
-Vtypescript:S3353r".'cc' is never reassigned. Use 'const' instead.(¯¾§¾şÿÿÿÿ8ˆì¨Ìü.
-@typescript:S1441X"Strings must use singlequote.(¹»Œú8‚ÃõËü.
-Ftypescript:S1441Ø"Strings must use singlequote.(é–¥ùÿÿÿÿ8×æ¹Îü.
-Etypescript:S1441O"Strings must use singlequote.(‹¬Ğ„üÿÿÿÿ8”õËü.
-5typescript:S109g"No magic number: 6.(’Š¤ƒ8àÓÌü.
-6typescript:S109Á"No magic number: 2.(ÀÌğ8ıŒ£Íü.
-@typescript:S1441T"Strings must use singlequote.(ö÷İ»8”õËü.
-gtypescript:S4030h"?Either use this collection's contents or remove the collection.(ó‹­µøÿÿÿÿ8‘Ì•Ìü.
-Ftypescript:S1441´"Strings must use singlequote.(—Ö’‘ÿÿÿÿÿ8à‰áĞü.
-7typescript:S109½"No magic number: 32.(ÿãŞ¦8†™îĞü.
-Rtypescript:S4204ß")Unexpected any. Specify a different type.(Ë ºÁøÿÿÿÿ8¥ò´Ñü.
-Ztypescript:S3353æ"1'first' is never reassigned. Use 'const' instead.(„ÿ›Èúÿÿÿÿ8¥ÅÍÑü.
-8typescript:S109í"No magic number: 500.(‰ˆ¬é8­¶ÈÎü.
-Etypescript:S106Û"Unexpected console statement.(è¢„†ıÿÿÿÿ8×æ¹Îü.
-Etypescript:S106Ş"Unexpected console statement.(™«ÿùÿÿÿÿ8×æ¹Îü.
-Etypescript:S1441\"Strings must use singlequote.(ÇÃ£æøÿÿÿÿ8ÔÌ€Ìü.
-Ytypescript:S1128O"1Remove this unused import of 'formatWithOptions'.(‹¬Ğ„üÿÿÿÿ8”õËü.
-Atypescript:S1441Ó"Strings must use singlequote.(ä»úÜ8ò¦ÁÍü.
-Atypescript:S1441Ì"Strings must use singlequote.(ä»¥¹8“ç»Íü.
-Ctypescript:S1186U" Unexpected empty function 'foo'.(İµâ¥8”õËü.
-Etypescript:S1441j"Strings must use singlequote.(ä‡„šüÿÿÿÿ8š“•Ìü.
-Ftypescript:S125n"Remove this commented out code.(ã¿Ê¸şÿÿÿÿ8ª·›Ìü.
-itypescript:S905­"FExpected an assignment or function call and instead saw an expression.(ıËîÓ8é“µÏü.
-Wtypescript:S1117È".'name' is already declared in the upper scope.(İÔÑçşÿÿÿÿ8äÔÑÑü.
-atypescript:S1192R">Define a constant instead of duplicating this literal 5 times.(—ú¹è8”õËü.
-Ztypescript:S3353æ"1'third' is never reassigned. Use 'const' instead.(„ÿ›Èúÿÿÿÿ8¥ÅÍÑü.
-Ftypescript:S1441Ò"Strings must use singlequote.(¡×¦Ìşÿÿÿÿ8µ¼ŠÑü.
-Ftypescript:S1441ğ"Strings must use singlequote.(ÂÆ¬Äşÿÿÿÿ8¯ºßÎü.
-Mtypescript:S4204Š")Unexpected any. Specify a different type.(àÔ’š8ÁüÎü.
-Ftypescript:S1441¦"Strings must use singlequote.(Ë¼šÂşÿÿÿÿ8¢±Íü.
-itypescript:S905«"FExpected an assignment or function call and instead saw an expression.(¦Ÿ•8Ò»³Ïü.
-Etypescript:S1441W"Strings must use singlequote.(€îÁÂüÿÿÿÿ8”õËü.
-7typescript:S109Œ"No magic number: 0.5.(‰òøf8úÁ¸Ìü.
-9typescript:S108¸"Empty block statement.(ÈŒ”ÿ8«§âĞü.
-Gtypescript:S125–"Remove this commented out code.(‹»¼ÿÿÿÿÿ8ìî¯Ïü.
-;typescript:S109`"No magic number: 41.(ÿş÷±ûÿÿÿÿ8ÔÌ€Ìü.
-;typescript:S109ô"No magic number: 2.(ŸÁÂÃùÿÿÿÿ8¯ºßÎü.
-Stypescript:S1117µ"/'phone' is already declared in the upper scope.(ğÃĞï8äÔÑÑü.
-@typescript:S1441é"Strings must use singlequote.(×ò38À»ĞÑü.
-Rtypescript:S1117Î".'name' is already declared in the upper scope.(‹úø8äÔÑÑü.
-Ftypescript:S1441Û"Strings must use singlequote.(è¢„†ıÿÿÿÿ8×æ¹Îü.
-Ftypescript:S1441¯"Strings must use singlequote.(Ë¼šÂşÿÿÿÿ8ÆÍ“Íü.
-@typescript:S1441U"Strings must use singlequote.(İµâ¥8”õËü.
-[typescript:S3353‹"7'contactInfo' is never reassigned. Use 'const' instead.(ü¨óŒ8‘ß´Ìü.
-Atypescript:S1441Ó"Strings must use singlequote.(ä»úÜ8ò¦ÁÍü.
-Ktypescript:S1788´""Default parameters should be last.(—Ö’‘ÿÿÿÿÿ8à‰áĞü.
-Ftypescript:S1441Ş"Strings must use singlequote.(™«ÿùÿÿÿÿ8“ˆ»Îü.
-Ztypescript:S3353î"1'phone' is never reassigned. Use 'const' instead.(‡Øƒ£üÿÿÿÿ8äÔÑÑü.
-Vtypescript:S3353|".'dd' is never reassigned. Use 'const' instead.(ÜåŸ–ûÿÿÿÿ8Ğá«Ìü.
-Wtypescript:S1117´".'name' is already declared in the upper scope.(—Ö’‘ÿÿÿÿÿ8äÔÑÑü.
-;typescript:S109ô"No magic number: 3.(ŸÁÂÃùÿÿÿÿ8¯ºßÎü.
-Ftypescript:S1441š"Strings must use singlequote.(µÆ¯¤üÿÿÿÿ8‡¿ÀÌü.
-\typescript:S3353î"3'address' is never reassigned. Use 'const' instead.(‡Øƒ£üÿÿÿÿ8äÔÑÑü.
-Ftypescript:S1441’"Strings must use singlequote.(ªÕ…ıÿÿÿÿ8ÅØ¸Ìü.
-gtypescript:S1192“">Define a constant instead of duplicating this literal 3 times.(µÆ¯¤üÿÿÿÿ8ô¸¾Îü.
-Ftypescript:S1441É"Strings must use singlequote.(àšêıÿÿÿÿ8“ç»Íü.
-Vtypescript:S3353h".'bb' is never reassigned. Use 'const' instead.(ó‹­µøÿÿÿÿ8ª·›Ìü.
-Atypescript:S1441Ò"Strings must use singlequote.(”›‚8Ÿ¥¿Íü.
-Ytypescript:S3353î"0'name' is never reassigned. Use 'const' instead.(‡Øƒ£üÿÿÿÿ8äÔÑÑü.
-Atypescript:S1441Ò"Strings must use singlequote.(”›‚8Ÿ¥¿Íü.
-itypescript:S905–"FExpected an assignment or function call and instead saw an expression.(”×ıó8¼¼Ìü.
-Ftypescript:S1441Ø"Strings must use singlequote.(é–¥ùÿÿÿÿ8×æ¹Îü.
-gtypescript:S4030c"?Either use this collection's contents or remove the collection.(‹‹—ºüÿÿÿÿ8ÿÎ‹Ìü.
-Stypescript:S1186¡"/Unexpected empty function 'validateInputField'.(ö¤Æ•8è­ÆÌü.
-Ftypescript:S1441Ç"Strings must use singlequote.(ù‘ØØıÿÿÿÿ8ÍñÍü.
-Xtypescript:S3353X"5'hellomars' is never reassigned. Use 'const' instead.(¹»Œú8”õËü.
-Stypescript:S1117Î"/'phone' is already declared in the upper scope.(‹úø8äÔÑÑü.
-@typescript:S1441s"Strings must use singlequote.(á¥¤²8—¯¥Ìü.
-Atypescript:S1441ã"Strings must use singlequote.(Æò¼Ä8’£ÃÎü.
-[typescript:S3353å"2'medals' is never reassigned. Use 'const' instead.(ïø™ıøÿÿÿÿ8¥ÅÍÑü.
-Ftypescript:S1441å"Strings must use singlequote.(ïø™ıøÿÿÿÿ8¥ÅÍÑü.
-itypescript:S905"FExpected an assignment or function call and instead saw an expression.(†ÄŒ›8æÑÃÌü.
-Ftypescript:S1441å"Strings must use singlequote.(ïø™ıøÿÿÿÿ8¥ÅÍÑü.
-Vtypescript:S3353è"2'person' is never reassigned. Use 'const' instead.(Óñú8ÀôÏÑü.
-@typescript:S1441Q"Strings must use singlequote.(‹Ãà8”õËü.
-7typescript:S109i"No magic number: 123.(›Š‰Â8š“•Ìü.
-Mtypescript:S4204å")Unexpected any. Specify a different type.(Çå”8’£ÃÎü.
-Ftypescript:S1441™"Strings must use singlequote.(ªÕ…ıÿÿÿÿ8‡¿ÀÌü.
-itypescript:S905Ÿ"FExpected an assignment or function call and instead saw an expression.(âãÆ§8æÑÃÌü.
-Ftypescript:S1441Æ"Strings must use singlequote.(­€çüüÿÿÿÿ8´ÛÔÍü.
-Ftypescript:S1441Ş"Strings must use singlequote.(•­Àøÿÿÿÿ8 §´Ñü.
-Ftypescript:S1441å"Strings must use singlequote.(ïø™ıøÿÿÿÿ8¥ÅÍÑü.
-Ftypescript:S1441“"Strings must use singlequote.(µÆ¯¤üÿÿÿÿ8ÅØ¸Ìü.
-9typescript:S1774Œ"Ternary operator used.(‰òøf8úÁ¸Ìü.
-Ftypescript:S1441É"Strings must use singlequote.(àšêıÿÿÿÿ8“ç»Íü.
-Stypescript:S2201Ş"*The return value of "filter" must be used.(•­Àøÿÿÿÿ8‰Ç¶Ñü.
-9typescript:S109l"No magic number: 10110.(ú±˜ı8š“•Ìü.
-Atypescript:S1441Á"Strings must use singlequote.(ÀÌğ8ıŒ£Íü.
-Atypescript:S1441ã"Strings must use singlequote.(Æò¼Ä8’£ÃÎü.
-;typescript:S109¿"No magic number: 2.(á¤¸ñùÿÿÿÿ8ıŒ£Íü.
-Atypescript:S1441í"Strings must use singlequote.(‰ˆ¬é8É«ÒÎü.
-Atypescript:S1441Ú"Strings must use singlequote.(õüš8×æ¹Îü.
-Ftypescript:S1441"Strings must use singlequote.(ªÕ…ıÿÿÿÿ8ÅØ¸Ìü.
-Stypescript:S3353Ú"/'val' is never reassigned. Use 'const' instead.(¸ŞÑ8ºåŸÑü.
-9typescript:S109½"No magic number: 1e14.(ÿãŞ¦8†™îĞü.
-Ftypescript:S1441ë"Strings must use singlequote.(¾ÕªÁÿÿÿÿÿ8À»ĞÑü.
-etypescript:S3353˜"<'otherContactInfo' is never reassigned. Use 'const' instead.(·±Ç™ÿÿÿÿÿ8‡¿ÀÌü.
-@typescript:S1441k"Strings must use singlequote.(£ñ°÷8š“•Ìü.
-itypescript:S905Û"FExpected an assignment or function call and instead saw an expression.(‡…ìÎ8‡ªÑü.
-Atypescript:S125ğ"Remove this commented out code.(è»»_8‰¹ÒÑü.
+Etypescript:S1441""Strings must use singlequote.(ªãı¼ùÿÿÿÿ8£’µõü.
+Etypescript:S3863j""'typescript' import is duplicated.(ÿ²À¶8¤È»öü.
+Etypescript:S1441"Strings must use singlequote.(Ç¡öøÿÿÿÿ8ı¶ˆôü.
+@typescript:S1441"Strings must use singlequote.(ñ³ğö8Ü²–õü.
+Ntypescript:S1117l"+'x' is already declared in the upper scope.(âáÁ¡8¤È»öü.
+Ytypescript:S1117"1'contact' is already declared in the upper scope.(áº™ûüÿÿÿÿ8ü ¬ôü.
+@typescript:S1441"Strings must use singlequote.(¤ÄĞô8Ö³´ôü.
+Ptypescript:S2208h"-Explicitly import the specific member needed.(ÉË™Ã8¤È»öü.
+[typescript:S3353P"3'alValue' is never reassigned. Use 'const' instead.(ÛÎŞüÿÿÿÿ8†§Œöü.
+@typescript:S1441"Strings must use singlequote.(„Çù¹8ûó«õü.
+?typescript:S106e"Unexpected console statement.(¤ğä–8Õşöü.
+5typescript:S109"No magic number: 2.(„Çù¹8ìŞ«õü.
+Utypescript:S2208i"-Explicitly import the specific member needed.(Ğô©ıÿÿÿÿ8¤È»öü.
+Btypescript:S1186" Unexpected empty function 'foo'.(´³†j8Âà³õü.
+Etypescript:S1441"Strings must use singlequote.(Ç¡öøÿÿÿÿ8ı¶ˆôü.
+ptypescript:S3257b"MType string trivially inferred from a string literal, remove type annotation.(Á´ú8†§Œöü.
+mtypescript:S905="FExpected an assignment or function call and instead saw an expression.(ü’ÀÉùÿÿÿÿ8†§Œöü.
+Etypescript:S1441t"Strings must use singlequote.(šÑâ¦ûÿÿÿÿ8¤È»öü.
+?typescript:S2814a"'format' is already defined.(¢Õ±’8†§Œöü.
+@typescript:S1441"Strings must use singlequote.(„Çù¹8ûó«õü.
+@typescript:S1441b"Strings must use singlequote.(Á´ú8†§Œöü.
+Etypescript:S1441i"Strings must use singlequote.(Ğô©ıÿÿÿÿ8¤È»öü.
+Etypescript:S1441"Strings must use singlequote.(Ç¡öøÿÿÿÿ8ı¶ˆôü.
+Dtypescript:S2814Y"!'AddressBook' is already defined.(¸¢ô¼8†§Œöü.
+@typescript:S1441h"Strings must use singlequote.(ÉË™Ã8¤È»öü.
+Ytypescript:S4622"6Refactor this union type to have less than 3 elements.(„Çù¹8ìŞ«õü.
+:typescript:S109^"No magic number: 2.(ß“¿¼úÿÿÿÿ8†§Œöü.
+5typescript:S109"No magic number: 4.(éÎª•8™ôü.
+mtypescript:S905+"FExpected an assignment or function call and instead saw an expression.(ãÅÏìûÿÿÿÿ8–½¼õü.
+rtypescript:S101 "KRename interface "bar" to match the regular expression ^[A-Z][a-zA-Z0-9]*$.(—âà†üÿÿÿÿ8Âà³õü.
+Rtypescript:S3353O"/'al2' is never reassigned. Use 'const' instead.(Ê‘Ğ©8†§Œöü.
+Etypescript:S1441t"Strings must use singlequote.(šÑâ¦ûÿÿÿÿ8¤È»öü.
+5typescript:S109"No magic number: 2.(ñ³ğö8¡‡õü.
+9typescript:S109e"No magic number: 2.314.(¤ğä–8¿ó‹öü.
+Ptypescript:S1128j"-Remove this unused import of 'createProgram'.(ÿ²À¶8¤È»öü.
+@typescript:S1441j"Strings must use singlequote.(ÿ²À¶8¤È»öü.
+Etypescript:S1441t"Strings must use singlequote.(šÑâ¦ûÿÿÿÿ8¤È»öü.
+Qtypescript:S4023 ")An empty interface is equivalent to `{}`.(—âà†üÿÿÿÿ8Âà³õü.
+mtypescript:S905Q"FExpected an assignment or function call and instead saw an expression.(¬‚³¨ùÿÿÿÿ8†§Œöü.
+Dtypescript:S106f"Unexpected console statement.(ÕóÚÊşÿÿÿÿ8Õşöü.
+Atypescript:S1256"Remove this commented out code.(Ø·÷8¿ó‹öü.
+@typescript:S1441:"Strings must use singlequote.(’×µÌ8†§Œöü.
+>typescript:S2814F"'Album' is already defined.(Æ¹Şæ8†§Œöü.
+Etypescript:S1441t"Strings must use singlequote.(šÑâ¦ûÿÿÿÿ8¤È»öü.

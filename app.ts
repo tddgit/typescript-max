@@ -54,8 +54,8 @@ interface Address {
 // const z = Address;
 
 class Contact {
-  name: string,
-  static hello = 'world'
+  // name: string,
+  static hello = "world";
 }
 
 Contact.hello;
@@ -63,9 +63,8 @@ Contact.hello;
 const contactClass = Contact;
 const contactInstance: Contact = new Contact();
 
-
 class Album {
-  label: Album.AlbumLabel = new Album.AlbumLabel()
+  label: Album.AlbumLabel = new Album.AlbumLabel();
 }
 
 namespace Album {
@@ -77,5 +76,44 @@ interface Album {
 }
 
 let al: Album;
+let al2 = new Album();
+let alValue = Album;
+al2.artist;
 
-export  { Album }
+export { Album };
+
+class AddressBook {
+  contacts!: Contact[];
+}
+
+namespace AddressBook {
+  export class ABContact extends Contact {}
+}
+
+function format(amt: number) {
+  return `${format.currency}${amt.toFixed(2)}`;
+}
+
+namespace format {
+  export const currency: string = "$";
+}
+
+console.log(format(2.314));
+console.log(format.currency);
+
+import * as path from "path";
+import * as ts from "typescript";
+import { createProgram } from "typescript";
+
+function isDefined<T>(x: T | undefined): x is T {
+  return typeof x !== undefined;
+}
+const program = ts.createProgram({
+  options: {
+    target: ts.ScriptTarget.ESNext,
+    module: ts.ModuleKind.CommonJS,
+  },
+  rootNames: [path.join(__dirname, "..", "exaples", "hello-ts", "src")],
+});
+
+const nonDeclFiles = program;
