@@ -365,7 +365,61 @@ let person = {
 
 let { name, address, phone } = person;
 
+// function wrappedValue(x) {
+//   return { value: x };
+// }
+
+interface WrappedValue<X> {
+  value: X;
+}
+
+let val1: WrappedValue<string> = { value: "" };
+val1.value;
+
+interface FilterFunction<T = any> {
+  (val: T): boolean;
+}
+
+const stringFilter: FilterFunction<string> = (val: string) =>
+  typeof val === "string";
+// stringFilter(0);
+stringFilter("abc");
+
+// const truthyFilter: FilterFunction<unknown> = (val: unknown) => val;
 //
+// truthyFilter(0);
+// truthyFilter(1);
+// truthyFilter("");
+// truthyFilter(["abc"]);
+
+function resolveOrTimeout<T>(promise: Promise<T>, timeout: number): Promise<T> {
+  return new Promise<T>((resolve, reject) => {
+    const task = setTimeout(() => reject("time up!"), timeout);
+
+    promise.then((val) => {
+      clearTimeout(task);
+      resolve(val);
+    });
+  });
+}
+
+resolveOrTimeout(fetch(""), 3000);
+
+function arrayToDict<T extends { id: string }>(array: T[]): { [k: string]: T } {
+  const out: { [k: string]: T } = {};
+  array.forEach((val) => {
+    out[val.id] = val;
+  });
+  return out;
+}
+
+const myDict = arrayToDict([
+  { id: "a", value: "first", lisa: "Huang" },
+  { id: "b", value: "second" },
+]);
+
+
+
 // const osPrefix: string = "os_";
 //
 // let support = {
