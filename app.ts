@@ -1,10 +1,14 @@
-type Book = {
-  id: number;
-  title: string;
-  author: string;
-  available: boolean;
-  category: Category;
-};
+import { Category } from "./enums";
+
+import { Book } from "./interfaces";
+
+// type Book = {
+//   id: number;
+//   title: string;
+//   author: string;
+//   available: boolean;
+//   category: Category;
+// };
 
 function GetAllBooks(): Book[] {
   let books: Book[] = [
@@ -51,14 +55,6 @@ function LogFirstAvailableBook(books: Book[]): void {
   }
   console.log("Total Books: ", numberOfBooks);
   console.log("First available: " + firstAvailableBook);
-}
-
-enum Category {
-  Biography,
-  Poetry,
-  Fiction,
-  History,
-  Children,
 }
 
 function GetBookTitlesByCategory(categoryFilter: Category): Array<string> {
@@ -143,7 +139,7 @@ function GetTitles(bookProperty: any): string[] {
   const allBooks = GetAllBooks();
   const foundTitles: string[] = [];
 
-  if (typeof bookProperty === string) {
+  if (typeof bookProperty === "string") {
     //
     for (let book of allBooks) {
       if (book.author === bookProperty) {
@@ -155,11 +151,54 @@ function GetTitles(bookProperty: any): string[] {
       if (book.available === bookProperty) {
         foundTitles.push(book.title);
       }
+    }
   }
   return foundTitles;
 }
 
+function PrintBook(book: Book): void {
+  console.log("PrintBook: " + book.title + "by" + book.author);
+}
+
+let myBook = {
+  id: 5,
+  title: "Pride and Prejudice",
+  author: "Jane Austen",
+  available: true,
+  category: Category.Fiction,
+  year: "1813",
+  copies: 3,
+};
+
+PrintBook(myBook);
+
 //********************************************************
+
+let hermansBooks = GetTitles("Herman Melville");
+hermansBooks.forEach((title) => {
+  console.log("GetTitles: ", title);
+});
+
+interface Duck {
+  walk(): void;
+  swim(): void;
+  quack(): void;
+}
+
+let probablyDuck = {
+  walk: () => {
+    console.log("walking like a duck");
+  },
+  swim: () => {
+    console.log("swimming like a duck");
+  },
+  quack: () => {
+    console.log("quack like a duck");
+  },
+};
+
+function flyOverWater(bird: Duck) {}
+flyOverWater(probablyDuck);
 
 CreateCustomer("Michelle");
 
