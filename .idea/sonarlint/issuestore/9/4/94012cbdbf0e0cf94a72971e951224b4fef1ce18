@@ -1,45 +1,151 @@
 
-Etypescript:S1441""Strings must use singlequote.(ªãı¼ùÿÿÿÿ8£’µõü.
-Etypescript:S3863j""'typescript' import is duplicated.(ÿ²À¶8¤È»öü.
-Etypescript:S1441"Strings must use singlequote.(Ç¡öøÿÿÿÿ8ı¶ˆôü.
-@typescript:S1441"Strings must use singlequote.(ñ³ğö8Ü²–õü.
-Ntypescript:S1117l"+'x' is already declared in the upper scope.(âáÁ¡8¤È»öü.
-Ytypescript:S1117"1'contact' is already declared in the upper scope.(áº™ûüÿÿÿÿ8ü ¬ôü.
-@typescript:S1441"Strings must use singlequote.(¤ÄĞô8Ö³´ôü.
-Ptypescript:S2208h"-Explicitly import the specific member needed.(ÉË™Ã8¤È»öü.
-[typescript:S3353P"3'alValue' is never reassigned. Use 'const' instead.(ÛÎŞüÿÿÿÿ8†§Œöü.
-@typescript:S1441"Strings must use singlequote.(„Çù¹8ûó«õü.
-?typescript:S106e"Unexpected console statement.(¤ğä–8Õşöü.
-5typescript:S109"No magic number: 2.(„Çù¹8ìŞ«õü.
-Utypescript:S2208i"-Explicitly import the specific member needed.(Ğô©ıÿÿÿÿ8¤È»öü.
-Btypescript:S1186" Unexpected empty function 'foo'.(´³†j8Âà³õü.
-Etypescript:S1441"Strings must use singlequote.(Ç¡öøÿÿÿÿ8ı¶ˆôü.
-ptypescript:S3257b"MType string trivially inferred from a string literal, remove type annotation.(Á´ú8†§Œöü.
-mtypescript:S905="FExpected an assignment or function call and instead saw an expression.(ü’ÀÉùÿÿÿÿ8†§Œöü.
-Etypescript:S1441t"Strings must use singlequote.(šÑâ¦ûÿÿÿÿ8¤È»öü.
-?typescript:S2814a"'format' is already defined.(¢Õ±’8†§Œöü.
-@typescript:S1441"Strings must use singlequote.(„Çù¹8ûó«õü.
-@typescript:S1441b"Strings must use singlequote.(Á´ú8†§Œöü.
-Etypescript:S1441i"Strings must use singlequote.(Ğô©ıÿÿÿÿ8¤È»öü.
-Etypescript:S1441"Strings must use singlequote.(Ç¡öøÿÿÿÿ8ı¶ˆôü.
-Dtypescript:S2814Y"!'AddressBook' is already defined.(¸¢ô¼8†§Œöü.
-@typescript:S1441h"Strings must use singlequote.(ÉË™Ã8¤È»öü.
-Ytypescript:S4622"6Refactor this union type to have less than 3 elements.(„Çù¹8ìŞ«õü.
-:typescript:S109^"No magic number: 2.(ß“¿¼úÿÿÿÿ8†§Œöü.
-5typescript:S109"No magic number: 4.(éÎª•8™ôü.
-mtypescript:S905+"FExpected an assignment or function call and instead saw an expression.(ãÅÏìûÿÿÿÿ8–½¼õü.
-rtypescript:S101 "KRename interface "bar" to match the regular expression ^[A-Z][a-zA-Z0-9]*$.(—âà†üÿÿÿÿ8Âà³õü.
-Rtypescript:S3353O"/'al2' is never reassigned. Use 'const' instead.(Ê‘Ğ©8†§Œöü.
-Etypescript:S1441t"Strings must use singlequote.(šÑâ¦ûÿÿÿÿ8¤È»öü.
-5typescript:S109"No magic number: 2.(ñ³ğö8¡‡õü.
-9typescript:S109e"No magic number: 2.314.(¤ğä–8¿ó‹öü.
-Ptypescript:S1128j"-Remove this unused import of 'createProgram'.(ÿ²À¶8¤È»öü.
-@typescript:S1441j"Strings must use singlequote.(ÿ²À¶8¤È»öü.
-Etypescript:S1441t"Strings must use singlequote.(šÑâ¦ûÿÿÿÿ8¤È»öü.
-Qtypescript:S4023 ")An empty interface is equivalent to `{}`.(—âà†üÿÿÿÿ8Âà³õü.
-mtypescript:S905Q"FExpected an assignment or function call and instead saw an expression.(¬‚³¨ùÿÿÿÿ8†§Œöü.
-Dtypescript:S106f"Unexpected console statement.(ÕóÚÊşÿÿÿÿ8Õşöü.
-Atypescript:S1256"Remove this commented out code.(Ø·÷8¿ó‹öü.
-@typescript:S1441:"Strings must use singlequote.(’×µÌ8†§Œöü.
->typescript:S2814F"'Album' is already defined.(Æ¹Şæ8†§Œöü.
-Etypescript:S1441t"Strings must use singlequote.(šÑâ¦ûÿÿÿÿ8¤È»öü.
+Ftypescript:S1441ç"Strings must use singlequote.(›³‘±ùÿÿÿÿ8Š­İ¤ı.
+?typescript:S106_"Unexpected console statement.(ğƒÄé8‹©¢ı.
+Ztypescript:S1117C"2'allBooks' is already declared in the upper scope.(µ‘š³ÿÿÿÿÿ8‹©¢ı.
+Etypescript:S106à"Unexpected console statement.(ÛİÌûÿÿÿÿ8©ª¨¤ı.
+@typescript:S1441%"Strings must use singlequote.(İâ ‚8‹©¢ı.
+Dtypescript:S106>"Unexpected console statement.(á¼êßùÿÿÿÿ8‹©¢ı.
+Ttypescript:S3353“"0'myId' is never reassigned. Use 'const' instead.( ÅÎø8Š­İ¤ı.
+>typescript:S109º"No magic number: 1918.(®Ñ¾Ùÿÿÿÿÿ8Ô¤¤ı.
+Etypescript:S106Ñ"Unexpected console statement.(ì¹ıûÿÿÿÿ8Š­İ¤ı.
+Ftypescript:S1441å"Strings must use singlequote.(Å÷üüÿÿÿÿ8Š­İ¤ı.
+Rtypescript:S4204")Unexpected any. Specify a different type.(åàûÿÿÿÿ8‹©¢ı.
+Atypescript:S1441ó"Strings must use singlequote.(´·¶¸8Š­İ¤ı.
+Atypescript:S1441ë"Strings must use singlequote.(Ìİ®Ô8‹©¢ı.
+7typescript:S109“"No magic number: 15.( ÅÎø8Š­İ¤ı.
+ctypescript:S3353";'booksCheckedOut' is never reassigned. Use 'const' instead.(¯ğŞÂüÿÿÿÿ8‹©¢ı.
+@typescript:S106Ü"Unexpected console statement.(“‡§¡8Š­İ¤ı.
+Rtypescript:S1117"/'books' is already declared in the upper scope.(æÅú­8‹©¢ı.
+?typescript:S106x"Unexpected console statement.(éÓÄ«8‹©¢ı.
+?typescript:S106?"Unexpected console statement.(¨ÿ‰·8‹©¢ı.
+Ytypescript:S3353œ"0'book' is never reassigned. Use 'const' instead.(¸•ë›ıÿÿÿÿ8‹©¢ı.
+Ftypescript:S1441¦"Strings must use singlequote.(³¡Á¸üÿÿÿÿ8‹©¢ı.
+`typescript:S3353^"8'fictionBooks' is never reassigned. Use 'const' instead.(»¥øÿÿÿÿ8‹©¢ı.
+Ftypescript:S1441º"Strings must use singlequote.(®Ñ¾Ùÿÿÿÿÿ8Ô¤¤ı.
+Ftypescript:S1441À"Strings must use singlequote.(ÜÏÔ—üÿÿÿÿ8‹Êº¤ı.
+Etypescript:S1441>"Strings must use singlequote.(á¼êßùÿÿÿÿ8‹©¢ı.
+Dtypescript:S106}"Unexpected console statement.(ŠÖ‚œøÿÿÿÿ8‹©¢ı.
+ctypescript:S881b"<Extract this increment operation into a dedicated statement.(ì¥°¦ùÿÿÿÿ8‹©¢ı.
+Htypescript:S3512b" Unexpected string concatenation.(ì¥°¦ùÿÿÿÿ8‹©¢ı.
+ptypescript:S32577"MType string trivially inferred from a string literal, remove type annotation.(˜¶â÷8‹©¢ı.
+@typescript:S1441"Strings must use singlequote.(íŸÒ8å¬± ı.
+Ytypescript:S1854b"1Remove this useless assignment to variable "idx".(ì¥°¦ùÿÿÿÿ8‹©¢ı.
+Atypescript:S1441×"Strings must use singlequote.(Ğ¾…®8©ª¨¤ı.
+Ftypescript:S125"Remove this commented out code.(ÄÑüƒÿÿÿÿÿ8‹©¢ı.
+€typescript:S1488"]Immediately return this expression instead of assigning it to the temporary variable "books".(æÅú­8‹©¢ı.
+@typescript:S1441&"Strings must use singlequote.(ôíğÒ8‹©¢ı.
+Rtypescript:S3353€".'id' is never reassigned. Use 'const' instead.(ÈÔí‚8‹©¢ı.
+`typescript:S3353‘"7'IdGenerator' is never reassigned. Use 'const' instead.(§Ÿ›ôûÿÿÿÿ8Š­İ¤ı.
+Atypescript:S1441Ø"Strings must use singlequote.(±“èö8Š­İ¤ı.
+?typescript:S106†"Unexpected console statement.(Õ—×p8Š­İ¤ı.
+;typescript:S109‰"No magic number: 4.(ª–úÌøÿÿÿÿ8‹©¢ı.
+€typescript:S100"XRename this 'GetTitles' function to match the regular expression '^[_a-z][a-zA-Z0-9]*$'.(åàûÿÿÿÿ8‹©¢ı.
+Ftypescript:S1441Ä"Strings must use singlequote.(é¥Ğ˜şÿÿÿÿ8‹Êº¤ı.
+Etypescript:S106å"Unexpected console statement.(Å÷üüÿÿÿÿ8Š­İ¤ı.
+\typescript:S33536"9'numberOfBooks' is never reassigned. Use 'const' instead.(Óƒ½Ò8‹©¢ı.
+Ftypescript:S1441ì"Strings must use singlequote.(ÁËÄßıÿÿÿÿ8©ª¨¤ı.
+@typescript:S1441?"Strings must use singlequote.(¨ÿ‰·8‹©¢ı.
+@typescript:S106‹"Unexpected console statement.(Ç³ì©8‹©¢ı.
+‚typescript:S3699•"^Remove this use of the output from "CreateCustomer"; "CreateCustomer" doesn't return anything.(ŒÔÚº8Š­İ¤ı.
+~typescript:S100|"\Rename this 'CheckoutBooks' function to match the regular expression '^[_a-z][a-zA-Z0-9]*$'.(»ÿŸÉ8‹©¢ı.
+Ttypescript:S3353"1'books' is never reassigned. Use 'const' instead.(æÅú­8‹©¢ı.
+Dtypescript:S106s"Unexpected console statement.(ùÑŠ°şÿÿÿÿ8‹©¢ı.
+Ytypescript:S3353–"0'book' is never reassigned. Use 'const' instead.(¸•ë›ıÿÿÿÿ8‹©¢ı.
+Etypescript:S106€"Unexpected console statement.(ª—€òûÿÿÿÿ8Š­İ¤ı.
+Atypescript:S126›"Add the missing "else" clause.(Å°ıä8‹©¢ı.
+Atypescript:S1441±"Strings must use singlequote.(Š¯Ì…8¥Óå£ı.
+Etypescript:S1441"Strings must use singlequote.(üİïúÿÿÿÿÿ8‹©¢ı.
+9typescript:S109±"No magic number: 2021.(Š¯Ì…8¥Óå£ı.
+@typescript:S1441Å"Strings must use singlequote.(½®*8Ùèº¤ı.
+Ftypescript:S1441å"Strings must use singlequote.(Å÷üüÿÿÿÿ8Š­İ¤ı.
+Atypescript:S1441ğ"Strings must use singlequote.(ŞÛô¦8Š­İ¤ı.
+^typescript:S3353ä"5'logDamage' is never reassigned. Use 'const' instead.(éÅêãúÿÿÿÿ8Š­İ¤ı.
+Dtypescript:S106b"Unexpected console statement.(ì¥°¦ùÿÿÿÿ8‹©¢ı.
+btypescript:S3353Ã"9'favoriteNovel' is never reassigned. Use 'const' instead.(²Ôşøÿÿÿÿ8‹Êº¤ı.
+Wtypescript:S3353±"3'refBook' is never reassigned. Use 'const' instead.(Š¯Ì…8ıºâ£ı.
+Etypescript:S1441"Strings must use singlequote.(Ò‰çıÿÿÿÿ8‹©¢ı.
+Atypescript:S1441¾"Strings must use singlequote.(‹š †8Ùèº¤ı.
+_typescript:S3353H"7'currentBook' is never reassigned. Use 'const' instead.(ãÔûÿÿÿÿ8‹©¢ı.
+^typescript:S3353´"5'Newspaper' is never reassigned. Use 'const' instead.(å‡ôÿÿÿÿÿ8º¤ı.
+@typescript:S1441†"Strings must use singlequote.(Õ—×p8Š­İ¤ı.
+@typescript:S14417"Strings must use singlequote.(˜¶â÷8‹©¢ı.
+Atypescript:S1441›"Strings must use singlequote.(Å°ıä8‹©¢ı.
+|typescript:S100e"ZRename this 'GetBookByID' function to match the regular expression '^[_a-z][a-zA-Z0-9]*$'.(ßÂŞ8‹©¢ı.
+Atypescript:S1441Ì"Strings must use singlequote.(±“èö8Š­İ¤ı.
+Ytypescript:S3353"0'book' is never reassigned. Use 'const' instead.(¡âğıÿÿÿÿ8‹©¢ı.
+Etypescript:S1441u"Strings must use singlequote.(²êøùÿÿÿÿ8‹©¢ı.
+Etypescript:S1441"Strings must use singlequote.(ôû‚üÿÿÿÿ8õ¼º ı.
+typescript:S100"ZRename this 'GetAllBooks' function to match the regular expression '^[_a-z][a-zA-Z0-9]*$'.(ó»Ã›ûÿÿÿÿ8‹©¢ı.
+\typescript:S3353ó"8'hermansBooks' is never reassigned. Use 'const' instead.(´·¶¸8Š­İ¤ı.
+Ytypescript:S1186—"0Unexpected empty function 'GetBooksReadForCust'.(”İŞöùÿÿÿÿ8Š­İ¤ı.
+qtypescript:S3257¾"MType string trivially inferred from a string literal, remove type annotation.(‹š †8‹Ğ¸¤ı.
+typescript:S100N"gRename this 'GetBookTitlesByCategory1' function to match the regular expression '^[_a-z][a-zA-Z0-9]*$'.(ò¿å‹şÿÿÿÿ8‹©¢ı.
+Ftypescript:S1441‰"Strings must use singlequote.(ª–úÌøÿÿÿÿ8‹©¢ı.
+Wtypescript:S3353Õ"3'myBook1' is never reassigned. Use 'const' instead.(ù¼ÊÉ8Š­İ¤ı.
+Ztypescript:S33538"7'currentBook' is never reassigned. Use 'const' instead.(Ñ—ú8‹©¢ı.
+htypescript:S3524Š"?Remove parentheses around the parameter of this arrow function.(Û€Ö¾øÿÿÿÿ8‹©¢ı.
+Atypescript:S1441”"Strings must use singlequote.(Ê²“Á8‹©¢ı.
+@typescript:S106•"Unexpected console statement.(ŒÔÚº8Š­İ¤ı.
+Itypescript:S3512¦" Unexpected string concatenation.(³¡Á¸üÿÿÿÿ8‹©¢ı.
+@typescript:S1441-"Strings must use singlequote.(ÅŞ¤8‹©¢ı.
+Wtypescript:S11175"/'books' is already declared in the upper scope.(†Çá÷ıÿÿÿÿ8‹©¢ı.
+Vtypescript:S3353É"2'myBook' is never reassigned. Use 'const' instead.(èÍˆ8Š­İ¤ı.
+\typescript:S3353º"3'myPaper' is never reassigned. Use 'const' instead.(®Ñ¾Ùÿÿÿÿÿ8÷¶£¤ı.
+vtypescript:S3257À"MType string trivially inferred from a string literal, remove type annotation.(ÜÏÔ—üÿÿÿÿ8‹Êº¤ı.
+htypescript:S3524ô"?Remove parentheses around the parameter of this arrow function.(İª¡™øÿÿÿÿ8Š­İ¤ı.
+Štypescript:S100—"bRename this 'GetBooksReadForCust' function to match the regular expression '^[_a-z][a-zA-Z0-9]*$'.(”İŞöùÿÿÿÿ8Š­İ¤ı.
+Ztypescript:S1117Q"2'allBooks' is already declared in the upper scope.(µ‘š³ÿÿÿÿÿ8‹©¢ı.
+Atypescript:S1441Ë"Strings must use singlequote.(Ğ¾…®8©ª¨¤ı.
+€typescript:S100j"_Rename this 'CreateCustomerID' function to match the regular expression '^[_a-z][a-zA-Z0-9]*$'.(Ôú¼68‹©¢ı.
+Ntypescript:S1128"&Remove this unused import of 'Author'.(ôû‚üÿÿÿÿ8 ØĞ¡ı.
+Etypescript:S106¦"Unexpected console statement.(³¡Á¸üÿÿÿÿ8‹©¢ı.
+Etypescript:S1441b"Strings must use singlequote.(ì¥°¦ùÿÿÿÿ8‹©¢ı.
+Itypescript:S3512å" Unexpected string concatenation.(Å÷üüÿÿÿÿ8Š­İ¤ı.
+Etypescript:S1441"Strings must use singlequote.(ŞºãÛüÿÿÿÿ8‹©¢ı.
+@typescript:S1441-"Strings must use singlequote.(ÅŞ¤8‹©¢ı.
+Vtypescript:S1117‘"2'allBooks' is already declared in the upper scope.(Ó¿Šé8‹©¢ı.
+?typescript:S106á"Unexpected console statement.(½¨ªG8Š­İ¤ı.
+Ftypescript:S1441"Strings must use singlequote.(ÚÓúÿÿÿÿ8Š­İ¤ı.
+Etypescript:S1441"Strings must use singlequote.(Õş©Üûÿÿÿÿ8‹©¢ı.
+itypescript:S3402k"FReview this expression to be sure that the concatenation was intended.(³İÈâ8‹©¢ı.
+Dtypescript:S106u"Unexpected console statement.(²êøùÿÿÿÿ8‹©¢ı.
+@typescript:S106¶"Unexpected console statement.(ÓÙ Õ8ÇÏ¢¤ı.
+Gtypescript:S125é"Remove this commented out code.( Ô€øÿÿÿÿ8Š­İ¤ı.
+ftypescript:S3353ê"='favoriteLibrarian' is never reassigned. Use 'const' instead.(Òüä‡üÿÿÿÿ8Š­İ¤ı.
+Ftypescript:S1441€"Strings must use singlequote.(ª—€òûÿÿÿÿ8Š­İ¤ı.
+otypescript:S3402‘"FReview this expression to be sure that the concatenation was intended.(§Ÿ›ôûÿÿÿÿ8Š­İ¤ı.
+Atypescript:S1441•"Strings must use singlequote.(ŒÔÚº8Š­İ¤ı.
+Utypescript:S1117f"2'allBooks' is already declared in the upper scope.(Ó¿Šé8‹©¢ı.
+Etypescript:S1441}"Strings must use singlequote.(ŠÖ‚œøÿÿÿÿ8‹©¢ı.
+@typescript:S1441,"Strings must use singlequote.(éïûì8‹©¢ı.
+Atypescript:S1441õ"Strings must use singlequote.(óàÍó8Š­İ¤ı.
+@typescript:S1441x"Strings must use singlequote.(éÓÄ«8‹©¢ı.
+Rtypescript:S1186Š")Unexpected empty function 'flyOverWater'.(±šÍûÿÿÿÿ8Š­İ¤ı.
+Etypescript:S1441	"Strings must use singlequote.(ªâ›şùÿÿÿÿ8‹©¢ı.
+€typescript:S100¥"XRename this 'PrintBook' function to match the regular expression '^[_a-z][a-zA-Z0-9]*$'.(Îïø®ûÿÿÿÿ8‹©¢ı.
+@typescript:S106õ"Unexpected console statement.(óàÍó8Š­İ¤ı.
+‹typescript:S1005"dRename this 'LogFirstAvailableBook' function to match the regular expression '^[_a-z][a-zA-Z0-9]*$'.(†Çá÷ıÿÿÿÿ8‹©¢ı.
+Etypescript:S1441s"Strings must use singlequote.(ùÑŠ°şÿÿÿÿ8‹©¢ı.
+\typescript:S3353‰"3'myBooks' is never reassigned. Use 'const' instead.(ª–úÌøÿÿÿÿ8‹©¢ı.
+7typescript:S109±"No magic number: 10.(Š¯Ì…8ù¯ì£ı.
+6typescript:S109™"No magic number: 5.(—ƒÙİ8Š­İ¤ı.
+Gtypescript:S125©"Remove this commented out code.(“ºÉ‰ùÿÿÿÿ8µÍ¤ı.
+typescript:S100B"fRename this 'GetBookTitlesByCategory' function to match the regular expression '^[_a-z][a-zA-Z0-9]*$'.(ÑÏ¢Ùşÿÿÿÿ8‹©¢ı.
+Ftypescript:S1441ƒ"Strings must use singlequote.(óë•şÿÿÿÿ8Š­İ¤ı.
+6typescript:S109™"No magic number: 4.(—ƒÙİ8Š­İ¤ı.
+;typescript:S109‰"No magic number: 3.(ª–úÌøÿÿÿÿ8‹©¢ı.
+Jtypescript:S1128"'Remove this unused import of 'Journal'.(íôûé8™ËÕ£ı.
+_typescript:S3353S"7'currentBook' is never reassigned. Use 'const' instead.(ÚÿùÄşÿÿÿÿ8‹©¢ı.
+„typescript:S100n"]Rename this 'CreateCustomer' function to match the regular expression '^[_a-z][a-zA-Z0-9]*$'.(”¨ñïüÿÿÿÿ8‹©¢ı.
+atypescript:S3353ş"8'probablyDuck' is never reassigned. Use 'const' instead.(×êí´ùÿÿÿÿ8Š­İ¤ı.
+Etypescript:S106ƒ"Unexpected console statement.(óë•şÿÿÿÿ8Š­İ¤ı.
+6typescript:S109™"No magic number: 3.(—ƒÙİ8Š­İ¤ı.
+Ftypescript:S1441¦"Strings must use singlequote.(³¡Á¸üÿÿÿÿ8‹©¢ı.
+Atypescript:S1441Ü"Strings must use singlequote.(“‡§¡8Š­İ¤ı.
+Atypescript:S1441™"Strings must use singlequote.(—ƒÙİ8Š­İ¤ı.
+Utypescript:S3353™"1'books' is never reassigned. Use 'const' instead.(—ƒÙİ8Š­İ¤ı.
+Atypescript:S1441“"Strings must use singlequote.( ÅÎø8Š­İ¤ı.
+Atypescript:S125›"Remove this commented out code.(è»»_8Š­İ¤ı.
+gtypescript:S3524g"?Remove parentheses around the parameter of this arrow function.(‘ü–ôıÿÿÿÿ8‹©¢ı.
+Ftypescript:S1441Ñ"Strings must use singlequote.(ì¹ıûÿÿÿÿ8Š­İ¤ı.
+Atypescript:S1441í"Strings must use singlequote.(·Ä‘8Š­İ¤ı.

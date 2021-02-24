@@ -187,13 +187,14 @@ let myPaper = new Newspaper("Pravda", 1918);
 myPaper.printCitation();
 
 class Novel extends class {
-  title: string;
+  title: string = "Not assigned";
 } {
   mainCharacter: string = "Not assigned";
 }
 
 let favoriteNovel = new Novel();
 favoriteNovel.title = "1984";
+favoriteNovel.mainCharacter = "Ben Wilson";
 
 //***********************************************
 

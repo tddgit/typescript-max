@@ -76,6 +76,23 @@ export { UniversityLibrarian, ReferenceItem, Encyclopedia, Journal };
 
 //**********************************************************
 
+/// <reference path = "classes.ts"/>
+namespace Membership {
+  export function AddMember(name: string) {}
+  export namespace Cards {
+    export function issueCard(memberNumber: number) {}
+  }
+}
+
+/// <reference path = "classes.ts"/>
+let memberName: string = "Elaine";
+let memberNumber: number = 789;
+
+Membership.AddMember(memberName);
+Membership.Cards.issueCard(memberNumber);
+Membership.AddMember("Garrett");
+Membership.Cards.issueCard(5544877);
+
 // class ReferenceItem {
 //   numberOfPages: number;
 //   constructor(title: string, publisher?: string) {

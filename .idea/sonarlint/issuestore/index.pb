@@ -66,3 +66,16 @@ R
 "professional-ts/tailwind.config.js,8/6/8629cd34aa4cba9d4133b5804a83d056fcbbe1d3
 J
 Examples/advanced_types.ts,0/c/0ce930f9d6c90ede0d27eaed2aa4a038e3aa16d9
+?
+Examples/app.ts,c/f/cf9039b252117dd4212d5195b34aeea351c87359
+†
+Vtypescriptindepth/4-typescript-in-depth-m4-exercise-files/Before/LibraryManager/app.ts,7/b/7b016821c6faaa0f02c1c4f4a7433cc6d5834f72
+…
+Utypescriptindepth/4-typescript-in-depth-m4-exercise-files/After/LibraryManager/app.ts,4/3/43aac7a065a9ad5e8665529316639a73b8787fd8
+8
+enums.ts,f/1/f1969d429dcc752ddf8d400009943c04d82872f0
+=
+interfaces.ts,d/5/d5e30c274c8a8112bf685df1e8165fcaad6f8c63
+:
+
+classes.ts,6/a/6a05323c6525078434f52bfc916cb5a88dff1b93
