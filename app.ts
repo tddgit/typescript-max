@@ -1,7 +1,12 @@
 import { Category } from "./enums";
 
 import { Book, DamageLogger, Author, Librarian } from "./interfaces";
-import { UniversityLibrarian } from "./classes";
+import {
+  UniversityLibrarian,
+  ReferenceItem,
+  Encyclopedia,
+  Journal,
+} from "./classes";
 
 // type Book = {
 //   id: number;
@@ -160,6 +165,37 @@ function GetTitles(bookProperty: any): string[] {
 function PrintBook(book: Book): void {
   console.log("PrintBook: " + book.title + "by" + book.author);
 }
+
+// let ref = new ReferenceItem("Facts and Figures", 2012);
+// // ref.title = "Facts and Figures";
+// // ref.year = 1991;
+// ref.printItem();
+// ref.publisher;
+// ref.publisher = "Random Data Publishing";
+// console.log(ref.publisher);
+
+let refBook: ReferenceItem = new Encyclopedia("WorldPedia", 2021, 10);
+refBook.printItem();
+
+let Newspaper = class extends ReferenceItem {
+  printCitation(): void {
+    console.log(`Newspaper: ${this.title} ${this.year}`);
+  }
+};
+
+let myPaper = new Newspaper("Pravda", 1918);
+myPaper.printCitation();
+
+class Novel extends class {
+  title: string;
+} {
+  mainCharacter: string = "Not assigned";
+}
+
+let favoriteNovel = new Novel();
+favoriteNovel.title = "1984";
+
+//***********************************************
 
 let myBook: Book = {
   id: 5,
