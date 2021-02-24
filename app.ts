@@ -1,4 +1,4 @@
-type book = {
+type Book = {
   id: number;
   title: string;
   author: string;
@@ -6,8 +6,8 @@ type book = {
   category: Category;
 };
 
-function GetAllBooks(): book[] {
-  let books: book[] = [
+function GetAllBooks(): Book[] {
+  let books: Book[] = [
     {
       id: 1,
       title: "Ulysses",
@@ -40,7 +40,7 @@ function GetAllBooks(): book[] {
   return books;
 }
 
-function LogFirstAvailableBook(books: book[]): void {
+function LogFirstAvailableBook(books: Book[]): void {
   let numberOfBooks: number = books.length;
   let firstAvailableBook: string = "";
   for (let currentBook of books) {
@@ -62,9 +62,9 @@ enum Category {
 }
 
 function GetBookTitlesByCategory(categoryFilter: Category): Array<string> {
-  const allBooks: Array<book> = GetAllBooks();
-  const filteredBooks: book[] = allBooks.filter(
-    (currentBook: book): boolean => currentBook.category === categoryFilter
+  const allBooks: Array<Book> = GetAllBooks();
+  const filteredBooks: Book[] = allBooks.filter(
+    (currentBook: Book): boolean => currentBook.category === categoryFilter
   );
   const filteredTitles: string[] = [];
   for (let currentBook of filteredBooks) {
@@ -73,8 +73,10 @@ function GetBookTitlesByCategory(categoryFilter: Category): Array<string> {
   return filteredTitles;
 }
 
-function GetBookTitlesByCategory1(categoryFilter: Category): Array<string> {
-  const allBooks: Array<book> = GetAllBooks();
+function GetBookTitlesByCategory1(
+  categoryFilter: Category = Category.Fiction
+): Array<string> {
+  const allBooks: Array<Book> = GetAllBooks();
   const filteredTitles: Array<string> = [];
   for (let currentBook of allBooks) {
     if (currentBook.category === categoryFilter) {
@@ -84,9 +86,7 @@ function GetBookTitlesByCategory1(categoryFilter: Category): Array<string> {
   return filteredTitles;
 }
 
-//********************************************************
-
-const allBooks: Array<book> = GetAllBooks();
+const allBooks: Array<Book> = GetAllBooks();
 LogFirstAvailableBook(allBooks);
 
 let fictionBooks = GetBookTitlesByCategory(Category.Fiction);
@@ -96,10 +96,85 @@ fictionBooks.forEach((val, idx, arr) => {
   console.log(++idx + "-" + val);
 });
 
+function GetBookByID(id: number): Book {
+  const allBooks = GetAllBooks();
+  return allBooks.filter((currentBook) => currentBook.id === id)[0];
+}
 
-// function CreateCustomerID(name: string, id: number): string {
-//   return name + id;
-// }
+function CreateCustomerID(name: string, id: number): string {
+  return name + id;
+}
+
+function CreateCustomer(
+  name: string,
+  age?: number | string,
+  city?: string
+): void {
+  console.log("CreateCustomer: " + name);
+  if (age) {
+    console.log("Age: " + age);
+  }
+  if (city) {
+    console.log("City: " + city);
+  }
+}
+
+function CheckoutBooks(customer: string, ...bookIDs: Array<number>): string[] {
+  console.log("Checking out books for " + customer);
+
+  let booksCheckedOut: string[] = [];
+  for (let id of bookIDs) {
+    let book = GetBookByID(id);
+    if (book.available) {
+      booksCheckedOut.push(book.title);
+    }
+  }
+  return booksCheckedOut;
+}
+
+let myBooks: string[] = CheckoutBooks("Thorne", 1, 3, 4);
+myBooks.forEach((title) => {
+  console.log(title);
+});
+
+function GetTitles(author: string): string[];
+function GetTitles(available: boolean): string[];
+function GetTitles(bookProperty: any): string[] {
+  const allBooks = GetAllBooks();
+  const foundTitles: string[] = [];
+
+  if (typeof bookProperty === string) {
+    //
+    for (let book of allBooks) {
+      if (book.author === bookProperty) {
+        foundTitles.push(book.title);
+      }
+    }
+  } else if (typeof bookProperty == "boolean") {
+    for (let book of allBooks) {
+      if (book.available === bookProperty) {
+        foundTitles.push(book.title);
+      }
+  }
+  return foundTitles;
+}
+
+//********************************************************
+
+CreateCustomer("Michelle");
+
+let xx: number;
+let IdGenerator: (chars: string, nums: number) => string;
+IdGenerator = (name: string, id: number) => name + id;
+
+let myId: string = IdGenerator("stas", 15);
+
+console.log(CreateCustomer("Stas"));
+
+function GetBooksReadForCust(name: string, ...bookID: Array<number>) {}
+
+let books = GetBooksReadForCust("Stas", 3, 4, 5);
+
 //
 // console.log(CreateCustomerID("Stas", 39));
 // console.log(
