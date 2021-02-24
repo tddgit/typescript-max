@@ -1,6 +1,7 @@
 import { Category } from "./enums";
 
 import { Book, DamageLogger, Author, Librarian } from "./interfaces";
+import { UniversityLibrarian } from "./classes";
 
 // type Book = {
 //   id: number;
@@ -187,17 +188,19 @@ console.log(myBook.pages);
 console.log(myBook);
 
 let logDamage: DamageLogger;
-logDamage = (damage: string) => {console.log('Damage' +
-    ' reported ' + damage)});
-logDamage('backcover is missing');
+logDamage = (damage: string) => {
+  console.log("Damage" + " reported " + damage);
+};
+logDamage("backcover is missing");
 
-let favoriteAuthor: Author = {}
-let favoriteLibrarian: Librarian ={}
+// let favoriteAuthor: Author = {}
+let favoriteLibrarian: Librarian = new UniversityLibrarian(
+  "Sharon",
+  "sharon@gmail.com",
+  "University Library"
+);
 
-
-
-
-
+favoriteLibrarian.assistCustomer("Lynda");
 //********************************************************
 
 let hermansBooks = GetTitles("Herman Melville");

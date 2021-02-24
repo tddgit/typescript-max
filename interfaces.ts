@@ -45,16 +45,16 @@ let refBook: Encyclopedia = {
   title: "The Book of Everything",
   volume: 1,
 };
-
-interface Librarian {
-  doWork: () => void;
-}
-
-class ElementarySchoolLibrarian implements Librarian {
-  doWork() {
-    console.log("Reading to and teaching children");
-  }
-}
-
-let kidsLibrarian = new ElementarySchoolLibrarian();
-kidsLibrarian.doWork();
+//
+// interface Librarian {
+//   doWork: () => void;
+// }
+//
+// class ElementarySchoolLibrarian implements Librarian {
+//   doWork() {
+//     console.log("Reading to and teaching children");
+//   }
+// }
+//
+// let kidsLibrarian = new ElementarySchoolLibrarian();
+// kidsLibrarian.doWork();
