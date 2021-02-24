@@ -1,6 +1,6 @@
 import { Category } from "./enums";
 
-import { Book } from "./interfaces";
+import { Book, DamageLogger, Author, Librarian } from "./interfaces";
 
 // type Book = {
 //   id: number;
@@ -160,17 +160,43 @@ function PrintBook(book: Book): void {
   console.log("PrintBook: " + book.title + "by" + book.author);
 }
 
-let myBook = {
+let myBook: Book = {
   id: 5,
   title: "Pride and Prejudice",
   author: "Jane Austen",
   available: true,
   category: Category.Fiction,
-  year: "1813",
-  copies: 3,
+  pages: 250,
+  markDamaged: (reason: string) => {
+    console.log("Damaged: " + reason);
+  },
+};
+
+let myBook1: Book = {
+  id: 5,
+  title: "Pride and Prejudice",
+  author: "Jane Austen",
+  available: true,
+  category: Category.Fiction,
+  pages: 250,
+  markDamaged: (reason: string) => console.log("Damaged: " + reason),
 };
 
 PrintBook(myBook);
+console.log(myBook.pages);
+console.log(myBook);
+
+let logDamage: DamageLogger;
+logDamage = (damage: string) => {console.log('Damage' +
+    ' reported ' + damage)});
+logDamage('backcover is missing');
+
+let favoriteAuthor: Author = {}
+let favoriteLibrarian: Librarian ={}
+
+
+
+
 
 //********************************************************
 
