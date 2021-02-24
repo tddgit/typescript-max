@@ -1,119 +1,108 @@
-import { HasEmail, HasPhoneNumber } from "./Examples/advanced_types";
+type book = {
+  id: number;
+  title: string;
+  author: string;
+  available: boolean;
+  category: Category;
+};
 
-interface CommunicationMethods {
-  email: HasEmail;
-  phone: HasPhoneNumber;
-  fax: { fax: number };
+function GetAllBooks(): book[] {
+  let books: book[] = [
+    {
+      id: 1,
+      title: "Ulysses",
+      author: "James Joyce",
+      available: true,
+      category: Category.Fiction,
+    },
+    {
+      id: 2,
+      title: "A Farewell to Arms",
+      author: "Ernest Hemingway",
+      available: false,
+      category: Category.Fiction,
+    },
+    {
+      id: 3,
+      title: "I Know Why the Caged Bird Sings",
+      author: "Maya Angelou",
+      available: true,
+      category: Category.Poetry,
+    },
+    {
+      id: 4,
+      title: "Moby Dick",
+      author: "Herman" + " Melville",
+      available: true,
+      category: Category.Fiction,
+    },
+  ];
+  return books;
 }
 
-function contact<K extends keyof CommunicationMethods>(
-  method: K,
-  contact: CommunicationMethods[K]
-) {
-  //
+function LogFirstAvailableBook(books: book[]): void {
+  let numberOfBooks: number = books.length;
+  let firstAvailableBook: string = "";
+  for (let currentBook of books) {
+    if (currentBook.available) {
+      firstAvailableBook = currentBook.title;
+      break;
+    }
+  }
+  console.log("Total Books: ", numberOfBooks);
+  console.log("First available: " + firstAvailableBook);
 }
 
-contact("email", { name: "foo", email: "mike@else.ru" });
-
-type AllCommKeys = keyof CommunicationMethods;
-type AllCommValues = CommunicationMethods[keyof CommunicationMethods];
-
-const alreadyResolvedNum = Promise.resolve(4);
-type ResolveType = typeof Promise.resolve;
-
-type MayHaveEmail = Partial<HasEmail>;
-const me: MayHaveEmail = {};
-
-type PickA = Pick<{ a: 1; b: 2 }, "a">;
-
-type OnlyStrings = Extract<"a" | "b" | 1 | 2, number>;
-
-function foo() {}
-interface bar {}
-namespace baz {
-  export const biz = "hello";
+enum Category {
+  Biography,
+  Poetry,
+  Fiction,
+  History,
+  Children,
 }
 
-const x = foo;
-
-const y: bar = {};
-
-let z: bar;
-
-baz;
-
-export { foo, bar, baz };
-
-const xx = 4;
-const yy: typeof xx = 4;
-
-interface Address {
-  street: string;
+function GetBookTitlesByCategory(categoryFilter: Category): Array<string> {
+  const allBooks: Array<book> = GetAllBooks();
+  const filteredBooks: book[] = allBooks.filter(
+    (currentBook: book): boolean => currentBook.category === categoryFilter
+  );
+  const filteredTitles: string[] = [];
+  for (let currentBook of filteredBooks) {
+    filteredTitles.push(currentBook.title);
+  }
+  return filteredTitles;
 }
 
-// const z = Address;
-
-class Contact {
-  // name: string,
-  static hello = "world";
+function GetBookTitlesByCategory1(categoryFilter: Category): Array<string> {
+  const allBooks: Array<book> = GetAllBooks();
+  const filteredTitles: Array<string> = [];
+  for (let currentBook of allBooks) {
+    if (currentBook.category === categoryFilter) {
+      filteredTitles.push(currentBook.title);
+    }
+  }
+  return filteredTitles;
 }
 
-Contact.hello;
+//********************************************************
 
-const contactClass = Contact;
-const contactInstance: Contact = new Contact();
+const allBooks: Array<book> = GetAllBooks();
+LogFirstAvailableBook(allBooks);
 
-class Album {
-  label: Album.AlbumLabel = new Album.AlbumLabel();
-}
+let fictionBooks = GetBookTitlesByCategory(Category.Fiction);
+console.log(fictionBooks);
 
-namespace Album {
-  export class AlbumLabel {}
-}
-
-interface Album {
-  artist: string;
-}
-
-let al: Album;
-let al2 = new Album();
-let alValue = Album;
-al2.artist;
-
-export { Album };
-
-class AddressBook {
-  contacts!: Contact[];
-}
-
-namespace AddressBook {
-  export class ABContact extends Contact {}
-}
-
-function format(amt: number) {
-  return `${format.currency}${amt.toFixed(2)}`;
-}
-
-namespace format {
-  export const currency: string = "$";
-}
-
-console.log(format(2.314));
-console.log(format.currency);
-
-import * as path from "path";
-import * as ts from "typescript";
-import { createProgram } from "typescript";
-
-function isDefined<T>(x: T | undefined): x is T {
-  return typeof x !== undefined;
-}
-const program = ts.createProgram({
-  options: {
-    target: ts.ScriptTarget.ESNext,
-    module: ts.ModuleKind.CommonJS,
-  },
-  rootNames: [path.join(__dirname, "..", "exaples", "hello-ts", "src")],
+fictionBooks.forEach((val, idx, arr) => {
+  console.log(++idx + "-" + val);
 });
 
-const nonDeclFiles = program;
+
+// function CreateCustomerID(name: string, id: number): string {
+//   return name + id;
+// }
+//
+// console.log(CreateCustomerID("Stas", 39));
+// console.log(
+//   allBooks.filter((book: book): boolean => book.author === "Herman Melville")
+// );
+//
