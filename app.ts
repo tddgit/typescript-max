@@ -35,4 +35,62 @@
     }
     let unusable: void = void 0;
     console.log(unusable);
+
+    let n1: undefined = void 0;
+    let n2: null = null;
+
+    // let core: never = (() => {
+    //     console.log(true);
+    //     throw new Error('Some error');
+    //     // return 1;
+    // })();
+
+    let obj: object | null;
+    obj = null;
+    obj = {
+        n: 1,
+    };
+
+    let someString: any = 'Some string';
+    let I: number = (<string>someString).length;
+
+    let value: any = 'value';
+    let size: number = (value as string).length;
+
+    const show = (msg: string) => {
+        console.log(msg);
+    };
+    show('hello');
+
+    function f([first, second]: [number, number]) {
+        console.log(first, second);
+    }
+    f([1, 2]);
+
+    const resource = {
+        a: 'a',
+        b: 2,
+    };
+    let { a, b = 10 } = resource;
+    console.log(b);
+
+    type C = {
+        a: string;
+        b?: number;
+    };
+    function showProperties({ a, b = 2 }: C): void {
+        console.log(a, b);
+    }
+    showProperties({ a: 'abc' });
+
+    type Schema = {
+        a: string;
+        b?: number;
+    };
+    function init({ a, b = 0 }: Schema = { a: '' }): void {
+        console.log(a, b);
+    }
+    init({ a: 'str' });
+    // init(5)
+
 }
