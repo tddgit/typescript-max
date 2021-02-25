@@ -81,3 +81,11 @@ Utypescriptindepth/4-typescript-in-depth-m4-exercise-files/After/LibraryManager/
 classes.ts,6/a/6a05323c6525078434f52bfc916cb5a88dff1b93
 ;
 .prettierrc,2/0/20137a9e94744624390b6748bc96df5ca1579b71
+„
+Ttypescriptindepth/7-typescript-in-depth-m7-exercise-files/After/NamespaceDemo/app.ts,5/a/5ad79a9685f0e2f97387f3384d1880c3bdbc7ed9
+D
+NamespaceDemo/out.js,d/3/d31031221343644be154dd75923e85d2992f3eb9
+P
+ NamespaceDemo/utilityFunction.ts,e/9/e9bdcae84d9d6854ae84b16c11ad7ea61e5366b9
+D
+NamespaceDemo/app.ts,2/3/2393a321f2a3d0e1063c0dd3563280f42bd98fc5

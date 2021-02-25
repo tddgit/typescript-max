@@ -1,18 +1,40 @@
-import { Librarian } from './interfaces';
+// import { Librarian } from './interfaces';
 
-class UniversityLibrarian implements Librarian {
-    // name: string;
-    // email: string;
-    // department: string;
+import * as Interfaces from './interfaces';
+import { sealed, logger } from './decorators';
 
-    constructor(
-        public name: string,
-        public email: string,
-        public department: string
-    ) {}
+@logger
+@sealed('UniversityLibrarian')
+class UniversityLibrarian implements Interfaces.Librarian {
+    name: string = '';
+    email: string = '';
+    department: string = '';
+
+    // constructor(
+    //     public name: string = 'Librarian',
+    //     public email: string = 'noemail@email.com',
+    //     public department: string = 'some department'
+    // ) {}
 
     assistCustomer(custName: string) {
         console.log(this.name + ' is assisting ' + custName);
+    }
+
+    assistFaculty() {
+        console.log('Assisting faculty');
+    }
+}
+@logger
+export class PublicLibrarian implements Interfaces.Librarian {
+    name: string = '';
+    email: string = '';
+    department: string = '';
+
+    assistCustomer(custName: string) {
+        console.log(this.name + ' is assisting ' + custName);
+    }
+    assistFaculty() {
+        console.log('Assisting faculty');
     }
 }
 
@@ -40,24 +62,6 @@ abstract class ReferenceItem {
     abstract printCitation(): void;
 }
 
-class Encyclopedia extends ReferenceItem {
-    constructor(
-        title: string,
-        year: number,
-        public edition: number,
-        public numberInSet?: number
-    ) {
-        super(title, year);
-    }
-    printItem(): void {
-        super.printItem();
-        console.log(`Edition: ${this.edition} (${this.year}`);
-    }
-    printCitation(): void {
-        console.log(`${this.title} - ${this.year}`);
-    }
-}
-
 class Journal extends ReferenceItem {
     constructor(
         title: string,
@@ -72,7 +76,7 @@ class Journal extends ReferenceItem {
     }
 }
 
-export { UniversityLibrarian, ReferenceItem, Encyclopedia, Journal };
+export { UniversityLibrarian, ReferenceItem, Journal };
 
 //**********************************************************
 

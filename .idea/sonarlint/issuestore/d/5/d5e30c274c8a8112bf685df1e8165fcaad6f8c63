@@ -1,5 +1,5 @@
 
-@typescript:S1250"Remove this commented out code.(è»»_8ò‹†¢ı.
-@typescript:S1441"Strings must use singlequote.(íŸÒ8¼–¶ ı.
-[typescript:S3353+"3'refBook' is never reassigned. Use 'const' instead.(¾Ö±úÿÿÿÿ8ı‘È¡ı.
-Etypescript:S1441-"Strings must use singlequote.(Æ÷·üÿÿÿÿ8ı‘È¡ı.
+[typescript:S3353+"3'refBook' is never reassigned. Use 'const' instead.(¾Ö±úÿÿÿÿ8ëÃõÅı.
+@typescript:S125;"Remove this commented out code.(è»»_8ëÃõÅı.
+ƒtypescript:S1007"aRename this 'GetMagazineByTitle' function to match the regular expression '^[_a-z][a-zA-Z0-9]*$'.(†ÙÃÈ8ƒ•…Æı.
+Rtypescript:S11867"/Unexpected empty function 'GetMagazineByTitle'.(†ÙÃÈ8ƒ•…Æı.

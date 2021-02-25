@@ -1,23 +1,23 @@
 
-^typescript:S1117S"6'memberNumber' is already declared in the upper scope.(®åŞûÿÿÿÿ8Ò€ªı.
-Ftypescript:S125`"Remove this commented out code.(ËËÌòøÿÿÿÿ8Òš×¤ı.
+[typescript:S3353Y"8'memberNumber' is never reassigned. Use 'const' instead.(ãÓàç8Ò€ªı.
+Dtypescript:S106"Unexpected console statement.(ı‘Ê²úÿÿÿÿ8Ò€ªı.
 ?typescript:S106"Unexpected console statement.(•€½¹8Ò€ªı.
-Atypescript:S125"Remove this commented out code.(áşÄ÷8Ò€ªı.
-Atypescript:S125p"Remove this commented out code.(ô—é8Òš×¤ı.
-Ytypescript:S3353X"6'memberName' is never reassigned. Use 'const' instead.(³ô¹¾8Ò€ªı.
+Dtypescript:S1066"Unexpected console statement.(‡‰Íøùÿÿÿÿ8Ò€ªı.
 Dtypescript:S106"Unexpected console statement.(îˆˆ÷ûÿÿÿÿ8Ò€ªı.
+typescript:S100Q"XRename this 'AddMember' function to match the regular expression '^[_a-z][a-zA-Z0-9]*$'.(·…‹Æùÿÿÿÿ8Ò€ªı.
+ptypescript:S3257X"MType string trivially inferred from a string literal, remove type annotation.(³ô¹¾8Ò€ªı.
+Ftypescript:S125`"Remove this commented out code.(ËËÌòøÿÿÿÿ8Òš×¤ı.
 Ntypescript:S1186S"&Unexpected empty function 'issueCard'.(®åŞûÿÿÿÿ8Ò€ªı.
 ptypescript:S3257"MType string trivially inferred from a string literal, remove type annotation.(¯ğÚ÷8Ò€ªı.
-Dtypescript:S1069"Unexpected console statement.(ˆõòÔıÿÿÿÿ8Ò€ªı.
-ptypescript:S3257Y"MType number trivially inferred from a number literal, remove type annotation.(ãÓàç8Ò€ªı.
+Ytypescript:S3353X"6'memberName' is never reassigned. Use 'const' instead.(³ô¹¾8Ò€ªı.
+Atypescript:S125p"Remove this commented out code.(ô—é8Òš×¤ı.
 @typescript:S109^"No magic number: 5544877.(½¨˜üùÿÿÿÿ8Òš×¤ı.
-typescript:S100Q"XRename this 'AddMember' function to match the regular expression '^[_a-z][a-zA-Z0-9]*$'.(·…‹Æùÿÿÿÿ8Ò€ªı.
+Dtypescript:S1069"Unexpected console statement.(ˆõòÔıÿÿÿÿ8Ò€ªı.
+Atypescript:S125"Remove this commented out code.(áşÄ÷8Ò€ªı.
 ptypescript:S3257"MType string trivially inferred from a string literal, remove type annotation.(ëÀ£8Ò€ªı.
-Dtypescript:S1066"Unexpected console statement.(‡‰Íøùÿÿÿÿ8Ò€ªı.
-[typescript:S3353Y"8'memberNumber' is never reassigned. Use 'const' instead.(ãÓàç8Ò€ªı.
-Ntypescript:S1186Q"&Unexpected empty function 'AddMember'.(·…‹Æùÿÿÿÿ8Ò€ªı.
+^typescript:S1117S"6'memberNumber' is already declared in the upper scope.(®åŞûÿÿÿÿ8Ò€ªı.
 Dtypescript:S106"Unexpected console statement.(†Ñõüÿÿÿÿ8Ò€ªı.
-Htypescript:S3512" Unexpected string concatenation.(†Ñõüÿÿÿÿ8Ò€ªı.
-Dtypescript:S106"Unexpected console statement.(ı‘Ê²úÿÿÿÿ8Ò€ªı.
-ptypescript:S3257X"MType string trivially inferred from a string literal, remove type annotation.(³ô¹¾8Ò€ªı.
 Dtypescript:S106G"Unexpected console statement.(ˆõòÔıÿÿÿÿ8Ò€ªı.
+Ntypescript:S1186Q"&Unexpected empty function 'AddMember'.(·…‹Æùÿÿÿÿ8Ò€ªı.
+Htypescript:S3512" Unexpected string concatenation.(†Ñõüÿÿÿÿ8Ò€ªı.
+ptypescript:S3257Y"MType number trivially inferred from a number literal, remove type annotation.(ãÓàç8Ò€ªı.
