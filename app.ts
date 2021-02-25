@@ -88,3 +88,5 @@ function flatten(array: (number | number[])[]): number[] {
     }
     return flattend;
 }
+
+console.table(flatten(numbers));
