@@ -90,7 +90,86 @@
     function init({ a, b = 0 }: Schema = { a: '' }): void {
         console.log(a, b);
     }
-    init({ a: 'str' });
+    init();
     // init(5)
+    console.clear();
+}
+{
+    function add(x: number, y: number): number {
+        return x + y;
+    }
 
+    const sm = add(1, 2);
+
+    let myAdd = function (x: number, y: number): number {
+        return x + y;
+    };
+
+    type f = (baseValue: number, increment: number) => number;
+
+    let increase = <f>function increase(x: number, y: number): number {
+        return x + y;
+    };
+
+    const updatedValue: number = increase(3, 1);
+
+    const f = (a: number, b: number): number => a + b;
+    type FType = (a: number, b: number) => number;
+    const sum: FType = function (a, b) {
+        return a / b;
+    };
+
+    function buildName(firstName: string, lastName?: string): string {
+        if (lastName) {
+            return firstName + lastName;
+        } else {
+            return firstName;
+        }
+    }
+    type CustomType = [string, string, string, number];
+    function buildLetters(
+        firstName: string,
+        ...restOfLetters: CustomType
+    ): string {
+        return firstName + restOfLetters.join(' ');
+    }
+    buildLetters('a', 'b', 'c', 'd', 1);
+
+    const run: (this: void, n: number) => void = function (n: number) {};
+
+    function show(n: number): string | number {
+        if (n < 5) {
+            return 'Good';
+        } else {
+            return 100;
+        }
+    }
+    const myValue = show(5);
+
+    const returnNumber = function <T>(arg: T): T {
+        return arg;
+    };
+
+    const n = returnNumber(1);
+    const n1 = returnNumber('string');
+
+    type ff = (a: number, b: number) => number;
+    const ff = <ff>(aa: number, bb: number) => aa + bb;
+    const fff: ff = (aa: number, bb: number) => aa + bb;
+    const ffff = (aa: number, bb: number): number => aa + bb;
+
+    const returnValueByGeneric = function <T>(arg: T): T {
+        return arg;
+    };
+
+    const text = returnValueByGeneric('str');
+
+    const nnn = returnValueByGeneric(5);
+}
+
+{
+    const readLength = function <T>(arg: T): T {
+        // console.log(arg.length);
+        return arg;
+    };
 }
