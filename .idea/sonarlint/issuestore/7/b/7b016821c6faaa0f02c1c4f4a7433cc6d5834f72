@@ -1,0 +1,29 @@
+
+utypescript:S100"ZRename this 'GetAllBooks' function to match the regular expression '^[_a-z][a-zA-Z0-9]*$'.(ñÙî­
+=typescript:S1131"Trailing spaces not allowed.(µáÎüÿÿÿÿ
+etypescript:S105"EReplace all tab characters in this file by sequences of white-spaces.(µáÎüÿÿÿÿ
+Mtypescript:S3353"1'books' is never reassigned. Use 'const' instead.(±›õ
+ytypescript:S1488"]Immediately return this expression instead of assigning it to the temporary variable "books".(±›õ
+=typescript:S1131	"Trailing spaces not allowed.(µáÎüÿÿÿÿ
+{typescript:S100"`Rename this 'LogFirstAvailable' function to match the regular expression '^[_a-z][a-zA-Z0-9]*$'.(ş‹æ
+=typescript:S1131"Trailing spaces not allowed.(µáÎüÿÿÿÿ
+Utypescript:S3353"9'numberOfBooks' is never reassigned. Use 'const' instead.(Óƒ½Ò
+itypescript:S3257"MType string trivially inferred from a string literal, remove type annotation.(ÆãÔ
+=typescript:S1131"Trailing spaces not allowed.(µáÎüÿÿÿÿ
+Stypescript:S3353"7'currentBook' is never reassigned. Use 'const' instead.(Ñ—ú
+=typescript:S1131"Trailing spaces not allowed.(µáÎüÿÿÿÿ
+=typescript:S1131"Trailing spaces not allowed.(µáÎüÿÿÿÿ
+8typescript:S106"Unexpected console statement.(â€¥ö
+=typescript:S106"Unexpected console statement.(¾âİĞÿÿÿÿÿ
+†typescript:S100 "fRename this 'GetBookTitlesByCategory' function to match the regular expression '^[_a-z][a-zA-Z0-9]*$'.(ÑÏ¢Ùşÿÿÿÿ
+=typescript:S1131!"Trailing spaces not allowed.(µáÎüÿÿÿÿ
+=typescript:S106""Unexpected console statement.(ª¾­“øÿÿÿÿ
+=typescript:S1131#"Trailing spaces not allowed.(µáÎüÿÿÿÿ
+=typescript:S1131&"Trailing spaces not allowed.(µáÎüÿÿÿÿ
+Xtypescript:S3353'"7'currentBook' is never reassigned. Use 'const' instead.(ÚÿùÄşÿÿÿÿ
+=typescript:S1131,"Trailing spaces not allowed.(µáÎüÿÿÿÿ
+wtypescript:S1000"\Rename this 'LogBookTitles' function to match the regular expression '^[_a-z][a-zA-Z0-9]*$'.(¸Ôì
+=typescript:S11311"Trailing spaces not allowed.(µáÎüÿÿÿÿ
+Mtypescript:S33532"1'title' is never reassigned. Use 'const' instead.(İÓ°Ì
+8typescript:S1063"Unexpected console statement.(Ç³ì©
+Itypescript:S1138".Newline required at end of file but not found.(•Ş¢›

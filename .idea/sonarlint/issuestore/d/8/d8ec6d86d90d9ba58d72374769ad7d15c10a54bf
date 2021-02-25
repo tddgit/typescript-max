@@ -1,0 +1,17 @@
+
+Utypescript:S2208"-Explicitly import the specific member needed.(İÅ“ûıÿÿÿÿ8ÈûÜÑü.
+Etypescript:S1441"Strings must use singlequote.(İÅ“ûıÿÿÿÿ8ÈûÜÑü.
+Dtypescript:S1128"(Remove this unused import of 'Category'.(íŸÒ
+Ntypescript:S1128"&Remove this unused import of 'Author'.(ù˜æÔıÿÿÿÿ8ÈûÜÑü.
+Ptypescript:S1128"(Remove this unused import of 'Magazine'.(ù˜æÔıÿÿÿÿ8ÈûÜÑü.
+Ptypescript:S1128"-Remove this unused import of 'ReferenceItem'.(âò½Ô8ÈûÜÑü.
+@typescript:S1441"Strings must use singlequote.(âò½Ô8ÈûÜÑü.
+ƒtypescript:S100"\Rename this 'PrintBookInfo' function to match the regular expression '^[_a-z][a-zA-Z0-9]*$'.(½ø¿üÿÿÿÿ8ÁŸßÑü.
+Etypescript:S1441"Strings must use singlequote.(ù˜æÔıÿÿÿÿ8ÈûÜÑü.
+@typescript:S1441"Strings must use singlequote.(íŸÒ8ÈûÜÑü.
+Vtypescript:S1128"3Remove this unused import of 'UniversityLibrarian'.(âò½Ô8ÈûÜÑü.
+Ntypescript:S1128"&Remove this unused import of 'Logger'.(ù˜æÔıÿÿÿÿ8ÈûÜÑü.
+?typescript:S106"Unexpected console statement.(µµî8ÁŸßÑü.
+Ytypescript:S3353	"1'book1' is never reassigned. Use 'const' instead.(‹µ—¡ÿÿÿÿÿ8¦šåÑü.
+Qtypescript:S1128")Remove this unused import of 'Librarian'.(ù˜æÔıÿÿÿÿ8ÈûÜÑü.
+Ytypescript:S3353	"1'book2' is never reassigned. Use 'const' instead.(‹µ—¡ÿÿÿÿÿ8¦šåÑü.

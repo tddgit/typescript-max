@@ -79,3 +79,5 @@ Utypescriptindepth/4-typescript-in-depth-m4-exercise-files/After/LibraryManager/
 :
 
 classes.ts,6/a/6a05323c6525078434f52bfc916cb5a88dff1b93
+;
+.prettierrc,2/0/20137a9e94744624390b6748bc96df5ca1579b71

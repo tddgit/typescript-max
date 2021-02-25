@@ -1,0 +1,94 @@
+
+Rtypescript:S4204‘")Unexpected any. Specify a different type.(ÊÉÂèşÿÿÿÿ8ÅÒî°ü.
+Btypescript:S121¬" Expected { after 'if' condition.(Ğ¢©/8ÅÒî°ü.
+Ptypescript:S3353J"-'b' is never reassigned. Use 'const' instead.(ÿÄÿö8ÅÒî°ü.
+utypescript:S3257]"MType number trivially inferred from a number literal, remove type annotation.(±ÉãÉÿÿÿÿÿ8ÅÒî°ü.
+Otypescript:S3696¥"&Expected an error object to be thrown.(¿­‘Œüÿÿÿÿ8ÅÒî°ü.
+Ptypescript:S3353J"-'r' is never reassigned. Use 'const' instead.(ÿÄÿö8ÅÒî°ü.
+Htypescript:S1186["%Unexpected empty function 'rgbToHex'.(Š±ÒÅ8ÅÒî°ü.
+Etypescript:S1441_"Strings must use singlequote.(ÙÁÎ´şÿÿÿÿ8ÅÒî°ü.
+Ptypescript:S4136["-All 'rgbToHex' signatures should be adjacent.(Š±ÒÅ8ÅÒî°ü.
+Etypescript:S1441a"Strings must use singlequote.(ŒöŸˆùÿÿÿÿ8ÅÒî°ü.
+^typescript:S3353­"5'toConfirm' is never reassigned. Use 'const' instead.(éÆ«’ÿÿÿÿÿ8ÅÒî°ü.
+Ztypescript:S3353¾"1'admin' is never reassigned. Use 'const' instead.(ö¥÷âÿÿÿÿÿ8ÅÒî°ü.
+<typescript:S109˜"No magic number: 16.(¼ÀÈêÿÿÿÿÿ8ÅÒî°ü.
+@typescript:S1441¿"Strings must use singlequote.(Ø˜Ä8ÅÒî°ü.
+Wtypescript:S3353~"4'lisasCar' is never reassigned. Use 'const' instead.(´©çÒ8ÅÒî°ü.
+5typescript:S109J"No magic number: 2.(ÿÄÿö8ÅÒî°ü.
+Itypescript:S3696¬"&Expected an error object to be thrown.(Ğ¢©/8ÅÒî°ü.
+Ftypescript:S1441—"Strings must use singlequote.(—§Åƒúÿÿÿÿ8ÅÒî°ü.
+Btypescript:S125"Remove this commented out code.(§ˆİò8ÅÒî°ü.
+Rtypescript:S3353Å".'am' is never reassigned. Use 'const' instead.(Œ®šÂ8ÅÒî°ü.
+Ftypescript:S2814Y"'hexToRgb' is already defined.(Ä‹ĞËüÿÿÿÿ8ÅÒî°ü.
+5typescript:S109J"No magic number: 4.(ÿÄÿö8ÅÒî°ü.
+Qtypescript:S3353F".'hb' is never reassigned. Use 'const' instead.(‘†£ƒ8ÅÒî°ü.
+Ftypescript:S1441€"Strings must use singlequote.(¤£Ğùÿÿÿÿ8ÅÒî°ü.
+=typescript:S109—"No magic number: 124.(—§Åƒúÿÿÿÿ8ÅÒî°ü.
+Ftypescript:S1441™"Strings must use singlequote.(…†µŠıÿÿÿÿ8ÅÒî°ü.
+;typescript:S109R"No magic number: 16.(ÒÿÅéıÿÿÿÿ8ÅÒî°ü.
+Etypescript:S1441T"Strings must use singlequote.(¾¤‰Áşÿÿÿÿ8ÅÒî°ü.
+Ftypescript:S1441˜"Strings must use singlequote.(¼ÀÈêÿÿÿÿÿ8ÅÒî°ü.
+Atypescript:S1441¶"Strings must use singlequote.(Â°­“8ÅÒî°ü.
+Atypescript:S2814["'rgbToHex' is already defined.(Š±ÒÅ8ÅÒî°ü.
+@typescript:S1441‡"Strings must use singlequote.(ú¿»\8ÅÒî°ü.
+btypescript:S3524L"?Remove parentheses around the parameter of this arrow function.(‹Ü´ù8ÅÒî°ü.
+Ftypescript:S1441´"Strings must use singlequote.(Â¦Ó©ÿÿÿÿÿ8ÅÒî°ü.
+Utypescript:S4136Y"-All 'hexToRgb' signatures should be adjacent.(Ä‹ĞËüÿÿÿÿ8ÅÒî°ü.
+@typescript:S1441¬"Strings must use singlequote.(Ğ¢©/8ÅÒî°ü.
+@typescript:S1441¬"Strings must use singlequote.(Ğ¢©/8ÅÒî°ü.
+ntypescript:S1528"JUse either a literal or "Array.from()" instead of the "Array" constructor.(çı¢¼8ÅÒî°ü.
+Rtypescript:S4204†")Unexpected any. Specify a different type.(ÒÏáğúÿÿÿÿ8ÅÒî°ü.
+5typescript:S109F"No magic number: 2.(‘†£ƒ8ÅÒî°ü.
+Htypescript:S121´" Expected { after 'if' condition.(Â¦Ó©ÿÿÿÿÿ8ÅÒî°ü.
+>typescript:S1774S"Ternary operator used.(¨Ùå¥úÿÿÿÿ8ÅÒî°ü.
+Rtypescript:S4204")Unexpected any. Specify a different type.(á¯úÁûÿÿÿÿ8ÅÒî°ü.
+Ftypescript:S1441›"Strings must use singlequote.(ÔÊÉûÿÿÿÿ8ÅÒî°ü.
+ntypescript:S905—"FExpected an assignment or function call and instead saw an expression.(—§Åƒúÿÿÿÿ8ÅÒî°ü.
+Ftypescript:S1441½"Strings must use singlequote.(çÁÎóúÿÿÿÿ8ÅÒî°ü.
+Stypescript:S3353m"1'myCar' is never reassigned. Use 'const' instead.(æğĞ;8ÅÒî°ü.
+Atypescript:S1441À"Strings must use singlequote.(Ì«ÖÖ8ÅÒî°ü.
+Ftypescript:S125c"Remove this commented out code.(•Ì‚ÿÿÿÿÿ8ÅÒî°ü.
+5typescript:S109K"No magic number: 2.(¶ä¼Œ8ÅÒî°ü.
+Qtypescript:S3353D".'hr' is never reassigned. Use 'const' instead.(İÜ’ß8ÅÒî°ü.
+Etypescript:S1441"Strings must use singlequote.(¹¦Ğ»üÿÿÿÿ8ÅÒî°ü.
+Ftypescript:S1441˜"Strings must use singlequote.(¼ÀÈêÿÿÿÿÿ8ÅÒî°ü.
+<typescript:S109R"No magic number: 255.(ÒÿÅéıÿÿÿÿ8ÅÒî°ü.
+Jtypescript:S1186‘"!Unexpected empty function 'add2'.(ÊÉÂèşÿÿÿÿ8ÅÒî°ü.
+=typescript:S109™"No magic number: 124.(…†µŠıÿÿÿÿ8ÅÒî°ü.
+Otypescript:S3696¢"&Expected an error object to be thrown.(’ç’Âüÿÿÿÿ8ÅÒî°ü.
+@typescript:S125e"Remove this commented out code.(­İ¶Y8ÅÒî°ü.
+Ytypescript:S3353§"0'user' is never reassigned. Use 'const' instead.(¶°¦ºüÿÿÿÿ8ÅÒî°ü.
+btypescript:S3524K"?Remove parentheses around the parameter of this arrow function.(¶ä¼Œ8ÅÒî°ü.
+Ftypescript:S1441¥"Strings must use singlequote.(¿­‘Œüÿÿÿÿ8ÅÒî°ü.
+btypescript:S4137a":Use 'as HTMLInputElement' instead of '<HTMLInputElement>'.(ŒöŸˆùÿÿÿÿ8ÅÒî°ü.
+Mtypescript:S1186Y"%Unexpected empty function 'hexToRgb'.(Ä‹ĞËüÿÿÿÿ8ÅÒî°ü.
+Rtypescript:S4204‘")Unexpected any. Specify a different type.(ÊÉÂèşÿÿÿÿ8ÅÒî°ü.
+@typescript:S1441o"Strings must use singlequote.(óÂÚ‚8ÅÒî°ü.
+Xtypescript:S3353·"4'newAdmin' is never reassigned. Use 'const' instead.(£ç¡¬8ÅÒî°ü.
+Ftypescript:S1441"Strings must use singlequote.(á¯úÁûÿÿÿÿ8ÅÒî°ü.
+^typescript:S3353]"6'teacherAge' is never reassigned. Use 'const' instead.(±ÉãÉÿÿÿÿÿ8ÅÒî°ü.
+Ptypescript:S3353J"-'g' is never reassigned. Use 'const' instead.(ÿÄÿö8ÅÒî°ü.
+Rtypescript:S4204‘")Unexpected any. Specify a different type.(ÊÉÂèşÿÿÿÿ8ÅÒî°ü.
+ntypescript:S905˜"FExpected an assignment or function call and instead saw an expression.(¼ÀÈêÿÿÿÿÿ8ÅÒî°ü.
+Vtypescript:S3353½"-'u' is never reassigned. Use 'const' instead.(çÁÎóúÿÿÿÿ8ÅÒî°ü.
+:typescript:S109C"No magic number: 3.(İŒ©Ûûÿÿÿÿ8ÅÒî°ü.
+Atypescript:S1441¶"Strings must use singlequote.(Â°­“8ÅÒî°ü.
+Ftypescript:S1441¢"Strings must use singlequote.(’ç’Âüÿÿÿÿ8ÅÒî°ü.
+gtypescript:S3524R"?Remove parentheses around the parameter of this arrow function.(ÒÿÅéıÿÿÿÿ8ÅÒî°ü.
+?typescript:S106W"Unexpected console statement.(ÎÏŠ8ÅÒî°ü.
+Stypescript:S3353…"/'age' is never reassigned. Use 'const' instead.(ôº²€8ÅÒî°ü.
+]typescript:S3514D":Use destructuring syntax for these assignments from "hex".(İÜ’ß8ÅÒî°ü.
+Gtypescript:S1186“"$Unexpected empty function 'washCar'.(ÀÏ€x8ÅÒî°ü.
+ntypescript:S905™"FExpected an assignment or function call and instead saw an expression.(…†µŠıÿÿÿÿ8ÅÒî°ü.
+Ftypescript:S1441½"Strings must use singlequote.(çÁÎóúÿÿÿÿ8ÅÒî°ü.
+gtypescript:S3524S"?Remove parentheses around the parameter of this arrow function.(¨Ùå¥úÿÿÿÿ8ÅÒî°ü.
+Ztypescript:S3353a"2'input1' is never reassigned. Use 'const' instead.(ŒöŸˆùÿÿÿÿ8ÅÒî°ü.
+Jtypescript:S3696¶"&Expected an error object to be thrown.(Â°­“8ÅÒî°ü.
+Vtypescript:S3353E".'hg' is never reassigned. Use 'const' instead.(Œí¾ÿüÿÿÿÿ8ÅÒî°ü.
+Htypescript:S121µ" Expected { after 'if' condition.(¯·ê†ıÿÿÿÿ8ÅÒî°ü.
+Etypescript:S1441n"Strings must use singlequote.(íÕÅÂûÿÿÿÿ8ÅÒî°ü.
+Otypescript:S3696´"&Expected an error object to be thrown.(Â¦Ó©ÿÿÿÿÿ8ÅÒî°ü.
+Ftypescript:S125"Remove this commented out code.(ˆ‡±ìÿÿÿÿÿ8ÅÒî°ü.
+Ytypescript:S3353_"1'input' is never reassigned. Use 'const' instead.(ÙÁÎ´şÿÿÿÿ8ÅÒî°ü.
+Atypescript:S1441‚"Strings must use singlequote.(¡æ¬µ8ÅÒî°ü.
+7typescript:S109W"No magic number: 255.(ÎÏŠ8ÅÒî°ü.

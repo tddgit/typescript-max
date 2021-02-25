@@ -1,0 +1,45 @@
+
+Etypescript:S1441t"Strings must use singlequote.(šÑâ¦ûÿÿÿÿ8Šé¸œı.
+@typescript:S1441"Strings must use singlequote.(¤ÄĞô8Šé¸œı.
+Etypescript:S1441t"Strings must use singlequote.(šÑâ¦ûÿÿÿÿ8Šé¸œı.
+Etypescript:S1441t"Strings must use singlequote.(šÑâ¦ûÿÿÿÿ8Šé¸œı.
+Etypescript:S1441t"Strings must use singlequote.(šÑâ¦ûÿÿÿÿ8Šé¸œı.
+Ytypescript:S1117"1'contact' is already declared in the upper scope.(áº™ûüÿÿÿÿ8ùŸ¹œı.
+Etypescript:S1441"Strings must use singlequote.(Ç¡öøÿÿÿÿ8ùŸ¹œı.
+Etypescript:S1441"Strings must use singlequote.(Ç¡öøÿÿÿÿ8ùŸ¹œı.
+Etypescript:S1441"Strings must use singlequote.(Ç¡öøÿÿÿÿ8ùŸ¹œı.
+5typescript:S109"No magic number: 4.(éÎª•8ùŸ¹œı.
+5typescript:S109"No magic number: 2.(ñ³ğö8ùŸ¹œı.
+@typescript:S1441"Strings must use singlequote.(ñ³ğö8ùŸ¹œı.
+Ytypescript:S4622"6Refactor this union type to have less than 3 elements.(„Çù¹8ùŸ¹œı.
+@typescript:S1441"Strings must use singlequote.(„Çù¹8ùŸ¹œı.
+@typescript:S1441"Strings must use singlequote.(„Çù¹8ùŸ¹œı.
+5typescript:S109"No magic number: 2.(„Çù¹8ùŸ¹œı.
+Btypescript:S1186" Unexpected empty function 'foo'.(´³†j8ùŸ¹œı.
+Qtypescript:S4023 ")An empty interface is equivalent to `{}`.(—âà†üÿÿÿÿ8ùŸ¹œı.
+rtypescript:S101 "KRename interface "bar" to match the regular expression ^[A-Z][a-zA-Z0-9]*$.(—âà†üÿÿÿÿ8ùŸ¹œı.
+Etypescript:S1441""Strings must use singlequote.(ªãı¼ùÿÿÿÿ8ùŸ¹œı.
+mtypescript:S905+"FExpected an assignment or function call and instead saw an expression.(ãÅÏìûÿÿÿÿ8ùŸ¹œı.
+Atypescript:S1256"Remove this commented out code.(Ø·÷8ùŸ¹œı.
+@typescript:S1441:"Strings must use singlequote.(’×µÌ8ùŸ¹œı.
+mtypescript:S905="FExpected an assignment or function call and instead saw an expression.(ü’ÀÉùÿÿÿÿ8ùŸ¹œı.
+>typescript:S2814F"'Album' is already defined.(Æ¹Şæ8ùŸ¹œı.
+Rtypescript:S3353O"/'al2' is never reassigned. Use 'const' instead.(Ê‘Ğ©8ùŸ¹œı.
+[typescript:S3353P"3'alValue' is never reassigned. Use 'const' instead.(ÛÎŞüÿÿÿÿ8ùŸ¹œı.
+mtypescript:S905Q"FExpected an assignment or function call and instead saw an expression.(¬‚³¨ùÿÿÿÿ8ùŸ¹œı.
+Dtypescript:S2814Y"!'AddressBook' is already defined.(¸¢ô¼8ùŸ¹œı.
+:typescript:S109^"No magic number: 2.(ß“¿¼úÿÿÿÿ8ùŸ¹œı.
+?typescript:S2814a"'format' is already defined.(¢Õ±’8ùŸ¹œı.
+ptypescript:S3257b"MType string trivially inferred from a string literal, remove type annotation.(Á´ú8ùŸ¹œı.
+@typescript:S1441b"Strings must use singlequote.(Á´ú8ùŸ¹œı.
+?typescript:S106e"Unexpected console statement.(¤ğä–8ùŸ¹œı.
+9typescript:S109e"No magic number: 2.314.(¤ğä–8ùŸ¹œı.
+Dtypescript:S106f"Unexpected console statement.(ÕóÚÊşÿÿÿÿ8ùŸ¹œı.
+Ptypescript:S2208h"-Explicitly import the specific member needed.(ÉË™Ã8ùŸ¹œı.
+@typescript:S1441h"Strings must use singlequote.(ÉË™Ã8ùŸ¹œı.
+Utypescript:S2208i"-Explicitly import the specific member needed.(Ğô©ıÿÿÿÿ8ùŸ¹œı.
+Etypescript:S1441i"Strings must use singlequote.(Ğô©ıÿÿÿÿ8ùŸ¹œı.
+Etypescript:S3863j""'typescript' import is duplicated.(ÿ²À¶8ùŸ¹œı.
+Ptypescript:S1128j"-Remove this unused import of 'createProgram'.(ÿ²À¶8ùŸ¹œı.
+@typescript:S1441j"Strings must use singlequote.(ÿ²À¶8ùŸ¹œı.
+Ntypescript:S1117l"+'x' is already declared in the upper scope.(âáÁ¡8ùŸ¹œı.

@@ -1,0 +1,153 @@
+
+Etypescript:S1441H"Strings must use singlequote.(¬ÎÏ¤ÿÿÿÿÿ8êŸöúù.
+5typescript:S109B"No magic number: 3.(ˆÙ­ä8êŸöúù.
+Qtypescript:S3504	")Unexpected var, use let or const instead.(ÔŞáûÿÿÿÿÿ8€Äêúù.
+utypescript:S3257"MType string trivially inferred from a string literal, remove type annotation.(³Áõƒşÿÿÿÿ8êŸöúù.
+@typescript:S106ä"Unexpected console statement.(Ã“8êŸöúù.
+:typescript:S109n"No magic number: 2.(¯Ô¹şÿÿÿÿ8êŸöúù.
+Dtypescript:S121‰"!Expected { after 'for' condition.(òªØ‘8êŸöúù.
+@typescript:S106œ"Unexpected console statement.(êŸËñ8êŸöúù.
+Etypescript:S1441	"Strings must use singlequote.(ÔŞáûÿÿÿÿÿ8€Äêúù.
+Gtypescript:S125Ï"Remove this commented out code.(ì™•„ıÿÿÿÿ8êŸöúù.
+Etypescript:S1441U"Strings must use singlequote.(“æÃÿÿÿÿÿ8êŸöúù.
+Xtypescript:S3801Ù"4Refactor this function to use "return" consistently.(«“úö8êŸöúù.
+Ptypescript:S3353!"-'i' is never reassigned. Use 'const' instead.(­½ÒÈ8êŸöúù.
+Ftypescript:S1441„"Strings must use singlequote.(Ş øùÿÿÿÿ8êŸöúù.
+Otypescript:S4139!",Use "for...of" to iterate over this "Array".(­½ÒÈ8êŸöúù.
+Etypescript:S106–"Unexpected console statement.(‘ŒÖ£ıÿÿÿÿ8êŸöúù.
+@typescript:S1441"Strings must use singlequote.(ÎÙÿæ8€Äêúù.
+Atypescript:S1441ç"Strings must use singlequote.(ğéŒ8êŸöúù.
+Etypescript:S106í"Unexpected console statement.(ÈİÉÜıÿÿÿÿ8êŸöúù.
+@typescript:S106’"Unexpected console statement.(„Ê–8êŸöúù.
+Vtypescript:S3353û"2'newObj' is never reassigned. Use 'const' instead.(°¦´8êŸöúù.
+Etypescript:S106ö"Unexpected console statement.(Õ«¸şÿÿÿÿ8êŸöúù.
+@typescript:S1441"Strings must use singlequote.(Ëóİ8êŸöúù.
+Ltypescript:S4204-")Unexpected any. Specify a different type.(áİñ8êŸöúù.
+;typescript:S109r"No magic number: 56.(˜­ˆ«ûÿÿÿÿ8êŸöúù.
+Dtypescript:S106["Unexpected console statement.(Œ”÷šùÿÿÿÿ8êŸöúù.
+Etypescript:S1441V"Strings must use singlequote.(Ã ûÍıÿÿÿÿ8êŸöúù.
+<typescript:S109"No magic number: 20.(é¬êùşÿÿÿÿ8êŸöúù.
+Etypescript:S106•"Unexpected console statement.(À­¿µûÿÿÿÿ8êŸöúù.
+;typescript:S109r"No magic number: 34.(˜­ˆ«ûÿÿÿÿ8êŸöúù.
+@typescript:S106°"Unexpected console statement.(óËÁ8êŸöúù.
+Atypescript:S1441Ş"Strings must use singlequote.(Ù­‰Ù8êŸöúù.
+@typescript:S106½"Unexpected console statement.(ßù­8êŸöúù.
+]typescript:S3353†"4'objPrec3' is never reassigned. Use 'const' instead.(œòÆ–úÿÿÿÿ8êŸöúù.
+Rtypescript:S1117-"/'item1' is already declared in the upper scope.(áİñ8êŸöúù.
+Ftypescript:S1441„"Strings must use singlequote.(Ş øùÿÿÿÿ8êŸöúù.
+@typescript:S1441"Strings must use singlequote.(‡Ä†è8€Äêúù.
+Ftypescript:S1441ƒ"Strings must use singlequote.(Ğœ¾¸øÿÿÿÿ8êŸöúù.
+Dtypescript:S106y"Unexpected console statement.(Ş øùÿÿÿÿ8êŸöúù.
+Atypescript:S1441½"Strings must use singlequote.(ßù­8êŸöúù.
+Ztypescript:S3353‰"6'firstArray' is never reassigned. Use 'const' instead.(óÇşè8êŸöúù.
+@typescript:S106æ"Unexpected console statement.(Ã“8êŸöúù.
+Jtypescript:S4137ì"&Use 'as number' instead of '<number>'.(Õ×ßª8êŸöúù.
+@typescript:S1441-"Strings must use singlequote.(áİñ8êŸöúù.
+@typescript:S106è"Unexpected console statement.(Ã“8êŸöúù.
+@typescript:S106‹"Unexpected console statement.(„ë£†8êŸöúù.
+\typescript:S3353ø"3'nameObj' is never reassigned. Use 'const' instead.(€œ§ïùÿÿÿÿ8êŸöúù.
+Mtypescript:S4204‘")Unexpected any. Specify a different type.(§ÌÿÊ8êŸöúù.
+Etypescript:S1441y"Strings must use singlequote.(Ş øùÿÿÿÿ8êŸöúù.
+@typescript:S106‰"Unexpected console statement.(òªØ‘8êŸöúù.
+Xtypescript:S3353ı"4'objPrec1' is never reassigned. Use 'const' instead.(Á»Òú8êŸöúù.
+Dtypescript:S106H"Unexpected console statement.(¬ÎÏ¤ÿÿÿÿÿ8êŸöúù.
+Xtypescript:S3353ï"4'firstObj' is never reassigned. Use 'const' instead.(ÃîŞ8êŸöúù.
+Atypescript:S1441–"Strings must use singlequote.(ş•Éã8êŸöúù.
+?typescript:S106"Unexpected console statement.(›ß—»8êŸöúù.
+5typescript:S109D"No magic number: 10.(¦¢Â8êŸöúù.
+<typescript:S109"No magic number: 30.(é¬êùşÿÿÿÿ8êŸöúù.
+?typescript:S106R"Unexpected console statement.(™ˆæ 8êŸöúù.
+Ftypescript:S1441¢"Strings must use singlequote.(îéİ¦úÿÿÿÿ8€Äêúù.
+<typescript:S109•"No magic number: 10.(†îüÖúÿÿÿÿ8êŸöúù.
+[typescript:S1117A"3'DoorState' is already declared in the upper scope.(€ùù”ùÿÿÿÿ8êŸöúù.
+Xtypescript:S3353"4'objPrec2' is never reassigned. Use 'const' instead.(²¥¢Õ8êŸöúù.
+6typescript:S109‰"No magic number: 4.(óÇşè8êŸöúù.
+@typescript:S106—"Unexpected console statement.(¸Éòª8êŸöúù.
+Ftypescript:S1128"#Remove this unused import of 'log'.(ÎÙÿæ8€Äêúù.
+\typescript:S1117q"4'addNumbers' is already declared in the upper scope.(ø÷Øúøÿÿÿÿ8êŸöúù.
+Etypescript:S106§"Unexpected console statement.(öÂ›üüÿÿÿÿ8êŸöúù.
+btypescript:S1854à"9Remove this useless assignment to variable "returnSting".(®ô™–üÿÿÿÿ8êŸöúù.
+@typescript:S106‡"Unexpected console statement.(¯õ¢Ü8êŸöúù.
+Dtypescript:S106;"Unexpected console statement.(˜¦½³ÿÿÿÿÿ8êŸöúù.
+@typescript:S1441("Strings must use singlequote.(ÄŞÉ™8êŸöúù.
+@typescript:S106¢"Unexpected console statement.(–ßº8êŸöúù.
+@typescript:S1441Z"Strings must use singlequote.(Ã¸í«8êŸöúù.
+@typescript:S1441"Strings must use singlequote.(Ëóİ8êŸöúù.
+:typescript:S109n"No magic number: 4.(¯Ô¹şÿÿÿÿ8êŸöúù.
+Ftypescript:S1441ø"Strings must use singlequote.(€œ§ïùÿÿÿÿ8êŸöúù.
+…typescript:S3699"\Remove this use of the output from "testArguments"; "testArguments" doesn't return anything.(é¬êùşÿÿÿÿ8êŸöúù.
+Ytypescript:S3353="6'closedDoor' is never reassigned. Use 'const' instead.(ø¤‰ğ8êŸöúù.
+]typescript:S3353":'inferredString' is never reassigned. Use 'const' instead.(‡Ä†è8€Äêúù.
+Etypescript:S1441y"Strings must use singlequote.(Ş øùÿÿÿÿ8êŸöúù.
+Atypescript:S1441Î"Strings must use singlequote.(ŞŠ–8êŸöúù.
+6typescript:S109½"No magic number: 4.(ßù­8êŸöúù.
+@typescript:S1441W"Strings must use singlequote.(±êõø8êŸöúù.
+Btypescript:S125Ò"Remove this commented out code.(ï†¢¿8êŸöúù.
+Ftypescript:S1441À"Strings must use singlequote.(˜¾Ôÿÿÿÿÿ8êŸöúù.
+`typescript:S3353à"7'returnSting' is never reassigned. Use 'const' instead.(®ô™–üÿÿÿÿ8êŸöúù.
+@typescript:S106"Unexpected console statement.(Ş¨¼Ğ8êŸöúù.
+Mtypescript:S4204‘")Unexpected any. Specify a different type.(§ÌÿÊ8êŸöúù.
+Etypescript:S106À"Unexpected console statement.(˜¾Ôÿÿÿÿÿ8êŸöúù.
+\typescript:S3353Q"9'constDoorOpen' is never reassigned. Use 'const' instead.(–çÆ»8êŸöúù.
+Dtypescript:S106h"Unexpected console statement.(â§ß’ùÿÿÿÿ8êŸöúù.
+Dtypescript:S106G"Unexpected console statement.(Ú÷¢’ùÿÿÿÿ8êŸöúù.
+Ztypescript:S131Ú"2Add a "default" clause to this "switch" statement.(İõô£ùÿÿÿÿ8êŸöúù.
+]typescript:S3353n"5'addResult' is never reassigned. Use 'const' instead.(¯Ô¹şÿÿÿÿ8êŸöúù.
+Mtypescript:S4204‘")Unexpected any. Specify a different type.(§ÌÿÊ8êŸöúù.
+?typescript:S1069"Unexpected console statement.(€˜ —8êŸöúù.
+Ctypescript:S4137-" Use 'as any' instead of '<any>'.(áİñ8êŸöúù.
+Utypescript:S3353ù"1'idObj' is never reassigned. Use 'const' instead.(½ßÔ8êŸöúù.
+6typescript:S109"No magic number: 8.(¡Å™á8êŸöúù.
+@typescript:S106–"Unexpected console statement.(ş•Éã8êŸöúù.
+Xtypescript:S3353ô"5'secondObj' is never reassigned. Use 'const' instead.(²ÀÿO8êŸöúù.
+^typescript:S3353 ":'newComplexType' is never reassigned. Use 'const' instead.(­¸ºÙ8êŸöúù.
+Etypescript:S1441a"Strings must use singlequote.(µÜìùÿÿÿÿ8êŸöúù.
+6typescript:S109‰"No magic number: 2.(óÇşè8êŸöúù.
+<typescript:S109"No magic number: 10.(é¬êùşÿÿÿÿ8êŸöúù.
+Etypescript:S106"Unexpected console statement.(öÂ›üüÿÿÿÿ8êŸöúù.
+?typescript:S106."Unexpected console statement.(ÿ¥Èê8êŸöúù.
+Qtypescript:S4204&")Unexpected any. Specify a different type.(„Ê§ÿÿÿÿÿ8êŸöúù.
+?typescript:S106""Unexpected console statement.(ã‰Õª8êŸöúù.
+6typescript:S109‰"No magic number: 3.(óÇşè8êŸöúù.
+;typescript:S109•"No magic number: 2.(À­¿µûÿÿÿÿ8êŸöúù.
+btypescript:S3353g":'limeGreenColor' is never reassigned. Use 'const' instead.(şÈ²Ğøÿÿÿÿ8êŸöúù.
+Ftypescript:S125"Remove this commented out code.(ßçíúÿÿÿÿ8€Äêúù.
+Dtypescript:S106r"Unexpected console statement.(˜­ˆ«ûÿÿÿÿ8êŸöúù.
+Jtypescript:S3696Î"&Expected an error object to be thrown.(ŞŠ–8êŸöúù.
+[typescript:S3353"7'secondArray' is never reassigned. Use 'const' instead.(¡Å™á8êŸöúù.
+Atypescript:S1441¯"Strings must use singlequote.(€²Ôÿ8êŸöúù.
+@typescript:S1441="Strings must use singlequote.(ø¤‰ğ8êŸöúù.
+Etypescript:S106"Unexpected console statement.(é¬êùşÿÿÿÿ8êŸöúù.
+Dtypescript:S106>"Unexpected console statement.(î«èøÿÿÿÿ8êŸöúù.
+Etypescript:S106„"Unexpected console statement.(Ş øùÿÿÿÿ8êŸöúù.
+Atypescript:S1441ÿ"Strings must use singlequote.(ªõ†¢8êŸöúù.
+5typescript:S109C"No magic number: 5.(¥èŒ¿8êŸöúù.
+Atypescript:S1441¸"Strings must use singlequote.(–»²•8êŸöúù.
+@typescript:S106™"Unexpected console statement.(–ßº8êŸöúù.
+@typescript:S1441"Strings must use singlequote.(Àîï8êŸöúù.
+Etypescript:S1441"Strings must use singlequote.(¡õÊ¦øÿÿÿÿ8êŸöúù.
+Dtypescript:S106e"Unexpected console statement.(±–ãÄúÿÿÿÿ8êŸöúù.
+Atypescript:S1441ã"Strings must use singlequote.(½¤•Æ8êŸöúù.
+btypescript:S3353“">'highest53bitNumber' is never reassigned. Use 'const' instead.(’¼Ğ£8êŸöúù.
+Ftypescript:S1441ñ"Strings must use singlequote.(ˆ ¶Ïşÿÿÿÿ8êŸöúù.
+\typescript:S33538"4'openDoor' is never reassigned. Use 'const' instead.(®ÿÙÊùÿÿÿÿ8êŸöúù.
+Etypescript:S1441"Strings must use singlequote.(³Áõƒşÿÿÿÿ8êŸöúù.
+6typescript:S109"No magic number: 7.(¡Å™á8êŸöúù.
+@typescript:S106¸"Unexpected console statement.(–»²•8êŸöúù.
+^typescript:S3353Z";'doorStateString' is never reassigned. Use 'const' instead.(Ã¸í«8êŸöúù.
+@typescript:S106®"Unexpected console statement.(óËÁ8êŸöúù.
+Btypescript:S125Ç"Remove this commented out code.(ó…‡8êŸöúù.
+6typescript:S109"No magic number: 6.(¡Å™á8êŸöúù.
+\typescript:S3353"9'arrayOfString' is never reassigned. Use 'const' instead.(Ëóİ8êŸöúù.
+Ztypescript:S1117|"7'concatStrings' is already declared in the upper scope.(ş¼¯ş8êŸöúù.
+Atypescript:S1441–"Strings must use singlequote.(ş•Éã8êŸöúù.
+Atypescript:S1441Ü"Strings must use singlequote.(¢£½8êŸöúù.
+Xtypescript:S3353d"6'oneMillion' is never reassigned. Use 'const' instead.(Íªìs8êŸöúù.
+6typescript:S109Ã"No magic number: 5.(çËÈÙ8êŸöúù.
+btypescript:S3353":'inferredNumber' is never reassigned. Use 'const' instead.(–Äóûıÿÿÿÿ8€Äêúù.
+@typescript:S1441"Strings must use singlequote.(Ëóİ8êŸöúù.
+?typescript:S106_"Unexpected console statement.(›ö8êŸöúù.
+@typescript:S106¥"Unexpected console statement.(ØÏµ8êŸöúù.
+6typescript:S109‰"No magic number: 5.(óÇşè8êŸöúù.
+@typescript:S2966_"Forbidden non-null assertion.(›ö8êŸöúù.
+@typescript:S1441"Strings must use singlequote.(Àîï8êŸöúù.

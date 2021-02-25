@@ -1,12 +1,7 @@
-import { Category } from "./enums";
+import { Category } from './enums';
 
-import { Book, DamageLogger, Author, Librarian } from "./interfaces";
-import {
-  UniversityLibrarian,
-  ReferenceItem,
-  Encyclopedia,
-  Journal,
-} from "./classes";
+import { Book, DamageLogger, Librarian } from './interfaces';
+import { UniversityLibrarian, ReferenceItem, Encyclopedia } from './classes';
 
 // type Book = {
 //   id: number;
@@ -17,75 +12,61 @@ import {
 // };
 
 function GetAllBooks(): Book[] {
-  let books: Book[] = [
-    {
-      id: 1,
-      title: "Ulysses",
-      author: "James Joyce",
-      available: true,
-      category: Category.Fiction,
-    },
-    {
-      id: 2,
-      title: "A Farewell to Arms",
-      author: "Ernest Hemingway",
-      available: false,
-      category: Category.Fiction,
-    },
-    {
-      id: 3,
-      title: "I Know Why the Caged Bird Sings",
-      author: "Maya Angelou",
-      available: true,
-      category: Category.Poetry,
-    },
-    {
-      id: 4,
-      title: "Moby Dick",
-      author: "Herman" + " Melville",
-      available: true,
-      category: Category.Fiction,
-    },
-  ];
-  return books;
+    return [
+        {
+            id: 1,
+            title: 'Ulysses',
+            author: 'James Joyce',
+            available: true,
+            category: Category.Fiction,
+        },
+        {
+            id: 2,
+            title: 'A Farewell to Arms',
+            author: 'Ernest Hemingway',
+            available: false,
+            category: Category.Fiction,
+        },
+        {
+            id: 3,
+            title: 'I Know Why the Caged Bird Sings',
+            author: 'Maya Angelou',
+            available: true,
+            category: Category.Poetry,
+        },
+        {
+            id: 4,
+            title: 'Moby Dick',
+            author: 'Herman' + ' Melville',
+            available: true,
+            category: Category.Fiction,
+        },
+    ];
 }
 
 function LogFirstAvailableBook(books: Book[]): void {
-  let numberOfBooks: number = books.length;
-  let firstAvailableBook: string = "";
-  for (let currentBook of books) {
-    if (currentBook.available) {
-      firstAvailableBook = currentBook.title;
-      break;
+    let numberOfBooks: number = books.length;
+    let firstAvailableBook: string = '';
+    for (let currentBook of books) {
+        if (currentBook.available) {
+            firstAvailableBook = currentBook.title;
+            break;
+        }
     }
-  }
-  console.log("Total Books: ", numberOfBooks);
-  console.log("First available: " + firstAvailableBook);
+    console.log('Total Books: ', numberOfBooks);
+    console.log('First available: ' + firstAvailableBook);
 }
 
 function GetBookTitlesByCategory(categoryFilter: Category): Array<string> {
-  const allBooks: Array<Book> = GetAllBooks();
-  const filteredBooks: Book[] = allBooks.filter(
-    (currentBook: Book): boolean => currentBook.category === categoryFilter
-  );
-  const filteredTitles: string[] = [];
-  for (let currentBook of filteredBooks) {
-    filteredTitles.push(currentBook.title);
-  }
-  return filteredTitles;
-}
-
-function GetBookTitlesByCategory1(
-  categoryFilter: Category = Category.Fiction
-): Array<string> {
-  const allBooks: Array<Book> = GetAllBooks();
-  const filteredTitles: Array<string> = [];
-  for (let currentBook of allBooks) {
-    if (currentBook.category === categoryFilter) {
-      filteredTitles.push(currentBook.title);
+    const allBooks: Array<Book> = GetAllBooks();
+    const filteredBooks: Book[] = allBooks.filter(
+        (currentBook: Book): boolean => currentBook.category === categoryFilter
+    );
+    const filteredTitles: string[] = [];
+    for (const currentBook of filteredBooks) {
+        filteredTitles.push(currentBook.title);
     }
-  }
-  return filteredTitles;
+    return filteredTitles;
 }
 
 const allBooks: Array<Book> = GetAllBooks();
@@ -94,76 +75,76 @@ LogFirstAvailableBook(allBooks);
 let fictionBooks = GetBookTitlesByCategory(Category.Fiction);
 console.log(fictionBooks);
 
-fictionBooks.forEach((val, idx, arr) => {
-  console.log(++idx + "-" + val);
+fictionBooks.forEach((val, idx) => {
+    console.log(++idx + '-' + val);
 });
 
 function GetBookByID(id: number): Book {
-  const allBooks = GetAllBooks();
-  return allBooks.filter((currentBook) => currentBook.id === id)[0];
+    const allBooks = GetAllBooks();
+    return allBooks.filter((currentBook) => currentBook.id === id)[0];
 }
 
-function CreateCustomerID(name: string, id: number): string {
-  return name + id;
-}
+// function CreateCustomerID(name: string, id: number): string {
+//     return name + id;
+// }
 
-function CreateCustomer(
-  name: string,
-  age?: number | string,
-  city?: string
-): void {
-  console.log("CreateCustomer: " + name);
-  if (age) {
-    console.log("Age: " + age);
-  }
-  if (city) {
-    console.log("City: " + city);
-  }
-}
+// function CreateCustomer(
+//     name: string,
+//     age?: number | string,
+//     city?: string
+// ): void {
+//     console.log('CreateCustomer: ' + name);
+//     if (age) {
+//         console.log('Age: ' + age);
+//     }
+//     if (city) {
+//         console.log('City: ' + city);
+//     }
+// }
 
 function CheckoutBooks(customer: string, ...bookIDs: Array<number>): string[] {
-  console.log("Checking out books for " + customer);
+    console.log('Checking out books for ' + customer);
 
-  let booksCheckedOut: string[] = [];
-  for (let id of bookIDs) {
-    let book = GetBookByID(id);
-    if (book.available) {
-      booksCheckedOut.push(book.title);
+    let booksCheckedOut: string[] = [];
+    for (let id of bookIDs) {
+        let book = GetBookByID(id);
+        if (book.available) {
+            booksCheckedOut.push(book.title);
+        }
     }
-  }
-  return booksCheckedOut;
+    return booksCheckedOut;
 }
 
-let myBooks: string[] = CheckoutBooks("Thorne", 1, 3, 4);
+let myBooks: string[] = CheckoutBooks('Thorne', 1, 3, 4);
 myBooks.forEach((title) => {
-  console.log(title);
+    console.log(title);
 });
 
 function GetTitles(author: string): string[];
 function GetTitles(available: boolean): string[];
 function GetTitles(bookProperty: any): string[] {
-  const allBooks = GetAllBooks();
-  const foundTitles: string[] = [];
+    const allBooks = GetAllBooks();
+    const foundTitles: string[] = [];
 
-  if (typeof bookProperty === "string") {
-    //
-    for (let book of allBooks) {
-      if (book.author === bookProperty) {
-        foundTitles.push(book.title);
-      }
+    if (typeof bookProperty === 'string') {
+        //
+        for (let book of allBooks) {
+            if (book.author === bookProperty) {
+                foundTitles.push(book.title);
+            }
+        }
+    } else if (typeof bookProperty == 'boolean') {
+        for (let book of allBooks) {
+            if (book.available === bookProperty) {
+                foundTitles.push(book.title);
+            }
+        }
     }
-  } else if (typeof bookProperty == "boolean") {
-    for (let book of allBooks) {
-      if (book.available === bookProperty) {
-        foundTitles.push(book.title);
-      }
-    }
-  }
-  return foundTitles;
+    return foundTitles;
 }
 
 function PrintBook(book: Book): void {
-  console.log("PrintBook: " + book.title + "by" + book.author);
+    console.log('PrintBook: ' + book.title + 'by' + book.author);
 }
 
 // let ref = new ReferenceItem("Facts and Figures", 2012);
@@ -174,50 +155,40 @@ function PrintBook(book: Book): void {
 // ref.publisher = "Random Data Publishing";
 // console.log(ref.publisher);
 
-let refBook: ReferenceItem = new Encyclopedia("WorldPedia", 2021, 10);
+let refBook: ReferenceItem = new Encyclopedia('WorldPedia', 2021, 10);
 refBook.printItem();
 
 let Newspaper = class extends ReferenceItem {
-  printCitation(): void {
-    console.log(`Newspaper: ${this.title} ${this.year}`);
-  }
+    printCitation(): void {
+        console.log(`Newspaper: ${this.title} ${this.year}`);
+    }
 };
 
-let myPaper = new Newspaper("Pravda", 1918);
+let myPaper = new Newspaper('Pravda', 1918);
 myPaper.printCitation();
 
 class Novel extends class {
-  title: string = "Not assigned";
+    title: string = 'Not assigned';
 } {
-  mainCharacter: string = "Not assigned";
+    mainCharacter: string = 'Not assigned';
 }
 
 let favoriteNovel = new Novel();
-favoriteNovel.title = "1984";
-favoriteNovel.mainCharacter = "Ben Wilson";
+favoriteNovel.title = '1984';
+favoriteNovel.mainCharacter = 'Ben Wilson';
 
 //***********************************************
 
 let myBook: Book = {
-  id: 5,
-  title: "Pride and Prejudice",
-  author: "Jane Austen",
-  available: true,
-  category: Category.Fiction,
-  pages: 250,
-  markDamaged: (reason: string) => {
-    console.log("Damaged: " + reason);
-  },
-};
-
-let myBook1: Book = {
-  id: 5,
-  title: "Pride and Prejudice",
-  author: "Jane Austen",
-  available: true,
-  category: Category.Fiction,
-  pages: 250,
-  markDamaged: (reason: string) => console.log("Damaged: " + reason),
+    id: 5,
+    title: 'Pride and Prejudice',
+    author: 'Jane Austen',
+    available: true,
+    category: Category.Fiction,
+    pages: 250,
+    markDamaged: (reason: string) => {
+        console.log('Damaged: ' + reason);
+    },
 };
 
 PrintBook(myBook);
@@ -226,63 +197,63 @@ console.log(myBook);
 
 let logDamage: DamageLogger;
 logDamage = (damage: string) => {
-  console.log("Damage" + " reported " + damage);
+    console.log('Damage' + ' reported ' + damage);
 };
-logDamage("backcover is missing");
+logDamage('backcover is missing');
 
 // let favoriteAuthor: Author = {}
 let favoriteLibrarian: Librarian = new UniversityLibrarian(
-  "Sharon",
-  "sharon@gmail.com",
-  "University Library"
+    'Sharon',
+    'sharon@gmail.com',
+    'University Library'
 );
 
-favoriteLibrarian.assistCustomer("Lynda");
+favoriteLibrarian.assistCustomer('Lynda');
 //********************************************************
 
-let hermansBooks = GetTitles("Herman Melville");
+let hermansBooks = GetTitles('Herman Melville');
 hermansBooks.forEach((title) => {
-  console.log("GetTitles: ", title);
+    console.log('GetTitles: ', title);
 });
-
-interface Duck {
-  walk(): void;
-  swim(): void;
-  quack(): void;
-}
-
-let probablyDuck = {
-  walk: () => {
-    console.log("walking like a duck");
-  },
-  swim: () => {
-    console.log("swimming like a duck");
-  },
-  quack: () => {
-    console.log("quack like a duck");
-  },
-};
-
-function flyOverWater(bird: Duck) {}
-flyOverWater(probablyDuck);
-
-CreateCustomer("Michelle");
-
-let xx: number;
-let IdGenerator: (chars: string, nums: number) => string;
-IdGenerator = (name: string, id: number) => name + id;
-
-let myId: string = IdGenerator("stas", 15);
-
-console.log(CreateCustomer("Stas"));
-
-function GetBooksReadForCust(name: string, ...bookID: Array<number>) {}
-
-let books = GetBooksReadForCust("Stas", 3, 4, 5);
-
 //
-// console.log(CreateCustomerID("Stas", 39));
-// console.log(
-//   allBooks.filter((book: book): boolean => book.author === "Herman Melville")
-// );
+// interface Duck {
+//     walk(): void;
+//     swim(): void;
+//     quack(): void;
+// }
+
+// let probablyDuck = {
+//     walk: () => {
+//         console.log('walking like a duck');
+//     },
+//     swim: () => {
+//         console.log('swimming like a duck');
+//     },
+//     quack: () => {
+//         console.log('quack like a duck');
+//     },
+// };
+
+// function flyOverWater(bird: Duck) {}
+// flyOverWater(probablyDuck);
+
+// CreateCustomer('Michelle');
 //
+// let xx: number;
+// let IdGenerator: (chars: string, nums: number) => string;
+// IdGenerator = (name: string, id: number) => name + id;
+//
+// let myId: string = IdGenerator('stas', 15);
+//
+// console.log(CreateCustomer('Stas'));
+//
+// function GetBooksReadForCust(name: string, ...bookID: Array<number>) {}
+//
+// let books = GetBooksReadForCust('Stas', 3, 4, 5);
+//
+// //
+// // console.log(CreateCustomerID("Stas", 39));
+// // console.log(
+// //   allBooks.filter((book: book): boolean => book.author === "Herman Melville")
+// // );
+// //

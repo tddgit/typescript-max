@@ -1,0 +1,19 @@
+
+5typescript:S109
+"No magic number: 2.(éƒå˜8 Û ÷.
+[typescript:S1117"3'READ_ONLY' is already declared in the upper scope.(µ®–ğşÿÿÿÿ8ÏÁÛ ÷.
+Stypescript:S1117"0'AUTHOR' is already declared in the upper scope.(‰áÚˆ8ÏÁÛ ÷.
+Qtypescript:S4204")Unexpected any. Specify a different type.(±æêÇÿÿÿÿÿ8ÏÁÛ ÷.
+@typescript:S1441
+"Strings must use singlequote.(éƒå˜8 Û ÷.
+Etypescript:S1441"Strings must use singlequote.(ü›Ò„şÿÿÿÿ8ÏÁÛ ÷.
+?typescript:S2814"'person' is already defined.(ŸøÕ£8ÏÁÛ ÷.
+Etypescript:S1441"Strings must use singlequote.(ß«Î§ıÿÿÿÿ8 Û ÷.
+atypescript:S3353">'favoriteActivities' is never reassigned. Use 'const' instead.(¢¢Õå8ÏÁÛ ÷.
+@typescript:S1441"Strings must use singlequote.(¢¢Õå8ÏÁÛ ÷.
+Etypescript:S1441"Strings must use singlequote.(ß«Î§ıÿÿÿÿ8ÏÁÛ ÷.
+Etypescript:S1441"Strings must use singlequote.(ü›Ò„şÿÿÿÿ8 Û ÷.
+Etypescript:S1441	"Strings must use singlequote.(ß«Î§ıÿÿÿÿ8 Û ÷.
+Etypescript:S1441	"Strings must use singlequote.(ß«Î§ıÿÿÿÿ8ÏÁÛ ÷.
+Wtypescript:S1117"/'ADMIN' is already declared in the upper scope.(œêùÿÿÿÿ8ÏÁÛ ÷.
+?typescript:S106""Unexpected console statement.(ñ›Œ8ÏÁÛ ÷.

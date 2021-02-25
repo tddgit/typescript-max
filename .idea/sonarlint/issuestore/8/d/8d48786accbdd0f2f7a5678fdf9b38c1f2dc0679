@@ -1,0 +1,70 @@
+
+typescript:S100"_Rename this 'CalculateLateFee' function to match the regular expression '^[_a-z][a-zA-Z0-9]*$'.(¥ïî¹ıÿÿÿÿ
+5typescript:S109"No magic number: .25.(ôğèŸıÿÿÿÿ
+ytypescript:S100"^Rename this 'MaxBooksAllowed' function to match the regular expression '^[_a-z][a-zA-Z0-9]*$'.(ˆÃ×æ
+4typescript:S109	"No magic number: 12.(Ë™Äôÿÿÿÿÿ
+.typescript:S109
+"No magic number: 3.(›…Ú
+4typescript:S109"No magic number: 10.(ˆæÌ¥ÿÿÿÿÿ
+=typescript:S106"Unexpected console statement.(Ø™ÿüÿÿÿÿ
+otypescript:S100"TRename this 'Purge' function to match the regular expression '^[_a-z][a-zA-Z0-9]*$'.(ÉëÖÒ
+.typescript:S109"No magic number: 2.(¢²Í‘
+utypescript:S100"ZRename this 'GetAllBooks' function to match the regular expression '^[_a-z][a-zA-Z0-9]*$'.(Ñ±ƒ®
+=typescript:S1131"Trailing spaces not allowed.(µáÎüÿÿÿÿ
+etypescript:S105"EReplace all tab characters in this file by sequences of white-spaces.(µáÎüÿÿÿÿ
+Mtypescript:S3353"1'books' is never reassigned. Use 'const' instead.(±›õ
+ytypescript:S1488"]Immediately return this expression instead of assigning it to the temporary variable "books".(±›õ
+=typescript:S1131!"Trailing spaces not allowed.(µáÎüÿÿÿÿ
+~typescript:S100%"^Rename this 'GetAllMagazines' function to match the regular expression '^[_a-z][a-zA-Z0-9]*$'.(ıúíôşÿÿÿÿ
+Vtypescript:S3353'"5'magazines' is never reassigned. Use 'const' instead.(¥ï˜Òıÿÿÿÿ
+‚typescript:S1488'"aImmediately return this expression instead of assigning it to the temporary variable "magazines".(¥ï˜Òıÿÿÿÿ
+{typescript:S1001"`Rename this 'LogFirstAvailable' function to match the regular expression '^[_a-z][a-zA-Z0-9]*$'.(†ğÉÁ
+=typescript:S11312"Trailing spaces not allowed.(µáÎüÿÿÿÿ
+Utypescript:S33533"9'numberOfBooks' is never reassigned. Use 'const' instead.(Óƒ½Ò
+itypescript:S32574"MType string trivially inferred from a string literal, remove type annotation.(ÆãÔ
+=typescript:S11315"Trailing spaces not allowed.(µáÎüÿÿÿÿ
+Stypescript:S33536"7'currentBook' is never reassigned. Use 'const' instead.(Ñ—ú
+=typescript:S11317"Trailing spaces not allowed.(µáÎüÿÿÿÿ
+=typescript:S1131="Trailing spaces not allowed.(µáÎüÿÿÿÿ
+8typescript:S106>"Unexpected console statement.(â€¥ö
+=typescript:S106?"Unexpected console statement.(¾âİĞÿÿÿÿÿ
+typescript:S100B"fRename this 'GetBookTitlesByCategory' function to match the regular expression '^[_a-z][a-zA-Z0-9]*$'.(Ëà¾à
+=typescript:S1131C"Trailing spaces not allowed.(µáÎüÿÿÿÿ
+=typescript:S106D"Unexpected console statement.(ª¾­“øÿÿÿÿ
+=typescript:S1131E"Trailing spaces not allowed.(µáÎüÿÿÿÿ
+=typescript:S1131H"Trailing spaces not allowed.(µáÎüÿÿÿÿ
+Xtypescript:S3353I"7'currentBook' is never reassigned. Use 'const' instead.(ÚÿùÄşÿÿÿÿ
+=typescript:S1131N"Trailing spaces not allowed.(µáÎüÿÿÿÿ
+|typescript:S100R"\Rename this 'LogBookTitles' function to match the regular expression '^[_a-z][a-zA-Z0-9]*$'.(åäœÜüÿÿÿÿ
+=typescript:S1131S"Trailing spaces not allowed.(µáÎüÿÿÿÿ
+Mtypescript:S3353T"1'title' is never reassigned. Use 'const' instead.(İÓ°Ì
+8typescript:S106U"Unexpected console statement.(Ç³ì©
+ztypescript:S100Y"ZRename this 'GetBookByID' function to match the regular expression '^[_a-z][a-zA-Z0-9]*$'.(ùÃºßıÿÿÿÿ
+ztypescript:S100^"_Rename this 'CreateCustomerID' function to match the regular expression '^[_a-z][a-zA-Z0-9]*$'.(ê’ìë
+btypescript:S3402_"FReview this expression to be sure that the concatenation was intended.(³İÈâ
+}typescript:S100b"]Rename this 'CreateCustomer' function to match the regular expression '^[_a-z][a-zA-Z0-9]*$'.(•ú¦ãüÿÿÿÿ
+7typescript:S106c"Unexpected console statement.(§™‹
+=typescript:S1131d"Trailing spaces not allowed.(µáÎüÿÿÿÿ
+8typescript:S106f"Unexpected console statement.(´Ù¹Ú
+=typescript:S1131h"Trailing spaces not allowed.(µáÎüÿÿÿÿ
+8typescript:S106j"Unexpected console statement.(ÓÆÄÌ
+|typescript:S100n"\Rename this 'CheckoutBooks' function to match the regular expression '^[_a-z][a-zA-Z0-9]*$'.(à½äüşÿÿÿÿ
+=typescript:S1131o"Trailing spaces not allowed.(µáÎüÿÿÿÿ
+=typescript:S106p"Unexpected console statement.(Ş‚ç›ÿÿÿÿÿ
+=typescript:S1131q"Trailing spaces not allowed.(µáÎüÿÿÿÿ
+\typescript:S3353r";'booksCheckedOut' is never reassigned. Use 'const' instead.(¯ğŞÂüÿÿÿÿ
+=typescript:S1131s"Trailing spaces not allowed.(µáÎüÿÿÿÿ
+Jtypescript:S3353t".'id' is never reassigned. Use 'const' instead.(ÈÔí‚
+Qtypescript:S3353u"0'book' is never reassigned. Use 'const' instead.(¡âğıÿÿÿÿ
+=typescript:S1131z"Trailing spaces not allowed.(µáÎüÿÿÿÿ
+ytypescript:S100€"XRename this 'GetTitles' function to match the regular expression '^[_a-z][a-zA-Z0-9]*$'.(ß´¤İûÿÿÿÿ
+Ktypescript:S4204€")Unexpected any. Specify a different type.(ß´¤İûÿÿÿÿ
+>typescript:S1131ƒ"Trailing spaces not allowed.(µáÎüÿÿÿÿ
+Rtypescript:S3353†"0'book' is never reassigned. Use 'const' instead.(¸•ë›ıÿÿÿÿ
+otypescript:S1105‹"MClosing curly brace does not appear on the same line as the subsequent block.(æÀö€øÿÿÿÿ
+>typescript:S1131Œ"Trailing spaces not allowed.(µáÎüÿÿÿÿ
+?typescript:S126"Add the missing "else" clause.(å¥³úúÿÿÿÿ
+Rtypescript:S3353"0'book' is never reassigned. Use 'const' instead.(¸•ë›ıÿÿÿÿ
+ytypescript:S100˜"XRename this 'PrintBook' function to match the regular expression '^[_a-z][a-zA-Z0-9]*$'.(êÖæÈúÿÿÿÿ
+>typescript:S106™"Unexpected console statement.(ĞöÚıÿÿÿÿ
+Btypescript:S3512™" Unexpected string concatenation.(ĞöÚıÿÿÿÿ
