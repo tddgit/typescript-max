@@ -90,3 +90,116 @@ function flatten(array: (number | number[])[]): number[] {
 }
 
 console.table(flatten(numbers));
+
+const nextCharForNumberString = (str: string): string => {
+    const trimmed = str.trim();
+    const number = parseInt(trimmed);
+    const nextNumber = number + 1;
+    return String.fromCharCode(nextNumber);
+};
+{
+    type User = {
+        name: string;
+        age?: number;
+        gender?: string;
+    };
+
+    const user: Required<User> = {
+        name: 'John Smith',
+        age: 23,
+        gender: 'male',
+    };
+}
+
+{
+    type User = {
+        name: string;
+        age: number;
+        gender: string;
+    };
+    // type PartialUser = {
+    //     name?: string;
+    //     age?: number;
+    //     gender?: string
+    // };
+
+    type PartialUser = Partial<User>;
+
+    const user: PartialUser = {};
+}
+
+{
+    type Item = {
+        name: string;
+        description: string;
+        price: number;
+        currency: string;
+        image: string;
+    };
+
+    type ItemPreview = Pick<Item, 'name' | 'image'>;
+
+    const item: ItemPreview = {
+        name: 'Macbook',
+        // description: 'Macbook Pro',
+        // price: 3923,
+        // currency: 'USD',
+        image: 'http://placehold.it',
+    };
+
+    console.log(item);
+}
+
+{
+    type Item = {
+        name: string;
+        description: string;
+        price: number;
+        currency: string;
+    };
+
+    type PricelessItem = Omit<Item, 'price' | 'currency'>;
+
+    const item: PricelessItem = {
+        name: 'Macbook',
+        description: 'Macbook Pro',
+        // price: 3923,
+        // currency: 'USD',
+    };
+}
+
+{
+    const user = {
+        name: 'John Doe',
+        age: 26,
+        education: {
+            degree: 'SE',
+        },
+    } as const;
+
+    // user.education.degree = 'James Doe';
+    console.log(user);
+
+    const skills = ['Js', 'Ts'] as const;
+}
+
+{
+    type User = {
+        readonly name: string;
+        readonly age: number;
+        readonly education: {
+            readonly degree: string;
+        };
+    };
+
+    const user: User = {
+        name: 'John Smith',
+        age: 26,
+        education: { degree: 'SE' },
+    };
+
+    // user.name = 'Jane Doe';
+    // user.age = 22;
+    // user.education.degree = 'FE';
+    console.log(user);
+}
