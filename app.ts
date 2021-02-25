@@ -65,13 +65,7 @@ text = null;
 text = undefined;
 
 function trimAndLower(text: string | null | undefined) {
-    text;
-    if (text === null || text === undefined) {
-        text;
-        return text;
-    }
-    text;
-    return text.trim().toLowerCase();
+    return typeof text === 'string' ? text.trim().toLowerCase() : text;
 }
 trimAndLower('string');
 trimAndLower(null);
@@ -80,3 +74,17 @@ console.log(trimAndLower(null));
 
 // const containerApp = document.getElementById('app-container')!;
 // containerApp.remove();
+
+const numbers = [0, 1, 2, [3, 4], 5, [6], [7], 9, [9]];
+
+function flatten(array: (number | number[])[]): number[] {
+    const flattend: number[] = [];
+    for (const element of array) {
+        if (Array.isArray(element)) {
+            flattend.push(...element);
+        } else {
+            flattend.push(element);
+        }
+    }
+    return flattend;
+}
