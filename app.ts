@@ -203,3 +203,27 @@ const nextCharForNumberString = (str: string): string => {
     // user.education.degree = 'FE';
     console.log(user);
 }
+
+{
+    interface User {
+        readonly id: number;
+        name: string;
+    }
+    const user: User = {
+        id: 42,
+        name: 'Marius',
+    };
+    // user.id++;
+}
+
+{
+    class User {
+        constructor(public readonly id: number, public name: string) {}
+    }
+
+    const user = new User(0, 'adsfasf');
+    // user.id++;
+}
+
+{
+}

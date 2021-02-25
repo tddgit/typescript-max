@@ -1,0 +1,83 @@
+
+Ttypescript:S3353".'n2' is never reassigned. Use 'const' instead.(ÀŞı€øÿÿÿÿ8±¸àËı.
+8typescript:S109"No magic number: 3.(Ï¹Ã¹ıÿÿÿÿ8…¥©Ëı.
+3typescript:S109"No magic number: 2.(Ğ¬’ó8…¥©Ëı.
+Utypescript:S3353"4'someitem' is never reassigned. Use 'const' instead.(ôÔ³8½Ç¦Ëı.
+8typescript:S109"No magic number: 3.(ïŞÓ“ÿÿÿÿÿ8†‰Íı.
+;typescript:S1186"Unexpected empty function.(ç‹¹«8ÅÏÁÍı.
+Stypescript:S3353"-'b' is never reassigned. Use 'const' instead.(¡á¤¬úÿÿÿÿ8Œ¾ëÌı.
+Dtypescript:S125"Remove this commented out code.(¾ùúîùÿÿÿÿ8Éó’Ìı.
+Btypescript:S106"Unexpected console statement.(òÉÛéùÿÿÿÿ8Œ¾ëÌı.
+Jtypescript:S4204")Unexpected any. Specify a different type.(ôÔ³8½Ç¦Ëı.
+Otypescript:S3353".'n1' is never reassigned. Use 'const' instead.(ôÊõä8ÛßËı.
+Ntypescript:S3353"-'I' is never reassigned. Use 'const' instead.(—ø Î8à¡…Ìı.
+stypescript:S3257"MType number trivially inferred from a number literal, remove type annotation.(¾í‘·úÿÿÿÿ8…¥©Ëı.
+ttypescript:S3257"SType undefined trivially inferred from a undefined literal, remove type annotation.(ôÊõä8”›ßËı.
+Rtypescript:S3353"1'octal' is never reassigned. Use 'const' instead.(ÊèÓµ8…¥©Ëı.
+Stypescript:S3353"-'a' is never reassigned. Use 'const' instead.(¡á¤¬úÿÿÿÿ8Œ¾ëÌı.
+Ptypescript:S1530"/Do not use function declarations within blocks.(¿†™Ğ8Ñ¨ğÌı.
+Btypescript:S4137"Use 'as f' instead of '<f>'.(½ï«ûÿÿÿÿ8€ş†Íı.
+9typescript:S109"No magic number: 10.(óç…Øøÿÿÿÿ8…¥©Ëı.
+3typescript:S109"No magic number: 2.(º«ì¾8÷–Îı.
+=typescript:S106"Unexpected console statement.(×ïü8…¥©Ëı.
+Btypescript:S106"Unexpected console statement.(ŸûŠœøÿÿÿÿ8…¥©Ëı.
+Btypescript:S106"Unexpected console statement.(òĞ ½ûÿÿÿÿ8Ô…¬Ëı.
+Ktypescript:S1117"+'b' is already declared in the upper scope.(›»¾'8Œ¾ëÌı.
+Ktypescript:S1117"+'a' is already declared in the upper scope.(ÌÑÖY8Œ¾ëÌı.
+Btypescript:S106"Unexpected console statement.(Àê”ùÿÿÿÿ8…¥©Ëı.
+=typescript:S106"Unexpected console statement.(ªÂÎ8Œ¾ëÌı.
+Wtypescript:S3353"1'myAdd' is never reassigned. Use 'const' instead.(Õšµ²øÿÿÿÿ8Š«€Íı.
+stypescript:S3257"MType number trivially inferred from a number literal, remove type annotation.(É¯Ï¯úÿÿÿÿ8…¥©Ëı.
+Ptypescript:S1530"/Do not use function declarations within blocks.(ãıÙ€8Ü½ÃÍı.
+Utypescript:S1530"/Do not use function declarations within blocks.(‘Ë¤Îşÿÿÿÿ8›²Íı.
+otypescript:S3257"IType null trivially inferred from a null literal, remove type annotation.(ÀŞı€øÿÿÿÿ8±¸àËı.
+Jtypescript:S4204")Unexpected any. Specify a different type.(„ˆşı8ôÌı.
+Ktypescript:S1117"+'a' is already declared in the upper scope.(›»¾'8Œ¾ëÌı.
+Jtypescript:S4204")Unexpected any. Specify a different type.(ùå´Ğ8©ÂƒÌı.
+9typescript:S109"No magic number: 15.(¡›ùÅıÿÿÿÿ8…¥©Ëı.
+Xtypescript:S3353"2'isDone' is never reassigned. Use 'const' instead.(™ìã©ıÿÿÿÿ8İ›äÊı.
+Dtypescript:S125"Remove this commented out code.(×éŞ‘úÿÿÿÿ8 “Îı.
+stypescript:S3257"MType string trivially inferred from a string literal, remove type annotation.(Ò´”°ûÿÿÿÿ8…¥©Ëı.
+8typescript:S109"No magic number: 5.(á˜Èşüÿÿÿÿ8¸à‚Îı.
+Utypescript:S3353"4'unusable' is never reassigned. Use 'const' instead.(ı‹¨Ä8£÷¯Ëı.
+Utypescript:S3353"/'hex' is never reassigned. Use 'const' instead.(¾í‘·úÿÿÿÿ8…¥©Ëı.
+utypescript:S3257"OType boolean trivially inferred from a boolean literal, remove type annotation.(™ìã©ıÿÿÿÿ8İ›äÊı.
+Btypescript:S106"Unexpected console statement.(Ôù¾şÿÿÿÿ8«š°Ëı.
+=typescript:S106"Unexpected console statement.(…ı‚Ç8Œ¾ëÌı.
+]typescript:S3353"7'anotherList' is never reassigned. Use 'const' instead.(Ï¹Ã¹ıÿÿÿÿ8…¥©Ëı.
+Ltypescript:S1117"+'n' is already declared in the upper scope.(ãıÙ€8‡¥ÏÍı.
+9typescript:S109"No magic number: 10.(¡á¤¬úÿÿÿÿ8Œ¾ëÌı.
+Ltypescript:S1117"+'n' is already declared in the upper scope.(ç‹¹«8‡¥ÏÍı.
+8typescript:S109"No magic number: 5.(Ü––Œûÿÿÿÿ8…¥©Ëı.
+Btypescript:S106"Unexpected console statement.(Æ•ù•şÿÿÿÿ8î–”Ìı.
+3typescript:S109"No magic number: 2.(¨Š¾¯8‘ìğÌı.
+Ptypescript:S1530"/Do not use function declarations within blocks.(Õ¾êö8›²Íı.
+Qtypescript:S3353"0'data' is never reassigned. Use 'const' instead.(¸ù8…¥©Ëı.
+Qtypescript:S3353"0'size' is never reassigned. Use 'const' instead.(×‡ı8ôÌı.
+4typescript:S109"No magic number: 10.(¸ù8…¥©Ëı.
+Utypescript:S1530"/Do not use function declarations within blocks.(³Î›…øÿÿÿÿ8Ô…¬Ëı.
+Wtypescript:S3353"6'someString' is never reassigned. Use 'const' instead.(ùå´Ğ8©ÂƒÌı.
+Vtypescript:S3353"5'colorName' is never reassigned. Use 'const' instead.(¸†ú8…¥©Ëı.
+Rtypescript:S3353"1'value' is never reassigned. Use 'const' instead.(„ˆşı8ôÌı.
+Gtypescript:S4137"&Use 'as string' instead of '<string>'.(—ø Î8à¡…Ìı.
+4typescript:S109"No magic number: 10.(ßÌ¶³8…¥©Ëı.
+3typescript:S109"No magic number: 3.(Ğ¬’ó8…¥©Ëı.
+3typescript:S109"No magic number: 2.(¸†ú8…¥©Ëı.
+Ktypescript:S1117"+'b' is already declared in the upper scope.(ÌÑÖY8Œ¾ëÌı.
+ntypescript:S3257"MType number trivially inferred from a number literal, remove type annotation.(ÊèÓµ8…¥©Ëı.
+Otypescript:S1530"/Do not use function declarations within blocks.(›»¾'8Œ¾ëÌı.
+2typescript:S109"No magic number: 2.(›»¾'8Œ¾ëÌı.
+3typescript:S109"No magic number: 5.(ÎÑ†Ó8£æÅÍı.
+5typescript:S109"No magic number: 100.(½Ñÿß8ŠÇÅÍı.
+Qtypescript:S3353"0'list' is never reassigned. Use 'const' instead.(Ğ¬’ó8…¥©Ëı.
+Utypescript:S1530"/Do not use function declarations within blocks.(ùÅïÊşÿÿÿÿ8ƒü˜Ìı.
+Ztypescript:S3353"4'increase' is never reassigned. Use 'const' instead.(½ï«ûÿÿÿÿ8€ş†Íı.
+Ttypescript:S3353".'cc' is never reassigned. Use 'const' instead.(¼÷‹Ãøÿÿÿÿ8…¥©Ëı.
+8typescript:S109"No magic number: 5.(ßÅµÖıÿÿÿÿ8ŠÇÅÍı.
+=typescript:S106"Unexpected console statement.(ªÂÎ8Œ¾ëÌı.
+Xtypescript:S3353"2'binary' is never reassigned. Use 'const' instead.(É¯Ï¯úÿÿÿÿ8…¥©Ëı.
+?typescript:S125"Remove this commented out code.(²Ú®¬8µà±Ëı.
+Otypescript:S1530"/Do not use function declarations within blocks.(ÌÑÖY8Œ¾ëÌı.
+3typescript:S109"No magic number: 2.(§ÚÛ8Œ¾ëÌı.
+8typescript:S109"No magic number: 2.(Ï¹Ã¹ıÿÿÿÿ8…¥©Ëı.
+Otypescript:S4204")Unexpected any. Specify a different type.(¸û—üÿÿÿÿ8…¥©Ëı.

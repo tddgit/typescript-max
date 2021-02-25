@@ -1,0 +1,64 @@
+
+1javascript:S3723"Missing trailing comma.(¼“
+}javascript:S3798"^Define this declaration in a local scope or bind explicitly the property to the global object.(²ÄÓÅøÿÿÿÿ
+Sjavascript:S3801"4Refactor this function to use "return" consistently.(²ÄÓÅøÿÿÿÿ
+Ijavascript:S3353"0'that' is never reassigned. Use 'const' instead.(íŞ™.
+Sjavascript:S3353"4'settings' is never reassigned. Use 'const' instead.(Â”Ì¶ÿÿÿÿÿ
+Ojavascript:S3353"5'precision' is never reassigned. Use 'const' instead.(‹Õ‚¡
+Ljavascript:S3353"-'v' is never reassigned. Use 'const' instead.(¿ìÈüÿÿÿÿ
+xjavascript:S3798"^Define this declaration in a local scope or bind explicitly the property to the global object.(œ…İÌ
+Rjavascript:S3353"3'decimal' is never reassigned. Use 'const' instead.(åŸ‹Üşÿÿÿÿ
+Yjavascript:S3353":'errorOnInvalid' is never reassigned. Use 'const' instead.(åŸ‹Üşÿÿÿÿ
+Sjavascript:S3353"4'decimals' is never reassigned. Use 'const' instead.(åŸ‹Üşÿÿÿÿ
+Ojavascript:S3353"5'precision' is never reassigned. Use 'const' instead.(ÍŠ€
+Mjavascript:S3353"4'isNumber' is never reassigned. Use 'const' instead.(´¦…0
+0javascript:S1774"Ternary operator used.(¤ÇÙá
+Pjavascript:S3353"1'regex' is never reassigned. Use 'const' instead.(ğ‘èÆıÿÿÿÿ
+?javascript:S3512" Unexpected string concatenation.(ğ‘èÆıÿÿÿÿ
+Xjavascript:S3353"9'decimalString' is never reassigned. Use 'const' instead.(İ§¯ışÿÿÿÿ
+;javascript:S139""Expected comment to be above code.(é°¢Ÿ
+@javascript:S139""Expected comment to be above code.(µÒÛšúÿÿÿÿ
+;javascript:S139""Expected comment to be above code.(ùÊĞ—
+@javascript:S139""Expected comment to be above code.(­¨âºøÿÿÿÿ
+zjavascript:S4165"aReview this redundant assignment: "v" already holds the assigned value along all execution paths.(Â™¦
+0javascript:S1774"Ternary operator used.(öˆî
+ejavascript:S3686"FCorrect the use of this function; on line 28 it was called with "new".(äÙˆ¨ûÿÿÿÿ
+Ujavascript:S1854"6Remove this useless assignment to variable "intValue".(äÙˆ¨ûÿÿÿÿ
+Yjavascript:S1121":Extract the assignment of "intValue" from this expression.(äÙˆ¨ûÿÿÿÿ
+Pjavascript:S1854"6Remove this useless assignment to variable "intValue".(ºÌ‡®
+Tjavascript:S1121":Extract the assignment of "intValue" from this expression.(ºÌ‡®
+Pjavascript:S1854"6Remove this useless assignment to variable "intValue".(áìâß
+Tjavascript:S1121":Extract the assignment of "intValue" from this expression.(áìâß
+Ujavascript:S1854"6Remove this useless assignment to variable "intValue".(òåïàøÿÿÿÿ
+Yjavascript:S1121":Extract the assignment of "intValue" from this expression.(òåïàøÿÿÿÿ
+Sjavascript:S3353"4'intValue' is never reassigned. Use 'const' instead.(¸ŠŞóşÿÿÿÿ
+Ujavascript:S3353"6'_precision' is never reassigned. Use 'const' instead.(¸ŠŞóşÿÿÿÿ
+Tjavascript:S3353"5'_settings' is never reassigned. Use 'const' instead.(¸ŠŞóşÿÿÿÿ
+Qjavascript:S3353"8'distribution' is never reassigned. Use 'const' instead.(ÄÍÕO
+Kjavascript:S3353"1'split' is never reassigned. Use 'const' instead.(‚Ôì
+0javascript:S1774"Ternary operator used.(‚Ôì
+Zjavascript:S881"<Extract this decrement operation into a dedicated statement.(àƒÜûÿÿÿÿ
+Ujavascript:S1121"6Extract the assignment of "item" from this expression.(àƒÜûÿÿÿÿ
+5javascript:S1774"Ternary operator used.(àƒÜûÿÿÿÿ
+Njavascript:S3353"4'intValue' is never reassigned. Use 'const' instead.(‡ÍÌô
+Pjavascript:S3353"6'_precision' is never reassigned. Use 'const' instead.(‡ÍÌô
+Rjavascript:S3353"3'pattern' is never reassigned. Use 'const' instead.(ÙŒï…şÿÿÿÿ
+Zjavascript:S3353";'negativePattern' is never reassigned. Use 'const' instead.(ÙŒï…şÿÿÿÿ
+[javascript:S3353"<'formatWithSymbol' is never reassigned. Use 'const' instead.(ÙŒï…şÿÿÿÿ
+Qjavascript:S3353"2'symbol' is never reassigned. Use 'const' instead.(ÙŒï…şÿÿÿÿ
+Tjavascript:S3353"5'separator' is never reassigned. Use 'const' instead.(ÙŒï…şÿÿÿÿ
+Rjavascript:S3353"3'decimal' is never reassigned. Use 'const' instead.(ÙŒï…şÿÿÿÿ
+Qjavascript:S3353"2'groups' is never reassigned. Use 'const' instead.(ÙŒï…şÿÿÿÿ
+Ljavascript:S3353"2'values' is never reassigned. Use 'const' instead.(Ï›÷
+\javascript:S3514"=Use destructuring syntax for these assignments from "values".(¥½Ó„ùÿÿÿÿ
+Rjavascript:S3353"3'dollars' is never reassigned. Use 'const' instead.(¥½Ó„ùÿÿÿÿ
+Pjavascript:S3353"1'cents' is never reassigned. Use 'const' instead.(ñ‘©«ıÿÿÿÿ
+Zjavascript:S1121";Extract the assignment of "useSymbol" from this expression.(öÜñ‘ÿÿÿÿÿ
+5javascript:S1774"Ternary operator used.(‘¼ô¢şÿÿÿÿ
+0javascript:S1774"Ternary operator used.(›õ„ğ
+5javascript:S1774"Ternary operator used.(Š¢Ìıüÿÿÿÿ
+Njavascript:S3353"4'intValue' is never reassigned. Use 'const' instead.(ˆ•‘
+Pjavascript:S3353"6'_precision' is never reassigned. Use 'const' instead.(ˆ•‘
+Ojavascript:S3353"5'_settings' is never reassigned. Use 'const' instead.(ˆ•‘
+6javascript:S3723"Missing trailing comma.(æÀö€øÿÿÿÿ
+Ljavascript:S113".Newline required at end of file but not found.(§œµÊúÿÿÿÿ

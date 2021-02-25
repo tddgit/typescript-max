@@ -1,0 +1,19 @@
+
+}javascript:S3798"^Define this declaration in a local scope or bind explicitly the property to the global object.(ğ¶â´şÿÿÿÿ
+Pjavascript:S1117"1'Utility' is already declared in the upper scope.(·âÀ§ùÿÿÿÿ
+tjavascript:S100"[Rename this 'CalculateFee' function to match the regular expression '^[_a-z][a-zA-Z0-9]*$'.(ÿ·ôú
+ljavascript:S1105"MClosing curly brace does not appear on the same line as the subsequent block.(æÀö€øÿÿÿÿ
+Qjavascript:S1854"2Remove this useless assignment to variable "Fees".(ñ³’ıÿÿÿÿ
+Ujavascript:S1121"6Extract the assignment of "Fees" from this expression.(ñ³’ıÿÿÿÿ
+wjavascript:S100"^Rename this 'MaxBooksAllowed' function to match the regular expression '^[_a-z][a-zA-Z0-9]*$'.(ä¾ø©
+Hjavascript:S3504")Unexpected var, use let or const instead.(åàøøÿÿÿÿ
+Hjavascript:S3504")Unexpected var, use let or const instead.(ø›¿Ôúÿÿÿÿ
+Hjavascript:S3504")Unexpected var, use let or const instead.(ğ¶â´şÿÿÿÿ
+xjavascript:S3798"^Define this declaration in a local scope or bind explicitly the property to the global object.(åé ü
+Cjavascript:S3504")Unexpected var, use let or const instead.(åé ü
+]javascript:S1121">Extract the assignment of "Utility.Fees" from this expression.(ñ³’ıÿÿÿÿ
+Djavascript:S1481"%Remove unused function 'privateFunc'.(ìÿøşÿÿÿÿ
+Xjavascript:S1121"9Extract the assignment of "Utility" from this expression.(úê˜®üÿÿÿÿ
+}javascript:S3798"^Define this declaration in a local scope or bind explicitly the property to the global object.(åàøøÿÿÿÿ
+Gjavascript:S1186"(Unexpected empty function 'privateFunc'.(ìÿøşÿÿÿÿ
+Hjavascript:S1117".'Fees' is already declared in the upper scope.(ØëìÉ

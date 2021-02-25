@@ -1,0 +1,11 @@
+
+Vtypescript:S2933"<Member '_secret' is never reassigned; mark it as `readonly`.(ù®†Ï
+Xtypescript:S2933">Member '_passcode' is never reassigned; mark it as `readonly`.(“Ê•€
+Ctypescript:S1440"$Expected '===' and instead saw '=='.(¹õ‚Üúÿÿÿÿ
+ltypescript:S1105"MClosing curly brace does not appear on the same line as the subsequent block.(æÀö€øÿÿÿÿ
+;typescript:S106"Unexpected console statement.(£ÈÖ¡ÿÿÿÿÿ
+<typescript:S1441"Strings must use singlequote.(£ÈÖ¡ÿÿÿÿÿ
+Ktypescript:S3353"1'agent' is never reassigned. Use 'const' instead.(áºó•
+7typescript:S1441"Strings must use singlequote.(åôàÑ
+6typescript:S106"Unexpected console statement.(œ±ï¥
+Ltypescript:S113".Newline required at end of file but not found.(æÀö€øÿÿÿÿ
