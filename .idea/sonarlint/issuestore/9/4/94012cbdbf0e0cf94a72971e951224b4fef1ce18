@@ -1,76 +1,13 @@
 
-Dtypescript:S106S"Unexpected console statement.(™úîìøÿÿÿÿ8ß‡Æı.
-gtypescript:S3524{"?Remove parentheses around the parameter of this arrow function.(Û€Ö¾øÿÿÿÿ8ß‡Æı.
-Rtypescript:S4204")Unexpected any. Specify a different type.(åàûÿÿÿÿ8ß‡Æı.
-btypescript:S3353´"9'favoriteNovel' is never reassigned. Use 'const' instead.(²Ôşøÿÿÿÿ8ß‡Æı.
-€typescript:S100"XRename this 'GetTitles' function to match the regular expression '^[_a-z][a-zA-Z0-9]*$'.(åàûÿÿÿÿ8‚îç©ı.
-ctypescript:S3353p";'booksCheckedOut' is never reassigned. Use 'const' instead.(¯ğŞÂüÿÿÿÿ8‚îç©ı.
-vtypescript:S3257±"MType string trivially inferred from a string literal, remove type annotation.(÷ƒçÈûÿÿÿÿ8ß‡Æı.
-|typescript:S100V"ZRename this 'GetBookByID' function to match the regular expression '^[_a-z][a-zA-Z0-9]*$'.(ßÂŞ8ß‡Æı.
-^typescript:S3353¥"5'Newspaper' is never reassigned. Use 'const' instead.(å‡ôÿÿÿÿÿ8ß‡Æı.
-qtypescript:S3257¯"MType string trivially inferred from a string literal, remove type annotation.(±˜Ô•8‚îç©ı.
-:typescript:S109z"No magic number: 3.(ÈêÆçıÿÿÿÿ8ß‡Æı.
-Itypescript:S3512—" Unexpected string concatenation.(Äıó¾şÿÿÿÿ8ß‡Æı.
-@typescript:S106§"Unexpected console statement.(ÓÙ Õ8ß‡Æı.
-Gtypescript:S125Ğ"Remove this commented out code.( Ô€øÿÿÿÿ8ß‡Æı.
->typescript:S109¢"No magic number: 2021.(¯¶Ùüÿÿÿÿ8ß‡Æı.
-Atypescript:S125Ş"Remove this commented out code.(è»»_8ß‡Æı.
-ctypescript:S881S"<Extract this increment operation into a dedicated statement.(™úîìøÿÿÿÿ8ß‡Æı.
-Qtypescript:S3353q".'id' is never reassigned. Use 'const' instead.(ÈÔí‚8ß‡Æı.
-utypescript:S32575"MType string trivially inferred from a string literal, remove type annotation.(å‰¬Üşÿÿÿÿ8ß‡Æı.
-typescript:S100@"fRename this 'GetBookTitlesByCategory' function to match the regular expression '^[_a-z][a-zA-Z0-9]*$'.(ÑÏ¢Ùşÿÿÿÿ8ß‡Æı.
-Atypescript:S126Œ"Add the missing "else" clause.(¯‡ìÙ8ß‡Æı.
-€typescript:S100–"XRename this 'PrintBook' function to match the regular expression '^[_a-z][a-zA-Z0-9]*$'.(Îïø®ûÿÿÿÿ8ß‡Æı.
-Vtypescript:S3353º"2'myBook' is never reassigned. Use 'const' instead.(èÍˆ8ß‡Æı.
-Gtypescript:S125å"Remove this commented out code.(Û¶‹¤ûÿÿÿÿ8ß‡Æı.
-Wtypescript:S3353«"3'myPaper' is never reassigned. Use 'const' instead.(•àû8ß‡Æı.
-typescript:S100"ZRename this 'GetAllBooks' function to match the regular expression '^[_a-z][a-zA-Z0-9]*$'.(ó»Ã›ûÿÿÿÿ8ß‡Æı.
-Itypescript:S1128"&Remove this unused import of 'Titles'.(û°¬8ß‡Æı.
-@typescript:S106Ü"Unexpected console statement.(ùÎúñ8ß‡Æı.
-Ftypescript:S125_"Remove this commented out code.(à¥ó¸ùÿÿÿÿ8ß‡Æı.
-Dtypescript:S106n"Unexpected console statement.(Ş‚ç›ÿÿÿÿÿ8ß‡Æı.
-Ytypescript:S3353‡"0'book' is never reassigned. Use 'const' instead.(¸•ë›ıÿÿÿÿ8ß‡Æı.
-Btypescript:S125ñ"Remove this commented out code.(äã„ú8ß‡Æı.
-Itypescript:S3512Ì" Unexpected string concatenation.(ÈŞ´˜ÿÿÿÿÿ8ß‡Æı.
-\typescript:S33534"9'numberOfBooks' is never reassigned. Use 'const' instead.(Óƒ½Ò8‚îç©ı.
-Htypescript:S3512S" Unexpected string concatenation.(™úîìøÿÿÿÿ8ß‡Æı.
-Etypescript:S106Ç"Unexpected console statement.(ÛİÌûÿÿÿÿ8ß‡Æı.
-?typescript:S106|"Unexpected console statement.(Ç³ì©8ß‡Æı.
-^typescript:S3353Ë"5'logDamage' is never reassigned. Use 'const' instead.(éÅêãúÿÿÿÿ8ß‡Æı.
-\typescript:S3353¢"3'refBook' is never reassigned. Use 'const' instead.(¯¶Ùüÿÿÿÿ8ß‡Æı.
-Gtypescript:S125š"Remove this commented out code.(“ºÉ‰ùÿÿÿÿ8ß‡Æı.
-`typescript:S3353O"8'fictionBooks' is never reassigned. Use 'const' instead.(»¥øÿÿÿÿ8ß‡Æı.
-?typescript:S106È"Unexpected console statement.(½¨ªG8ß‡Æı.
-Gtypescript:S3863"$'./interfaces' import is duplicated.(û°¬8Î´‡Æı.
-Ftypescript:S125["Remove this commented out code.(Ò…İúÿÿÿÿ8ß‡Æı.
-9typescript:S109«"No magic number: 1918.(•àû8ß‡Æı.
-gtypescript:S3524X"?Remove parentheses around the parameter of this arrow function.(‘ü–ôıÿÿÿÿ8ß‡Æı.
-Ytypescript:S3353"0'book' is never reassigned. Use 'const' instead.(¸•ë›ıÿÿÿÿ8ß‡Æı.
-\typescript:S3353Ú"8'hermansBooks' is never reassigned. Use 'const' instead.(ê‡è¡8ß‡Æı.
-Mtypescript:S1128"*Remove this unused import of 'Periodical'.(û°¬8ß‡Æı.
-<typescript:S109¢"No magic number: 10.(¯¶Ùüÿÿÿÿ8ß‡Æı.
-Etypescript:S106Â"Unexpected console statement.(î‡Ò‰ıÿÿÿÿ8ß‡Æı.
-htypescript:S3524Û"?Remove parentheses around the parameter of this arrow function.(İª¡™øÿÿÿÿ8ß‡Æı.
-Ftypescript:S125
-"Remove this commented out code.(ÄÑüƒÿÿÿÿÿ8ß‡Æı.
-Ztypescript:S33536"7'currentBook' is never reassigned. Use 'const' instead.(Ñ—ú8ß‡Æı.
-Etypescript:S106Ì"Unexpected console statement.(ÈŞ´˜ÿÿÿÿÿ8ß‡Æı.
-Ztypescript:S1117A"2'allBooks' is already declared in the upper scope.(µ‘š³ÿÿÿÿÿ8ß‡Æı.
-?typescript:S106P"Unexpected console statement.(ğƒÄé8ß‡Æı.
-5typescript:S1438"Missing semicolon.(ÛÈ¿8ıõ‹Æı.
-Btypescript:S125ô"Remove this commented out code.(â“¦€8ß‡Æı.
-?typescript:S106<"Unexpected console statement.(²É°8ß‡Æı.
-~typescript:S100m"\Rename this 'CheckoutBooks' function to match the regular expression '^[_a-z][a-zA-Z0-9]*$'.(»ÿŸÉ8ß‡Æı.
-ftypescript:S3353Ñ"='favoriteLibrarian' is never reassigned. Use 'const' instead.(Òüä‡üÿÿÿÿ8ß‡Æı.
-Xtypescript:S3353r"0'book' is never reassigned. Use 'const' instead.(¡âğıÿÿÿÿ8ß‡Æı.
-Etypescript:S106—"Unexpected console statement.(Äıó¾şÿÿÿÿ8ß‡Æı.
-[typescript:S3353z"3'myBooks' is never reassigned. Use 'const' instead.(ÈêÆçıÿÿÿÿ8ß‡Æı.
-Vtypescript:S1117‚"2'allBooks' is already declared in the upper scope.(Ó¿Šé8ß‡Æı.
-Dtypescript:S106="Unexpected console statement.(ìğ×²øÿÿÿÿ8ß‡Æı.
-:typescript:S109z"No magic number: 4.(ÈêÆçıÿÿÿÿ8ß‡Æı.
-‹typescript:S1003"dRename this 'LogFirstAvailableBook' function to match the regular expression '^[_a-z][a-zA-Z0-9]*$'.(†Çá÷ıÿÿÿÿ8ß‡Æı.
-Utypescript:S1117W"2'allBooks' is already declared in the upper scope.(Ó¿Šé8ß‡Æı.
-Ytypescript:S1854S"1Remove this useless assignment to variable "idx".(™úîìøÿÿÿÿ8ß‡Æı.
-Gtypescript:S3863"$'./interfaces' import is duplicated.(ÛÈ¿8ášÆı.
-Ptypescript:S2208"-Explicitly import the specific member needed.(ÛÈ¿8ášÆı.
-Ftypescript:S1128"#Remove this unused import of 'mag'.(ÛÈ¿8ášÆı.
+4typescript:S109"No magic number: 20.(ìúéˆ8«‹ãÎı.
+=typescript:S106"Unexpected console statement.(¾×„ 8ÛÔÙÎı.
+itypescript:S3257"IType null trivially inferred from a null literal, remove type annotation.(˜çD8¯Ô»Îı.
+=typescript:S106"Unexpected console statement.(êõ—8ƒ¸íÎı.
+Utypescript:S3353"5'myNullVar' is never reassigned. Use 'const' instead.(˜çD8¯Ô»Îı.
+Btypescript:S106"Unexpected console statement.(Ü‡·Şúÿÿÿÿ8­âêÎı.
+=typescript:S106"Unexpected console statement.(°«»ÿ8ãˆ±Îı.
+Xtypescript:S4136"2All 'selectWarrior' signatures should be adjacent.(ÃÉ‹˜ùÿÿÿÿ8­âêÎı.
+2typescript:S2138"Use null instead.(’Ç£™8Çê»Îı.
+ttypescript:S3257"SType undefined trivially inferred from a undefined literal, remove type annotation.(’Ç£™8Çê»Îı.
+Itypescript:S2814"#'selectWarrior' is already defined.(ÃÉ‹˜ùÿÿÿÿ8­âêÎı.
+Wtypescript:S3353"6'myNullVar2' is never reassigned. Use 'const' instead.(’Ç£™8¯Ô»Îı.
