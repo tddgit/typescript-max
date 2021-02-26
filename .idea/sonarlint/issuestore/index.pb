@@ -152,3 +152,55 @@ P
  Library-app/NamespaceDemo/app.ts,7/e/7e4bbeec4e209fc6d8081a3727585a05018c8722
 >
 Lectrum/app.ts,d/6/d6d0811a7dd6cc3a925d38e8dba4e7dec03b40a5
+U
+%Lectrum/3-advanced-types/example-2.ts,d/9/d9334811c68bde6bb6cf65f775746f5dc43e3765
+V
+&Lectrum/3-advanced-types/example-19.ts,2/c/2ceef7a61181eba1f27dee3bb10fdc43bd510080
+V
+&Lectrum/3-advanced-types/example-23.ts,d/4/d48f7816361cdfedf8255be644dfb4ee0f120576
+V
+&Lectrum/3-advanced-types/example-36.ts,f/3/f3a4fbc5b5326b348faea29fb2edcbd4ad83240d
+V
+&Lectrum/3-advanced-types/example-42.ts,3/d/3d2cefb6f9e50e62ec07c2466ae63de49d6d30a7
+V
+&Lectrum/3-advanced-types/example-35.ts,9/9/995d4a0f9d977a84b51dd6b2b5181e7e50ec5258
+V
+&Lectrum/3-advanced-types/example-32.ts,f/4/f40d0bcda7ca3915ca37feb990cbe3fce5e5df37
+V
+&Lectrum/3-advanced-types/example-30.ts,d/5/d5bb5f4b83cabab2aebef1f4f46ffa9c8112c4ae
+V
+&Lectrum/3-advanced-types/example-29.ts,c/a/cabe12f6be04ad8b5a6341a994c341b1b03252cd
+V
+&Lectrum/3-advanced-types/example-13.ts,8/6/869339ecbe7c6f86892281edd492724b943ad9eb
+V
+&Lectrum/3-advanced-types/example-14.ts,8/f/8fc2b3edebdd40d50d4041e100e8dd8ae56bed6b
+V
+&Lectrum/3-advanced-types/example-40.ts,5/0/5089826262824665535153b886f0a0f704ab4ba7
+t
+DExercise Files/typescriptindepth/1-typescript-in-depth-m1-slides.pdf,e/1/e115fe713784cc00373f9468cc0a318a16ee6853
+u
+EExercise Files/typescriptadvanced/1-typescript-advanced-m1-slides.pdf,0/0/0025a6120971c2046cf92f93249010084b263c5b
+V
+&Exercise Files/Chp_01/01_04/index.html,c/2/c2c5c42267e8d7c8e4d05a491593b873cadbed92
+•
+eExercise Files/typescriptindepth/3-typescript-in-depth-m3-exercise-files/Before/LibraryManager/app.ts,b/8/b84baddef3df55777f1f1bfe8fd53904cc1cdef8
+”
+dExercise Files/typescriptindepth/3-typescript-in-depth-m3-exercise-files/After/LibraryManager/app.ts,9/3/93e0de9d2ce0e90a14616bd4a8d3061fc5c87816
+A
+package-lock.json,f/a/fa288d1472d29beccb489a676f68739ad365fc47
+:
+
+posts.json,4/1/41f69682cc2d9b499f64b391f58f58d80cce5910
+?
+QuizQuestion.ts,e/4/e45446ffd1e7be2151092d95b08c5794e146e7e6
+>
+newFeatures.ts,b/3/b38e3859036e53c0ccd114b81fd4d8db94656410
+?
+ErrorHandler.ts,a/3/a3405772a59dba65da6b46c62e11976c345c39e5
+=
+PostOffice.ts,1/4/14a204837e74e196671fee06c0d312abc4fb275d
+<
+Singleton.ts,9/8/98528c3ec7a3863d4d4c34ec408cf6518ca42277
+:
+
+Factory.ts,d/1/d15d37303b79310897183cb3661a0fa5d99094b0
