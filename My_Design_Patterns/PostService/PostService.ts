@@ -1,6 +1,7 @@
 import { Post } from './Post';
 import fs from 'fs';
 import { IPostService } from './IPostService';
+import { IExportPostService } from './IExportPostService';
 
 export class PostsService implements IPostService {
     private _fileName: string = 'posts.json';
@@ -29,5 +30,9 @@ export class PostsService implements IPostService {
                 });
             });
         });
+    }
+
+    export(service: IExportPostService): Promise<string> {
+        return this.getAll().then((posts) => service.export(posts));
     }
 }

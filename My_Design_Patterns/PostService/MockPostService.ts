@@ -1,5 +1,6 @@
 import { IPostService } from './IPostService';
 import { Post } from './Post';
+import { IExportPostService } from './IExportPostService';
 
 export class MockPostService implements IPostService {
     posts: Post[] = [];
@@ -35,5 +36,7 @@ export class MockPostService implements IPostService {
         this.posts.push(post);
         return Promise.resolve();
     }
-    export() {}
+    export(service: IExportPostService): Promise<string> {
+        return this.getAll().then((posts) => service.export(posts));
+    }
 }
